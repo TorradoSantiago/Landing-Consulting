@@ -153,6 +153,73 @@ const featuredCase = selectedWork.find((project) => project.featured) ?? selecte
 const remainingCases = selectedWork.filter((project) => !project.featured);
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
+  const [showScrollTop, setShowScrollTop] = useState(false);
+  const [formData, setFormData] = useState({ name: "", email: "", subject: "", message: "" });
+  const [formStatus, setFormStatus] = useState<FormStatus>("idle");
+  const [formErrors, setFormErrors] = useState<Partial<typeof formData>>({});
+  const sectionRefs = useRef<{ [key: string]: IntersectionObserverEntry }>({});
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => { sectionRefs.current[e.target.id] = e; });
+        const visible = Object.entries(sectionRefs.current)
+          .filter(([, e]) => e.isIntersecting)
+          .map(([id]) => id);
+        if (visible.length > 0) setActiveSection(visible[0]);
+      },
+      { threshold: 0.3 }
+    );
+    document.querySelectorAll("section[id]").forEach((s) => observer.observe(s));
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const onScroll = () => setShowScrollTop(window.scrollY > 400);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
+    const onResize = () => { if (window.innerWidth >= 768) setMenuOpen(false); };
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
+
+  function validate() {
+    const e: Partial<typeof formData> = {};
+    if (!formData.name.trim()) e.name = "Requerido.";
+    if (!formData.email.trim()) e.email = "Requerido.";
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) e.email = "Email inválido.";
+    if (!formData.message.trim()) e.message = "Requerido.";
+    return e;
+  }
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
+    setFormData((p) => ({ ...p, [e.target.name]: e.target.value }));
+    setFormErrors((p) => ({ ...p, [e.target.name]: undefined }));
+  }
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    const errs = validate();
+    if (Object.keys(errs).length > 0) { setFormErrors(errs); return; }
+    setFormStatus("sending");
+    const subject = encodeURIComponent(formData.subject || `Consulta de ${formData.name}`);
+    const body = encodeURIComponent(`Nombre: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`);
+    window.open(`mailto:santiagotorradouba@gmail.com?subject=${subject}&body=${body}`);
+    await new Promise((r) => setTimeout(r, 600));
+    setFormStatus("success");
+    setFormData({ name: "", email: "", subject: "", message: "" });
+    setTimeout(() => setFormStatus("idle"), 5000);
+  }
+
+  // ── SHARED BUTTON STYLES ──────────────────────────────────────────
+  const btnPrimary = "inline-flex items-center justify-center rounded-full border border-slate-900 bg-white px-7 py-3.5 text-sm font-semibold text-slate-900 transition hover:bg-slate-50 hover:shadow-sm";
+  const btnSecondary = "inline-flex items-center justify-center rounded-full border border-[#ccc5bb] bg-white px-7 py-3.5 text-sm font-semibold text-slate-700 transition hover:border-slate-400";
+
   return (
     <main className="relative overflow-x-hidden text-slate-900">
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[38rem] bg-[radial-gradient(circle_at_top_right,rgba(36,73,118,0.14),transparent_28%),radial-gradient(circle_at_top_left,rgba(196,108,58,0.18),transparent_24%)]" />
@@ -204,6 +271,12 @@ export default function Home() {
               forma profesional de mostrarse.
             </p>
 
+            <div className="mt-4 flex flex-wrap gap-3 text-xs text-slate-500">
+              {["Python · R · SQL", "AML · KYC · Sanciones", "Econometría aplicada", "Power BI · BigQuery", "Inglés FCE · Francés DELF B2"].map((tag) => (
+                <span key={tag} className="rounded-full border border-[#ddd5c8] bg-white px-3 py-1">{tag}</span>
+              ))}
+            </div>
+
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
                 href="#casos"
@@ -250,7 +323,7 @@ export default function Home() {
               usar para decidir, presentar o convencer.
             </p>
 
-            <div className="mt-8 space-y-3">
+            <div className="mt-6 space-y-3">
               {[
                 "Base tecnica en analisis cuantitativo, econometria y evaluacion.",
                 "Experiencia actual en riesgo, compliance, procesos y calidad de datos.",
@@ -351,14 +424,10 @@ export default function Home() {
                 Cada proyecto funciona como una prueba distinta de trabajo.
               </h2>
             </div>
-            <a
-              href="https://github.com/TorradoSantiago?tab=repositories"
-              target="_blank"
-              rel="noreferrer"
-              className="text-sm font-medium text-slate-600 underline-offset-4 transition hover:text-slate-950 hover:underline"
-            >
-              Ver repositorios en GitHub
-            </a>
+            <p className="max-w-2xl text-sm leading-7 text-slate-600">
+              Después, si hace falta, esa consultoría se especializa en evaluación, inteligencia
+              comercial, modelado econométrico, compliance financiero o piezas ejecutivas.
+            </p>
           </div>
 
           <div className="mt-10 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
@@ -479,7 +548,14 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section>
+      </footer>
+
+      {/* ── SCROLL TO TOP ─────────────────────────────── */}
+      {showScrollTop && (
+        <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Volver arriba" className="fixed bottom-6 right-6 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[#d8d1c6] bg-white shadow-md transition hover:bg-slate-50">
+          ↑
+        </button>
+      )}
     </main>
   );
 }
