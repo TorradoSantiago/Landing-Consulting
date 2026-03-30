@@ -1,228 +1,169 @@
-const advisoryTracks = [
+const signals = [
   {
-    title: "Diagnosticos y estrategia basada en evidencia",
+    value: "Publico, privado y social",
+    label: "Contextos",
+    detail:
+      "El trabajo no parte solo del dato. Parte de incentivos, restricciones y tipos de decision distintos.",
+  },
+  {
+    value: "Analisis + narrativa + entrega",
+    label: "Recorrido",
+    detail:
+      "La propuesta cubre desde el diagnostico inicial hasta la pieza final que se comparte con un equipo o decisor.",
+  },
+  {
+    value: "Python, R, SQL, BI y criterio",
+    label: "Herramientas",
+    detail:
+      "Las herramientas se eligen por la pregunta y por el entregable, no por costumbre tecnica.",
+  },
+];
+
+const serviceTracks = [
+  {
+    title: "Diagnostico y estrategia basada en evidencia",
     summary:
-      "Trabajo la pregunta inicial, ordeno la informacion relevante y convierto un problema difuso en un mapa de decision util.",
-    deliverable: "Brief estrategico, diagnostico o memo ejecutivo.",
+      "Ordeno preguntas, informacion disponible y criterios de decision para convertir problemas difusos en una hoja de ruta util.",
+    output: "Memo, brief, mapa de decision o nota ejecutiva.",
   },
   {
     title: "Evaluacion, econometria y analisis aplicado",
     summary:
-      "Diseno analisis que permitan medir, comparar, priorizar e identificar patrones con una narrativa defendible.",
-    deliverable: "Notebook, reporte tecnico o evaluacion de impacto.",
+      "Trabajo con bases de datos, modelos y evidencia para medir, comparar, priorizar e interpretar con una narrativa defendible.",
+    output: "Notebook, reporte tecnico, evaluacion o anexo metodologico.",
   },
   {
-    title: "Dashboards, visualizacion y piezas para presentar",
+    title: "Dashboards, visualizacion y materiales ejecutivos",
     summary:
-      "Llevo datos y resultados a formatos que se puedan compartir con equipos, socios, clientes o decisores.",
-    deliverable: "Dashboard, deck, PDF ejecutivo o landing de portfolio.",
+      "Llevo resultados y hallazgos a dashboards, reportes, presentaciones y piezas que puedan circular fuera del entorno tecnico.",
+    output: "Dashboard, deck, PDF ejecutivo o caso de portfolio.",
   },
+];
+
+const sectors = [
   {
-    title: "Portfolio tecnico y posicionamiento profesional",
+    title: "Equipos publicos y policy",
     summary:
-      "Tambien trabajo sobre como se muestra el trabajo: arquitectura del caso, narrativa y presencia digital.",
-    deliverable: "Sitio, repositorio pulido o version ejecutiva del proyecto.",
+      "Para programas, evaluaciones, diagnosticos territoriales y preguntas donde el contexto institucional cambia la lectura del dato.",
+  },
+  {
+    title: "Equipos privados y de riesgo",
+    summary:
+      "Para analisis, procesos, calidad de datos, compliance y piezas que necesitan orden, trazabilidad y criterio operativo.",
+  },
+  {
+    title: "Fundaciones, ONGs y proyectos con impacto",
+    summary:
+      "Para equipos que necesitan convertir trabajo social o programatico en evidencia, seguimiento y materiales de rendicion.",
   },
 ];
 
-const proofPoints = [
-  {
-    value: "Publico + privado + social",
-    label: "Contextos",
-    detail:
-      "La propuesta cruza compliance, organizaciones y politica publica para leer mejor los incentivos reales.",
-  },
-  {
-    value: "De la pregunta al entregable",
-    label: "Recorrido",
-    detail:
-      "No trabajo solo modelado ni solo discurso: la logica incluye diagnostico, analisis y comunicacion.",
-  },
-  {
-    value: "Python, R, SQL, BI y narrativa",
-    label: "Herramientas",
-    detail:
-      "La profundidad tecnica se adapta al tipo de decision, no a una herramienta por costumbre.",
-  },
-];
-
-const process = [
-  {
-    step: "01",
-    title: "Definir el problema correcto",
-    description:
-      "Alineamos contexto, decision y publico. Antes de correr modelos, clarifico para que tiene que servir el trabajo.",
-  },
-  {
-    step: "02",
-    title: "Construir el analisis con criterio",
-    description:
-      "Ordeno fuentes, limpio datos, selecciono enfoque metodologico y documento supuestos importantes.",
-  },
-  {
-    step: "03",
-    title: "Traducir el resultado",
-    description:
-      "El entregable final no queda encerrado en un notebook: termina en una recomendacion, un dashboard o una pieza presentable.",
-  },
-];
-
-const selectedWork = [
+const cases = [
   {
     title: "Korea Income & Welfare",
     sector: "Analisis socioeconomico y bienestar",
-    problem:
-      "Explora como el nivel educativo y otras variables sociales se vinculan con ingresos y bienestar.",
-    proof:
-      "Demuestra capacidad para trabajar con data social, modelado y narrativa util para policy, research y fundaciones.",
-    deliverable: "Notebook analitico con enfoque de machine learning y lectura aplicada.",
+    framing:
+      "Caso de ciencia de datos aplicado a ingresos y bienestar con foco en convertir una base grande en una lectura util para policy y research.",
+    value:
+      "Muestra capacidad de trabajar sobre preguntas sociales con modelado, limpieza y narrativa orientada a decision.",
+    output: "Notebook analitico y estructura replicable para reportes o version ejecutiva.",
     repoUrl: "https://github.com/TorradoSantiago/korea_income-welfare",
     featured: true,
   },
   {
     title: "Conectar Esperanza",
     sector: "Evaluacion para politica publica",
-    problem:
-      "Proyecto orientado a medir resultados y pensar impacto para una iniciativa con sentido social.",
-    proof:
-      "Muestra afinidad entre evidencia, organizaciones y lenguaje de evaluacion de programas.",
-    deliverable: "Base conceptual para evaluacion, reporte y siguiente iteracion en R.",
+    framing:
+      "Proyecto orientado a impacto, resultados y estructura de evaluacion para una iniciativa con componente social.",
+    value:
+      "Hace visible la afinidad entre evaluacion, organizaciones y lenguaje de programas publicos o sociales.",
+    output: "Base en R para organizar datos, criterios y siguientes iteraciones de analisis.",
     repoUrl: "https://github.com/TorradoSantiago/ConectarEsperanza-Policy-R",
   },
   {
     title: "RealState FODA",
     sector: "Inteligencia comercial e inversion",
-    problem:
-      "Transforma informacion inmobiliaria y presentacion ejecutiva en un dashboard util para leer oportunidades.",
-    proof:
-      "Sirve para mostrar visualizacion, orientacion comercial y lectura de mercado con salida ejecutiva.",
-    deliverable: "Power BI, Excel y presentacion final para decision comercial.",
+    framing:
+      "Caso de lectura de mercado inmobiliario con dashboard y narrativa ejecutiva para oportunidades y riesgos.",
+    value:
+      "Conecta visualizacion, lectura comercial y presentacion final para discusiones de negocio o inversion.",
+    output: "Power BI, documentacion de caso y guia de rediseno ejecutivo.",
     repoUrl: "https://github.com/TorradoSantiago/RealStateFODA-pbix",
   },
   {
     title: "EDA EPH",
     sector: "Mercado laboral y hogares",
-    problem:
-      "Trabaja preguntas sobre ingreso, territorio y caracteristicas del hogar con datos de la Ciudad de Buenos Aires.",
-    proof:
-      "Aporta lectura de politica publica, estadistica descriptiva y formulacion de hipotesis.",
-    deliverable: "Notebook exploratorio con preguntas, supuestos y visualizaciones.",
+    framing:
+      "Exploracion sobre ingreso, territorio y caracteristicas del hogar con una logica cercana a diagnosticos publicos.",
+    value:
+      "Aporta preguntas bien formuladas, interpretacion socioeconomica y base de trabajo para informes o policy briefs.",
+    output: "Notebook exploratorio con preguntas, estructura y dependencias reproducibles.",
     repoUrl: "https://github.com/TorradoSantiago/EDA.EPH-Phyton",
   },
   {
     title: "Ejercicios de Regresion",
     sector: "Econometria aplicada",
-    problem:
-      "Agrupa ejercicios y analisis que muestran como abordar relaciones entre variables y revisar significancia.",
-    proof:
-      "Hace visible una base cuantitativa util para pricing, evaluacion, inferencia y explicacion tecnica.",
-    deliverable: "Notebooks y scripts de analisis con mejoras de reproducibilidad.",
+    framing:
+      "Repositorio tecnico para mostrar como se plantea, ejecuta y documenta un analisis de regresion con mejor reproducibilidad.",
+    value:
+      "Sirve como prueba de criterio metodologico, interpretacion y orden tecnico dentro de un caso cuantitativo.",
+    output: "Script reproducible, outputs exportables y documentacion de portfolio.",
     repoUrl: "https://github.com/TorradoSantiago/ejercicios.regresion",
   },
+];
+
+const background = [
   {
-    title: "Codo 2024",
-    sector: "Presentacion digital de productos y servicios",
-    problem:
-      "Toma una web inicial y la convierte en una pieza visual mas clara para productos, contacto y continuidad comercial.",
-    proof:
-      "Muestra trabajo de narrativa, arquitectura y experiencia de usuario sobre un activo existente.",
-    deliverable: "Landing estatica renovada con catalogo y formularios.",
-    repoUrl: "https://github.com/TorradoSantiago/Codo2024",
+    title: "Sector privado",
+    subtitle: "American Express",
+    detail:
+      "Experiencia en AML, KYC, procesos, controles y calidad de datos, con foco operativo y criterio de riesgo.",
   },
+  {
+    title: "Trabajo social y liderazgo",
+    subtitle: "Rotary y Rotaract",
+    detail:
+      "Trayectoria sostenida en organizaciones, coordinacion de proyectos y articulacion con actores diversos.",
+  },
+  {
+    title: "Formacion academica",
+    subtitle: "UTDT + UBA",
+    detail:
+      "Base en ciencia politica y economia aplicada, con foco en econometria, evaluacion y lectura institucional.",
+  },
+];
+
+const principles = [
+  "Primero se define el problema correcto y el publico del entregable.",
+  "Despues se elige la herramienta y el nivel de profundidad tecnica.",
+  "El resultado final tiene que poder usarse para decidir, no solo para mostrar codigo.",
 ];
 
 const engagementModels = [
   {
     title: "Sprint de diagnostico",
     description:
-      "Cuando el problema todavia esta abierto y hace falta ordenar informacion, variables y opciones de trabajo.",
+      "Ideal cuando el problema todavia esta abierto y hace falta ordenar informacion, prioridades y linea de trabajo.",
   },
   {
     title: "Proyecto con entregable",
     description:
-      "Cuando ya existe una pregunta concreta y el objetivo es llegar a un informe, dashboard o pieza lista para compartir.",
+      "Para preguntas concretas que necesitan terminar en un reporte, dashboard, nota ejecutiva o caso de portfolio.",
   },
   {
     title: "Acompanamiento por iteraciones",
     description:
-      "Para equipos que necesitan apoyo recurrente en analisis, visualizacion o preparacion de materiales ejecutivos.",
+      "Para equipos que necesitan apoyo recurrente en analisis, validacion, visualizacion o presentacion de resultados.",
   },
 ];
 
-const featuredCase = selectedWork.find((project) => project.featured) ?? selectedWork[0];
-const remainingCases = selectedWork.filter((project) => !project.featured);
+const featuredCase = cases.find((item) => item.featured) ?? cases[0];
+const secondaryCases = cases.filter((item) => !item.featured);
 
 export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("");
-  const [showScrollTop, setShowScrollTop] = useState(false);
-  const [formData, setFormData] = useState({ name: "", email: "", subject: "", message: "" });
-  const [formStatus, setFormStatus] = useState<FormStatus>("idle");
-  const [formErrors, setFormErrors] = useState<Partial<typeof formData>>({});
-  const sectionRefs = useRef<{ [key: string]: IntersectionObserverEntry }>({});
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => { sectionRefs.current[e.target.id] = e; });
-        const visible = Object.entries(sectionRefs.current)
-          .filter(([, e]) => e.isIntersecting)
-          .map(([id]) => id);
-        if (visible.length > 0) setActiveSection(visible[0]);
-      },
-      { threshold: 0.3 }
-    );
-    document.querySelectorAll("section[id]").forEach((s) => observer.observe(s));
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    const onScroll = () => setShowScrollTop(window.scrollY > 400);
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  useEffect(() => {
-    const onResize = () => { if (window.innerWidth >= 768) setMenuOpen(false); };
-    window.addEventListener("resize", onResize);
-    return () => window.removeEventListener("resize", onResize);
-  }, []);
-
-  function validate() {
-    const e: Partial<typeof formData> = {};
-    if (!formData.name.trim()) e.name = "Requerido.";
-    if (!formData.email.trim()) e.email = "Requerido.";
-    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) e.email = "Email inválido.";
-    if (!formData.message.trim()) e.message = "Requerido.";
-    return e;
-  }
-
-  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
-    setFormData((p) => ({ ...p, [e.target.name]: e.target.value }));
-    setFormErrors((p) => ({ ...p, [e.target.name]: undefined }));
-  }
-
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    const errs = validate();
-    if (Object.keys(errs).length > 0) { setFormErrors(errs); return; }
-    setFormStatus("sending");
-    const subject = encodeURIComponent(formData.subject || `Consulta de ${formData.name}`);
-    const body = encodeURIComponent(`Nombre: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`);
-    window.open(`mailto:santiagotorradouba@gmail.com?subject=${subject}&body=${body}`);
-    await new Promise((r) => setTimeout(r, 600));
-    setFormStatus("success");
-    setFormData({ name: "", email: "", subject: "", message: "" });
-    setTimeout(() => setFormStatus("idle"), 5000);
-  }
-
-  // ── SHARED BUTTON STYLES ──────────────────────────────────────────
-  const btnPrimary = "inline-flex items-center justify-center rounded-full border border-slate-900 bg-white px-7 py-3.5 text-sm font-semibold text-slate-900 transition hover:bg-slate-50 hover:shadow-sm";
-  const btnSecondary = "inline-flex items-center justify-center rounded-full border border-[#ccc5bb] bg-white px-7 py-3.5 text-sm font-semibold text-slate-700 transition hover:border-slate-400";
-
   return (
     <main className="relative overflow-x-hidden text-slate-900">
-      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[38rem] bg-[radial-gradient(circle_at_top_right,rgba(36,73,118,0.14),transparent_28%),radial-gradient(circle_at_top_left,rgba(196,108,58,0.18),transparent_24%)]" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[42rem] bg-[radial-gradient(circle_at_top_left,rgba(196,108,58,0.18),transparent_24%),radial-gradient(circle_at_top_right,rgba(36,73,118,0.16),transparent_28%)]" />
 
       <header className="sticky top-0 z-50 border-b border-[#ded7cb] bg-[#f5f1ea]/88 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8">
@@ -239,11 +180,11 @@ export default function Home() {
             <a href="#servicios" className="transition hover:text-slate-950">
               Servicios
             </a>
-            <a href="#proceso" className="transition hover:text-slate-950">
-              Proceso
-            </a>
             <a href="#casos" className="transition hover:text-slate-950">
               Casos
+            </a>
+            <a href="#perfil" className="transition hover:text-slate-950">
+              Perfil
             </a>
             <a
               href="#contacto"
@@ -259,21 +200,31 @@ export default function Home() {
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
           <div>
             <p className="inline-flex rounded-full border border-[#ddcfbd] bg-white/90 px-4 py-2 text-xs uppercase tracking-[0.28em] text-slate-500">
-              datos, policy y comunicacion ejecutiva
+              datos, criterio institucional y materiales ejecutivos
             </p>
             <h1 className="mt-8 max-w-5xl font-[family:var(--font-display)] text-6xl leading-none text-slate-950 sm:text-7xl">
-              Analisis, evaluacion y narrativa para equipos que necesitan decisiones mas claras.
+              Analisis y estrategia para equipos que necesitan mas claridad y mejor presentacion.
             </h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-              Trabajo en la interseccion entre evidencia, contexto institucional y
-              presentacion ejecutiva. Eso me permite ayudar tanto a organizaciones
-              como a proyectos personales que necesitan profundidad tecnica y una
-              forma profesional de mostrarse.
+              Trabajo donde se cruzan evidencia, contexto institucional y
+              comunicacion ejecutiva. Eso me permite ayudar tanto a equipos
+              publicos y sociales como a proyectos privados que necesitan una
+              lectura defendible y una forma profesional de mostrarla.
             </p>
 
-            <div className="mt-4 flex flex-wrap gap-3 text-xs text-slate-500">
-              {["Python · R · SQL", "AML · KYC · Sanciones", "Econometría aplicada", "Power BI · BigQuery", "Inglés FCE · Francés DELF B2"].map((tag) => (
-                <span key={tag} className="rounded-full border border-[#ddd5c8] bg-white px-3 py-1">{tag}</span>
+            <div className="mt-6 flex flex-wrap gap-3 text-xs text-slate-500">
+              {[
+                "Python / R / SQL",
+                "Policy / econometria / evaluacion",
+                "AML / KYC / riesgo",
+                "Power BI / BigQuery / reporting",
+              ].map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full border border-[#ddd5c8] bg-white px-3 py-1"
+                >
+                  {tag}
+                </span>
               ))}
             </div>
 
@@ -285,49 +236,32 @@ export default function Home() {
                 Ver casos de trabajo
               </a>
               <a
-                href="mailto:santiagotorradouba@gmail.com"
+                href="mailto:santiagotorradouba@gmail.com?subject=Consulta%20de%20trabajo"
                 className="inline-flex items-center justify-center rounded-full border border-[#d9d0c2] bg-white px-7 py-3.5 text-sm font-semibold text-slate-900 transition hover:border-slate-400"
               >
                 Escribir por email
               </a>
             </div>
-
-            <div className="mt-10 grid gap-4 sm:grid-cols-3">
-              {proofPoints.map((item) => (
-                <article
-                  key={item.label}
-                  className="rounded-[1.7rem] border border-[#e3dbcf] bg-white/90 p-5 shadow-[0_18px_40px_rgba(82,78,67,0.06)]"
-                >
-                  <p className="text-xs uppercase tracking-[0.22em] text-slate-500">
-                    {item.label}
-                  </p>
-                  <h2 className="mt-3 font-[family:var(--font-display)] text-3xl leading-none text-slate-950">
-                    {item.value}
-                  </h2>
-                  <p className="mt-4 text-sm leading-7 text-slate-600">{item.detail}</p>
-                </article>
-              ))}
-            </div>
           </div>
 
           <aside className="rounded-[2rem] border border-[#e0d8cd] bg-[#1d2938] p-8 text-white shadow-[0_24px_65px_rgba(31,41,55,0.28)]">
             <p className="text-xs uppercase tracking-[0.26em] text-[#f7c8a4]">
-              Como trabajo
+              Promesa de trabajo
             </p>
             <h2 className="mt-4 font-[family:var(--font-display)] text-5xl leading-none">
-              Un perfil hibrido para problemas reales.
+              No solo analizo. Tambien ordeno, traduzco y entrego.
             </h2>
             <p className="mt-5 text-sm leading-7 text-slate-300">
-              No vendo solamente herramientas. Lo que ofrezco es una forma de
-              pensar problemas, estructurar evidencia y devolver algo que se pueda
-              usar para decidir, presentar o convencer.
+              La diferencia esta en el recorrido completo: entender la pregunta,
+              trabajar la evidencia correcta y devolver un resultado que sirva
+              para discutir, decidir o presentar.
             </p>
 
-            <div className="mt-6 space-y-3">
+            <div className="mt-8 space-y-3">
               {[
-                "Base tecnica en analisis cuantitativo, econometria y evaluacion.",
-                "Experiencia actual en riesgo, compliance, procesos y calidad de datos.",
-                "Trabajo sostenido en organizaciones y proyectos con sensibilidad social.",
+                "Diagnostico claro antes de elegir herramienta.",
+                "Profundidad tecnica ajustada al problema real.",
+                "Entregables pensados para circular fuera del notebook.",
               ].map((item) => (
                 <div
                   key={item}
@@ -339,77 +273,75 @@ export default function Home() {
             </div>
           </aside>
         </div>
+
+        <div className="mt-10 grid gap-4 sm:grid-cols-3">
+          {signals.map((item) => (
+            <article
+              key={item.label}
+              className="rounded-[1.7rem] border border-[#e3dbcf] bg-white/90 p-5 shadow-[0_18px_40px_rgba(82,78,67,0.06)]"
+            >
+              <p className="text-xs uppercase tracking-[0.22em] text-slate-500">
+                {item.label}
+              </p>
+              <h2 className="mt-3 font-[family:var(--font-display)] text-3xl leading-none text-slate-950">
+                {item.value}
+              </h2>
+              <p className="mt-4 text-sm leading-7 text-slate-600">{item.detail}</p>
+            </article>
+          ))}
+        </div>
       </section>
 
-      <section id="servicios" className="border-y border-[#e6ddd0] bg-[#fbf8f3]">
-        <div className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
-          <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
-            <div className="max-w-3xl">
-              <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
-                Servicios
-              </p>
-              <h2 className="mt-3 font-[family:var(--font-display)] text-5xl leading-none text-slate-950">
-                La propuesta no se queda en un solo formato de trabajo.
-              </h2>
-            </div>
-            <p className="max-w-2xl text-sm leading-7 text-slate-600">
-              Algunas veces el valor esta en el analisis. Otras, en bajar ese
-              analisis a una pieza ejecutiva, un dashboard o un portfolio con mas
-              presencia. Lo importante es que el entregable responda a una necesidad real.
-            </p>
-          </div>
-
-          <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-            {advisoryTracks.map((track) => (
+      <section className="border-y border-[#e6ddd0] bg-[#fbf8f3]">
+        <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8">
+          <div className="grid gap-4 md:grid-cols-3">
+            {sectors.map((sector) => (
               <article
-                key={track.title}
-                className="rounded-[1.6rem] border border-[#e4ddd2] bg-white p-6 shadow-[0_12px_30px_rgba(82,78,67,0.05)]"
+                key={sector.title}
+                className="rounded-[1.7rem] border border-[#e4ddd2] bg-white p-7 shadow-[0_12px_30px_rgba(82,78,67,0.05)]"
               >
-                <h3 className="font-[family:var(--font-display)] text-3xl leading-tight text-slate-950">
-                  {track.title}
-                </h3>
-                <p className="mt-4 text-sm leading-7 text-slate-600">{track.summary}</p>
-                <p className="mt-5 rounded-[1.15rem] bg-[#f6f2eb] px-4 py-3 text-sm leading-6 text-slate-700">
-                  {track.deliverable}
-                </p>
+                <h2 className="font-[family:var(--font-display)] text-3xl leading-none text-slate-950">
+                  {sector.title}
+                </h2>
+                <p className="mt-4 text-sm leading-7 text-slate-600">{sector.summary}</p>
               </article>
             ))}
           </div>
         </div>
       </section>
 
-      <section id="proceso" className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
-        <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-          <div>
+      <section id="servicios" className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
+        <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+          <div className="max-w-3xl">
             <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
-              Proceso
+              Servicios
             </p>
             <h2 className="mt-3 font-[family:var(--font-display)] text-5xl leading-none text-slate-950">
-              Primero ordenamos el problema. Despues elegimos la herramienta.
+              Una consultoria que puede entrar por varias puertas, pero con la misma exigencia.
             </h2>
-            <p className="mt-5 text-sm leading-7 text-slate-600">
-              Este punto importa porque varios proyectos fallan no por falta de
-              tecnica sino por falta de foco. Mi trabajo suele entrar justamente ahi:
-              antes, durante y despues del analisis.
-            </p>
           </div>
+          <p className="max-w-2xl text-sm leading-7 text-slate-600">
+            Algunas veces el punto de entrada es un analisis. Otras, una evaluacion,
+            un dashboard o una necesidad de ordenar y contar mejor un trabajo ya hecho.
+            La logica de fondo es siempre la misma: claridad, criterio y entrega.
+          </p>
+        </div>
 
-          <div className="grid gap-4">
-            {process.map((item) => (
-              <article
-                key={item.step}
-                className="rounded-[1.8rem] border border-[#e4ddd2] bg-white p-7 shadow-[0_14px_34px_rgba(82,78,67,0.05)]"
-              >
-                <p className="text-xs uppercase tracking-[0.22em] text-slate-500">
-                  {item.step}
-                </p>
-                <h3 className="mt-3 font-[family:var(--font-display)] text-3xl text-slate-950">
-                  {item.title}
-                </h3>
-                <p className="mt-4 text-sm leading-7 text-slate-600">{item.description}</p>
-              </article>
-            ))}
-          </div>
+        <div className="mt-10 grid gap-4 lg:grid-cols-3">
+          {serviceTracks.map((track) => (
+            <article
+              key={track.title}
+              className="rounded-[1.8rem] border border-[#e4ddd2] bg-white p-7 shadow-[0_14px_34px_rgba(82,78,67,0.05)]"
+            >
+              <h3 className="font-[family:var(--font-display)] text-3xl leading-tight text-slate-950">
+                {track.title}
+              </h3>
+              <p className="mt-4 text-sm leading-7 text-slate-600">{track.summary}</p>
+              <p className="mt-5 rounded-[1.15rem] bg-[#f6f2eb] px-4 py-3 text-sm leading-6 text-slate-700">
+                {track.output}
+              </p>
+            </article>
+          ))}
         </div>
       </section>
 
@@ -421,13 +353,17 @@ export default function Home() {
                 Casos y portfolio
               </p>
               <h2 className="mt-3 font-[family:var(--font-display)] text-5xl leading-none text-slate-950">
-                Cada proyecto funciona como una prueba distinta de trabajo.
+                Cada proyecto funciona como evidencia de una forma de trabajar.
               </h2>
             </div>
-            <p className="max-w-2xl text-sm leading-7 text-slate-600">
-              Después, si hace falta, esa consultoría se especializa en evaluación, inteligencia
-              comercial, modelado econométrico, compliance financiero o piezas ejecutivas.
-            </p>
+            <a
+              href="https://github.com/TorradoSantiago?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sm font-medium text-slate-600 underline-offset-4 transition hover:text-slate-950 hover:underline"
+            >
+              Ver repositorios en GitHub
+            </a>
           </div>
 
           <div className="mt-10 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
@@ -444,11 +380,13 @@ export default function Home() {
               <h3 className="mt-6 font-[family:var(--font-display)] text-5xl leading-none">
                 {featuredCase.title}
               </h3>
-              <p className="mt-6 text-base leading-8 text-slate-300">{featuredCase.problem}</p>
-              <p className="mt-4 rounded-[1.4rem] border border-white/10 bg-white/5 p-5 text-sm leading-7 text-slate-200">
-                {featuredCase.proof}
+              <p className="mt-6 text-base leading-8 text-slate-300">
+                {featuredCase.framing}
               </p>
-              <p className="mt-5 text-sm leading-7 text-slate-300">{featuredCase.deliverable}</p>
+              <p className="mt-4 rounded-[1.4rem] border border-white/10 bg-white/5 p-5 text-sm leading-7 text-slate-200">
+                {featuredCase.value}
+              </p>
+              <p className="mt-5 text-sm leading-7 text-slate-300">{featuredCase.output}</p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
@@ -460,7 +398,7 @@ export default function Home() {
                   Ver repo
                 </a>
                 <a
-                  href="mailto:santiagotorradouba@gmail.com"
+                  href="mailto:santiagotorradouba@gmail.com?subject=Version%20ejecutiva%20de%20caso"
                   className="inline-flex items-center justify-center rounded-full border border-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/20"
                 >
                   Pedir version ejecutiva
@@ -469,7 +407,7 @@ export default function Home() {
             </article>
 
             <div className="grid gap-4">
-              {remainingCases.map((project) => (
+              {secondaryCases.map((project) => (
                 <article
                   key={project.title}
                   className="rounded-[1.6rem] border border-[#e4ddd2] bg-white p-6 shadow-[0_12px_30px_rgba(82,78,67,0.05)]"
@@ -480,10 +418,10 @@ export default function Home() {
                   <h3 className="mt-3 font-[family:var(--font-display)] text-3xl leading-none text-slate-950">
                     {project.title}
                   </h3>
-                  <p className="mt-4 text-sm leading-7 text-slate-600">{project.problem}</p>
-                  <p className="mt-4 text-sm leading-7 text-slate-700">{project.proof}</p>
+                  <p className="mt-4 text-sm leading-7 text-slate-600">{project.framing}</p>
+                  <p className="mt-4 text-sm leading-7 text-slate-700">{project.value}</p>
                   <p className="mt-4 rounded-[1.1rem] bg-[#f6f2eb] px-4 py-3 text-sm leading-6 text-slate-700">
-                    {project.deliverable}
+                    {project.output}
                   </p>
                   <a
                     href={project.repoUrl}
@@ -500,62 +438,104 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
-        <div className="grid gap-4 md:grid-cols-3">
-          {engagementModels.map((model) => (
-            <article
-              key={model.title}
-              className="rounded-[1.7rem] border border-[#e4ddd2] bg-white p-7 shadow-[0_12px_30px_rgba(82,78,67,0.05)]"
-            >
-              <h2 className="font-[family:var(--font-display)] text-3xl leading-none text-slate-950">
-                {model.title}
-              </h2>
-              <p className="mt-4 text-sm leading-7 text-slate-600">{model.description}</p>
-            </article>
-          ))}
+      <section id="perfil" className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
+        <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+          <div>
+            <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
+              Perfil de trabajo
+            </p>
+            <h2 className="mt-3 font-[family:var(--font-display)] text-5xl leading-none text-slate-950">
+              Un perfil que puede moverse entre rigor tecnico y lectura de contexto.
+            </h2>
+            <p className="mt-5 text-sm leading-7 text-slate-600">
+              Ese cruce es util cuando el problema no es solo estadistico ni solo
+              narrativo. En muchos proyectos lo que falta no es una herramienta nueva,
+              sino alguien que ordene mejor la pregunta, el metodo y la forma de entrega.
+            </p>
+
+            <div className="mt-8 space-y-3">
+              {principles.map((item) => (
+                <div
+                  key={item}
+                  className="rounded-[1.4rem] border border-[#e4ddd2] bg-white px-5 py-4 text-sm leading-7 text-slate-700 shadow-[0_12px_30px_rgba(82,78,67,0.04)]"
+                >
+                  {item}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-3">
+            {background.map((item) => (
+              <article
+                key={item.title}
+                className="rounded-[1.7rem] border border-[#e4ddd2] bg-white p-6 shadow-[0_12px_30px_rgba(82,78,67,0.05)]"
+              >
+                <p className="text-xs uppercase tracking-[0.22em] text-slate-500">
+                  {item.subtitle}
+                </p>
+                <h3 className="mt-3 font-[family:var(--font-display)] text-3xl leading-none text-slate-950">
+                  {item.title}
+                </h3>
+                <p className="mt-4 text-sm leading-7 text-slate-600">{item.detail}</p>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 
-      <section id="contacto" className="border-t border-[#e6ddd0] bg-[#fbf8f3]">
-        <div className="mx-auto grid max-w-7xl gap-8 px-6 py-20 sm:px-8 lg:grid-cols-[1fr_auto] lg:items-end">
-          <div>
-            <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
-              Contacto
-            </p>
-            <h2 className="mt-3 max-w-4xl font-[family:var(--font-display)] text-5xl leading-none text-slate-950">
-              Si uno de estos frentes te sirve, el siguiente paso es convertirlo en una propuesta de trabajo concreta.
-            </h2>
-            <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600">
-              Puedo ayudarte con un diagnostico puntual, un proyecto con entregable o una version
-              mucho mas profesional de un trabajo que ya existe pero todavia no esta bien contado.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-3 sm:flex-row">
-            <a
-              href="mailto:santiagotorradouba@gmail.com"
-              className="inline-flex items-center justify-center rounded-full border border-[#d9d0c2] bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-slate-400"
-            >
-              Email
-            </a>
-            <a
-              href="https://github.com/TorradoSantiago"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
-            >
-              GitHub
-            </a>
+      <section className="border-y border-[#e6ddd0] bg-[#fbf8f3]">
+        <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8">
+          <div className="grid gap-4 md:grid-cols-3">
+            {engagementModels.map((item) => (
+              <article
+                key={item.title}
+                className="rounded-[1.7rem] border border-[#e4ddd2] bg-white p-7 shadow-[0_12px_30px_rgba(82,78,67,0.05)]"
+              >
+                <h2 className="font-[family:var(--font-display)] text-3xl leading-none text-slate-950">
+                  {item.title}
+                </h2>
+                <p className="mt-4 text-sm leading-7 text-slate-600">{item.description}</p>
+              </article>
+            ))}
           </div>
         </div>
-      </footer>
+      </section>
 
-      {/* ── SCROLL TO TOP ─────────────────────────────── */}
-      {showScrollTop && (
-        <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} aria-label="Volver arriba" className="fixed bottom-6 right-6 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[#d8d1c6] bg-white shadow-md transition hover:bg-slate-50">
-          ↑
-        </button>
-      )}
+      <section id="contacto" className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
+        <div className="rounded-[2.2rem] border border-[#ded6ca] bg-[#1d2938] px-7 py-10 text-white shadow-[0_24px_65px_rgba(31,41,55,0.22)] sm:px-10">
+          <p className="text-sm uppercase tracking-[0.24em] text-[#f4c9a8]">Contacto</p>
+          <div className="mt-4 grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
+            <div>
+              <h2 className="max-w-4xl font-[family:var(--font-display)] text-5xl leading-none">
+                Si alguno de estos frentes te sirve, el siguiente paso es convertirlo en una propuesta concreta.
+              </h2>
+              <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-300">
+                Puedo ayudarte a estructurar un diagnostico, producir un entregable o
+                volver mucho mas profesional un trabajo que ya existe pero todavia no
+                esta bien contado.
+              </p>
+            </div>
+
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <a
+                href="mailto:santiagotorradouba@gmail.com?subject=Consulta%20de%20trabajo"
+                className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100"
+              >
+                Email
+              </a>
+              <a
+                href="https://github.com/TorradoSantiago"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center justify-center rounded-full border border-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/20"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
