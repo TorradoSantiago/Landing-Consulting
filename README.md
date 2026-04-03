@@ -1,20 +1,27 @@
 # Landing Consulting
 
-Landing para presentar una oferta de consultoria en datos, evaluacion y estrategia.
+Landing en Next.js para presentar una oferta de consultoria en datos, evaluacion y estrategia aplicada. La version actual refuerza tres cosas: claridad de propuesta, profundidad de portfolio y una direccion visual mas premium.
 
-## Objetivo
+## Cambios de esta iteracion
 
-Comunicar una propuesta profesional de servicios, casos y forma de trabajo en un formato claro, visual y listo para portfolio.
+- Hero y narrativa mas fuertes para posicionar mejor la propuesta de valor.
+- Nuevas secciones de servicios, proceso, casos y modelos de trabajo.
+- Casos del portfolio explicados desde el problema, la prueba de trabajo y el entregable.
+- Ajustes visuales en fondos, contraste y jerarquia tipografica.
 
-## Herramientas
+## Stack
 
 - Next.js 16
 - React 19
-- TypeScript
 - Tailwind CSS 4
-- ESLint
-- Chart.js y react-chartjs-2
+- TypeScript
 
-## Conclusion
+## Scripts
 
-El repo ya funciona como una pieza comercial solida y puede crecer hacia contacto real, CMS o nuevas secciones de portfolio.
+- `npm run dev`
+- `npm run build`
+- `npm run lint`
+
+## Enfoque
+
+El sitio esta pensado para convertir repositorios y experiencia dispersa en una propuesta comercial mas clara y defendible.
