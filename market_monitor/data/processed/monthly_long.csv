@@ -1,0 +1,1392 @@
+date,series_id,source,value,frequency,unit
+2004-01-31,datos_emae_index,datos.gob.ar,98.43818604481685,M,Index base 2004
+2004-02-29,datos_emae_index,datos.gob.ar,98.21780645496057,M,Index base 2004
+2004-03-31,datos_emae_index,datos.gob.ar,97.72966985507487,M,Index base 2004
+2004-04-30,datos_emae_index,datos.gob.ar,95.2046055129126,M,Index base 2004
+2004-05-31,datos_emae_index,datos.gob.ar,96.8381482255057,M,Index base 2004
+2004-06-30,datos_emae_index,datos.gob.ar,98.61608613147531,M,Index base 2004
+2004-07-31,datos_emae_index,datos.gob.ar,100.8540981299305,M,Index base 2004
+2004-08-31,datos_emae_index,datos.gob.ar,102.21131069030837,M,Index base 2004
+2004-09-30,datos_emae_index,datos.gob.ar,102.36418343973747,M,Index base 2004
+2004-10-31,datos_emae_index,datos.gob.ar,103.09536386002564,M,Index base 2004
+2004-11-30,datos_emae_index,datos.gob.ar,103.59309547780504,M,Index base 2004
+2004-12-31,datos_emae_index,datos.gob.ar,102.83744617744712,M,Index base 2004
+2005-01-31,datos_emae_index,datos.gob.ar,105.64040125861844,M,Index base 2004
+2005-02-28,datos_emae_index,datos.gob.ar,105.98016663689612,M,Index base 2004
+2005-03-31,datos_emae_index,datos.gob.ar,106.81006299656931,M,Index base 2004
+2005-04-30,datos_emae_index,datos.gob.ar,108.0917126559852,M,Index base 2004
+2005-05-31,datos_emae_index,datos.gob.ar,109.21123066209464,M,Index base 2004
+2005-06-30,datos_emae_index,datos.gob.ar,108.6511002875444,M,Index base 2004
+2005-07-31,datos_emae_index,datos.gob.ar,109.16313871432334,M,Index base 2004
+2005-08-31,datos_emae_index,datos.gob.ar,109.36098030525407,M,Index base 2004
+2005-09-30,datos_emae_index,datos.gob.ar,109.29613670824033,M,Index base 2004
+2005-10-31,datos_emae_index,datos.gob.ar,109.9116627592506,M,Index base 2004
+2005-11-30,datos_emae_index,datos.gob.ar,111.12979085329616,M,Index base 2004
+2005-12-31,datos_emae_index,datos.gob.ar,112.97353517462746,M,Index base 2004
+2006-01-31,datos_emae_index,datos.gob.ar,113.86805327202686,M,Index base 2004
+2006-02-28,datos_emae_index,datos.gob.ar,114.7382766029572,M,Index base 2004
+2006-03-31,datos_emae_index,datos.gob.ar,114.27456384538054,M,Index base 2004
+2006-04-30,datos_emae_index,datos.gob.ar,115.7701105321044,M,Index base 2004
+2006-05-31,datos_emae_index,datos.gob.ar,115.00686025755792,M,Index base 2004
+2006-06-30,datos_emae_index,datos.gob.ar,116.2481658393294,M,Index base 2004
+2006-07-31,datos_emae_index,datos.gob.ar,118.17065867875864,M,Index base 2004
+2006-08-31,datos_emae_index,datos.gob.ar,118.8461227096,M,Index base 2004
+2006-09-30,datos_emae_index,datos.gob.ar,119.86038751596506,M,Index base 2004
+2006-10-31,datos_emae_index,datos.gob.ar,120.6068886161656,M,Index base 2004
+2006-11-30,datos_emae_index,datos.gob.ar,120.6467422111724,M,Index base 2004
+2006-12-31,datos_emae_index,datos.gob.ar,123.29658478558656,M,Index base 2004
+2007-01-31,datos_emae_index,datos.gob.ar,122.07327916394652,M,Index base 2004
+2007-02-28,datos_emae_index,datos.gob.ar,124.63562935012908,M,Index base 2004
+2007-03-31,datos_emae_index,datos.gob.ar,126.49103209445823,M,Index base 2004
+2007-04-30,datos_emae_index,datos.gob.ar,125.36718401385426,M,Index base 2004
+2007-05-31,datos_emae_index,datos.gob.ar,127.20881399310552,M,Index base 2004
+2007-06-30,datos_emae_index,datos.gob.ar,128.40982047406217,M,Index base 2004
+2007-07-31,datos_emae_index,datos.gob.ar,127.78147136424244,M,Index base 2004
+2007-08-31,datos_emae_index,datos.gob.ar,128.73327580823883,M,Index base 2004
+2007-09-30,datos_emae_index,datos.gob.ar,129.6493440094345,M,Index base 2004
+2007-10-31,datos_emae_index,datos.gob.ar,131.25690973841688,M,Index base 2004
+2007-11-30,datos_emae_index,datos.gob.ar,132.69668297831936,M,Index base 2004
+2007-12-31,datos_emae_index,datos.gob.ar,134.1579586305712,M,Index base 2004
+2008-01-31,datos_emae_index,datos.gob.ar,135.2295251745166,M,Index base 2004
+2008-02-29,datos_emae_index,datos.gob.ar,133.47531871120017,M,Index base 2004
+2008-03-31,datos_emae_index,datos.gob.ar,133.2635526316054,M,Index base 2004
+2008-04-30,datos_emae_index,datos.gob.ar,135.86243112112666,M,Index base 2004
+2008-05-31,datos_emae_index,datos.gob.ar,134.9124366011499,M,Index base 2004
+2008-06-30,datos_emae_index,datos.gob.ar,133.3361313233309,M,Index base 2004
+2008-07-31,datos_emae_index,datos.gob.ar,135.23192625861927,M,Index base 2004
+2008-08-31,datos_emae_index,datos.gob.ar,135.57898458504536,M,Index base 2004
+2008-09-30,datos_emae_index,datos.gob.ar,135.9143106179596,M,Index base 2004
+2008-10-31,datos_emae_index,datos.gob.ar,132.50707238101344,M,Index base 2004
+2008-11-30,datos_emae_index,datos.gob.ar,130.39569113916446,M,Index base 2004
+2008-12-31,datos_emae_index,datos.gob.ar,125.17298632784842,M,Index base 2004
+2009-01-31,datos_emae_index,datos.gob.ar,124.35215106975907,M,Index base 2004
+2009-01-31,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-01-31,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-02-28,datos_emae_index,datos.gob.ar,126.2420555073399,M,Index base 2004
+2009-02-28,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-02-28,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-03-31,datos_emae_index,datos.gob.ar,123.50680484470266,M,Index base 2004
+2009-03-31,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-03-31,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-04-30,datos_emae_index,datos.gob.ar,121.66692881874164,M,Index base 2004
+2009-04-30,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-04-30,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-05-31,datos_emae_index,datos.gob.ar,121.01287817011092,M,Index base 2004
+2009-05-31,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-05-31,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-06-30,datos_emae_index,datos.gob.ar,122.5091422923648,M,Index base 2004
+2009-06-30,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-06-30,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-07-31,datos_emae_index,datos.gob.ar,124.66149573999976,M,Index base 2004
+2009-07-31,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-07-31,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-08-31,datos_emae_index,datos.gob.ar,126.73976778776748,M,Index base 2004
+2009-08-31,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-08-31,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-09-30,datos_emae_index,datos.gob.ar,128.17884193461924,M,Index base 2004
+2009-09-30,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-09-30,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-10-31,datos_emae_index,datos.gob.ar,129.2961607151787,M,Index base 2004
+2009-10-31,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-10-31,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-11-30,datos_emae_index,datos.gob.ar,129.83046579539908,M,Index base 2004
+2009-11-30,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-11-30,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2009-12-31,datos_emae_index,datos.gob.ar,128.1351681768375,M,Index base 2004
+2009-12-31,wb_arg_gdp_growth,World Bank,-5.91852507634947,M,Annual percent
+2009-12-31,wb_us_gdp_growth,World Bank,-2.57650022958367,M,Annual percent
+2010-01-31,datos_emae_index,datos.gob.ar,131.8032199624102,M,Index base 2004
+2010-01-31,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-01-31,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-02-28,datos_emae_index,datos.gob.ar,133.28617648019966,M,Index base 2004
+2010-02-28,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-02-28,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-03-31,datos_emae_index,datos.gob.ar,134.10279775325935,M,Index base 2004
+2010-03-31,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-03-31,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-04-30,datos_emae_index,datos.gob.ar,137.02960290436343,M,Index base 2004
+2010-04-30,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-04-30,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-05-31,datos_emae_index,datos.gob.ar,139.27326263388895,M,Index base 2004
+2010-05-31,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-05-31,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-06-30,datos_emae_index,datos.gob.ar,140.60691717437575,M,Index base 2004
+2010-06-30,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-06-30,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-07-31,datos_emae_index,datos.gob.ar,139.4266975707175,M,Index base 2004
+2010-07-31,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-07-31,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-08-31,datos_emae_index,datos.gob.ar,139.9659663703646,M,Index base 2004
+2010-08-31,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-08-31,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-09-30,datos_emae_index,datos.gob.ar,139.268025152894,M,Index base 2004
+2010-09-30,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-09-30,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-10-31,datos_emae_index,datos.gob.ar,140.0509490277244,M,Index base 2004
+2010-10-31,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-10-31,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-11-30,datos_emae_index,datos.gob.ar,142.18602998595605,M,Index base 2004
+2010-11-30,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-11-30,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2010-12-31,datos_emae_index,datos.gob.ar,141.63406357220495,M,Index base 2004
+2010-12-31,wb_arg_gdp_growth,World Bank,10.1253981561002,M,Annual percent
+2010-12-31,wb_us_gdp_growth,World Bank,2.69519257744442,M,Annual percent
+2011-01-31,datos_emae_index,datos.gob.ar,145.5574460806623,M,Index base 2004
+2011-01-31,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-01-31,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-02-28,datos_emae_index,datos.gob.ar,143.71243674877607,M,Index base 2004
+2011-02-28,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-02-28,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-03-31,datos_emae_index,datos.gob.ar,144.66019873337265,M,Index base 2004
+2011-03-31,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-03-31,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-04-30,datos_emae_index,datos.gob.ar,144.90978673967678,M,Index base 2004
+2011-04-30,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-04-30,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-05-31,datos_emae_index,datos.gob.ar,147.38533183235134,M,Index base 2004
+2011-05-31,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-05-31,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-06-30,datos_emae_index,datos.gob.ar,146.9775500232366,M,Index base 2004
+2011-06-30,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-06-30,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-07-31,datos_emae_index,datos.gob.ar,147.33277655201644,M,Index base 2004
+2011-07-31,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-07-31,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-08-31,datos_emae_index,datos.gob.ar,147.0151803677607,M,Index base 2004
+2011-08-31,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-08-31,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-09-30,datos_emae_index,datos.gob.ar,148.36168311261835,M,Index base 2004
+2011-09-30,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-09-30,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-10-31,datos_emae_index,datos.gob.ar,147.34440034824965,M,Index base 2004
+2011-10-31,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-10-31,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-11-30,datos_emae_index,datos.gob.ar,147.25918862368582,M,Index base 2004
+2011-11-30,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-11-30,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2011-12-31,datos_emae_index,datos.gob.ar,147.701295991547,M,Index base 2004
+2011-12-31,wb_arg_gdp_growth,World Bank,6.00395169280579,M,Annual percent
+2011-12-31,wb_us_gdp_growth,World Bank,1.56440685763506,M,Annual percent
+2012-01-31,datos_emae_index,datos.gob.ar,147.81814390451845,M,Index base 2004
+2012-01-31,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-01-31,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-02-29,datos_emae_index,datos.gob.ar,144.77882455194307,M,Index base 2004
+2012-02-29,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-02-29,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-03-31,datos_emae_index,datos.gob.ar,145.45292265176383,M,Index base 2004
+2012-03-31,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-03-31,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-04-30,datos_emae_index,datos.gob.ar,141.79265369758883,M,Index base 2004
+2012-04-30,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-04-30,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-05-31,datos_emae_index,datos.gob.ar,140.22899716677748,M,Index base 2004
+2012-05-31,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-05-31,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-06-30,datos_emae_index,datos.gob.ar,140.71916779482785,M,Index base 2004
+2012-06-30,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-06-30,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-07-31,datos_emae_index,datos.gob.ar,144.89056375044558,M,Index base 2004
+2012-07-31,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-07-31,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-08-31,datos_emae_index,datos.gob.ar,145.0099509621423,M,Index base 2004
+2012-08-31,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-08-31,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-09-30,datos_emae_index,datos.gob.ar,146.26006183081148,M,Index base 2004
+2012-09-30,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-09-30,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-10-31,datos_emae_index,datos.gob.ar,147.13850047965894,M,Index base 2004
+2012-10-31,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-10-31,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-11-30,datos_emae_index,datos.gob.ar,147.02975149706185,M,Index base 2004
+2012-11-30,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-11-30,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2012-12-31,datos_emae_index,datos.gob.ar,149.05103496890692,M,Index base 2004
+2012-12-31,wb_arg_gdp_growth,World Bank,-1.0264204544321,M,Annual percent
+2012-12-31,wb_us_gdp_growth,World Bank,2.28911338669843,M,Annual percent
+2013-01-31,datos_emae_index,datos.gob.ar,145.7811753887427,M,Index base 2004
+2013-01-31,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-01-31,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-02-28,datos_emae_index,datos.gob.ar,148.48931250132324,M,Index base 2004
+2013-02-28,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-02-28,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-03-31,datos_emae_index,datos.gob.ar,148.47614927695696,M,Index base 2004
+2013-03-31,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-03-31,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-04-30,datos_emae_index,datos.gob.ar,148.49100433615445,M,Index base 2004
+2013-04-30,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-04-30,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-05-31,datos_emae_index,datos.gob.ar,148.2475868259564,M,Index base 2004
+2013-05-31,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-05-31,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-06-30,datos_emae_index,datos.gob.ar,149.0624424965624,M,Index base 2004
+2013-06-30,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-06-30,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-07-31,datos_emae_index,datos.gob.ar,148.16888219365632,M,Index base 2004
+2013-07-31,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-07-31,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-08-31,datos_emae_index,datos.gob.ar,150.2414036104908,M,Index base 2004
+2013-08-31,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-08-31,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-09-30,datos_emae_index,datos.gob.ar,150.3006938494317,M,Index base 2004
+2013-09-30,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-09-30,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-10-31,datos_emae_index,datos.gob.ar,149.10118080089836,M,Index base 2004
+2013-10-31,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-10-31,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-11-30,datos_emae_index,datos.gob.ar,148.2577932818814,M,Index base 2004
+2013-11-30,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-11-30,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2013-12-31,datos_emae_index,datos.gob.ar,147.4096854302662,M,Index base 2004
+2013-12-31,wb_arg_gdp_growth,World Bank,2.40532378079436,M,Annual percent
+2013-12-31,wb_us_gdp_growth,World Bank,2.11783009790057,M,Annual percent
+2014-01-31,datos_emae_index,datos.gob.ar,145.6623359453621,M,Index base 2004
+2014-01-31,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-01-31,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-02-28,datos_emae_index,datos.gob.ar,146.81831108483095,M,Index base 2004
+2014-02-28,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-02-28,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-03-31,datos_emae_index,datos.gob.ar,145.52602410816712,M,Index base 2004
+2014-03-31,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-03-31,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-04-30,datos_emae_index,datos.gob.ar,144.93658097727447,M,Index base 2004
+2014-04-30,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-04-30,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-05-31,datos_emae_index,datos.gob.ar,145.22763533217514,M,Index base 2004
+2014-05-31,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-05-31,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-06-30,datos_emae_index,datos.gob.ar,144.52505654253736,M,Index base 2004
+2014-06-30,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-06-30,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-07-31,datos_emae_index,datos.gob.ar,144.04793565023047,M,Index base 2004
+2014-07-31,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-07-31,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-08-31,datos_emae_index,datos.gob.ar,143.5954569561341,M,Index base 2004
+2014-08-31,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-08-31,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-09-30,datos_emae_index,datos.gob.ar,143.56232893976468,M,Index base 2004
+2014-09-30,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-09-30,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-10-31,datos_emae_index,datos.gob.ar,143.82437223857875,M,Index base 2004
+2014-10-31,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-10-31,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-11-30,datos_emae_index,datos.gob.ar,144.79482463797558,M,Index base 2004
+2014-11-30,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-11-30,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2014-12-31,datos_emae_index,datos.gob.ar,144.7309562699424,M,Index base 2004
+2014-12-31,wb_arg_gdp_growth,World Bank,-2.51261532081394,M,Annual percent
+2014-12-31,wb_us_gdp_growth,World Bank,2.52381981363968,M,Annual percent
+2015-01-31,bcra_badlar,BCRA,20.232142857142858,M,Percent nominal annual rate
+2015-01-31,bcra_official_fx,BCRA,8.7,M,ARS per USD
+2015-01-31,bcra_reserves,BCRA,31452.0,M,USD mn
+2015-01-31,datos_emae_index,datos.gob.ar,144.08700572466864,M,Index base 2004
+2015-01-31,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-01-31,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-02-28,bcra_badlar,BCRA,20.663194444444443,M,Percent nominal annual rate
+2015-02-28,bcra_official_fx,BCRA,8.79,M,ARS per USD
+2015-02-28,bcra_reserves,BCRA,31470.0,M,USD mn
+2015-02-28,datos_emae_index,datos.gob.ar,147.84104392097478,M,Index base 2004
+2015-02-28,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-02-28,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-03-31,bcra_badlar,BCRA,20.903125,M,Percent nominal annual rate
+2015-03-31,bcra_official_fx,BCRA,8.88,M,ARS per USD
+2015-03-31,bcra_reserves,BCRA,31490.0,M,USD mn
+2015-03-31,datos_emae_index,datos.gob.ar,147.58493152232705,M,Index base 2004
+2015-03-31,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-03-31,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-04-30,bcra_badlar,BCRA,20.815625,M,Percent nominal annual rate
+2015-04-30,bcra_official_fx,BCRA,8.96,M,ARS per USD
+2015-04-30,bcra_reserves,BCRA,33909.0,M,USD mn
+2015-04-30,datos_emae_index,datos.gob.ar,149.7560076828022,M,Index base 2004
+2015-04-30,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-04-30,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-05-31,bcra_badlar,BCRA,20.25986842105263,M,Percent nominal annual rate
+2015-05-31,bcra_official_fx,BCRA,9.05,M,ARS per USD
+2015-05-31,bcra_reserves,BCRA,33283.0,M,USD mn
+2015-05-31,datos_emae_index,datos.gob.ar,150.0500800564323,M,Index base 2004
+2015-05-31,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-05-31,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-06-30,bcra_badlar,BCRA,20.477272727272727,M,Percent nominal annual rate
+2015-06-30,bcra_official_fx,BCRA,9.15,M,ARS per USD
+2015-06-30,bcra_reserves,BCRA,33851.0,M,USD mn
+2015-06-30,datos_emae_index,datos.gob.ar,150.97437138979006,M,Index base 2004
+2015-06-30,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-06-30,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-07-31,bcra_badlar,BCRA,20.744318181818183,M,Percent nominal annual rate
+2015-07-31,bcra_official_fx,BCRA,9.26,M,ARS per USD
+2015-07-31,bcra_reserves,BCRA,33943.0,M,USD mn
+2015-07-31,datos_emae_index,datos.gob.ar,150.62789195804137,M,Index base 2004
+2015-07-31,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-07-31,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-08-31,bcra_badlar,BCRA,20.978125,M,Percent nominal annual rate
+2015-08-31,bcra_official_fx,BCRA,9.37,M,ARS per USD
+2015-08-31,bcra_reserves,BCRA,33606.0,M,USD mn
+2015-08-31,datos_emae_index,datos.gob.ar,150.33834146415472,M,Index base 2004
+2015-08-31,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-08-31,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-09-30,bcra_badlar,BCRA,21.18465909090909,M,Percent nominal annual rate
+2015-09-30,bcra_official_fx,BCRA,9.5,M,ARS per USD
+2015-09-30,bcra_reserves,BCRA,33257.0,M,USD mn
+2015-09-30,datos_emae_index,datos.gob.ar,148.89823961597693,M,Index base 2004
+2015-09-30,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-09-30,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-10-31,bcra_badlar,BCRA,21.601190476190474,M,Percent nominal annual rate
+2015-10-31,bcra_official_fx,BCRA,9.61,M,ARS per USD
+2015-10-31,bcra_reserves,BCRA,26970.0,M,USD mn
+2015-10-31,datos_emae_index,datos.gob.ar,149.19853559187965,M,Index base 2004
+2015-10-31,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-10-31,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-11-30,bcra_badlar,BCRA,23.42763157894737,M,Percent nominal annual rate
+2015-11-30,bcra_official_fx,BCRA,9.76,M,ARS per USD
+2015-11-30,bcra_reserves,BCRA,25615.0,M,USD mn
+2015-11-30,datos_emae_index,datos.gob.ar,148.46405719430734,M,Index base 2004
+2015-11-30,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-11-30,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2015-12-31,bcra_badlar,BCRA,27.34375,M,Percent nominal annual rate
+2015-12-31,bcra_official_fx,BCRA,13.4,M,ARS per USD
+2015-12-31,bcra_policy_rate,BCRA,33.0,M,Percent nominal annual rate
+2015-12-31,bcra_reserves,BCRA,25563.0,M,USD mn
+2015-12-31,datos_emae_index,datos.gob.ar,146.87843653690558,M,Index base 2004
+2015-12-31,wb_arg_gdp_growth,World Bank,2.73115982828944,M,Annual percent
+2015-12-31,wb_us_gdp_growth,World Bank,2.94555045484053,M,Annual percent
+2016-01-31,bcra_badlar,BCRA,26.3125,M,Percent nominal annual rate
+2016-01-31,bcra_official_fx,BCRA,14.13,M,ARS per USD
+2016-01-31,bcra_policy_rate,BCRA,30.75,M,Percent nominal annual rate
+2016-01-31,bcra_reserves,BCRA,30074.0,M,USD mn
+2016-01-31,datos_emae_index,datos.gob.ar,147.984164435212,M,Index base 2004
+2016-01-31,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-01-31,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-02-29,bcra_badlar,BCRA,26.223684210526315,M,Percent nominal annual rate
+2016-02-29,bcra_official_fx,BCRA,15.88,M,ARS per USD
+2016-02-29,bcra_policy_rate,BCRA,31.15,M,Percent nominal annual rate
+2016-02-29,bcra_reserves,BCRA,28399.0,M,USD mn
+2016-02-29,datos_emae_index,datos.gob.ar,147.0735309036678,M,Index base 2004
+2016-02-29,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-02-29,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-03-31,bcra_badlar,BCRA,29.735119047619047,M,Percent nominal annual rate
+2016-03-31,bcra_official_fx,BCRA,14.89,M,ARS per USD
+2016-03-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2016-03-31,bcra_reserves,BCRA,29572.0,M,USD mn
+2016-03-31,datos_emae_index,datos.gob.ar,146.10851463731433,M,Index base 2004
+2016-03-31,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-03-31,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-04-30,bcra_badlar,BCRA,30.696428571428573,M,Percent nominal annual rate
+2016-04-30,bcra_official_fx,BCRA,14.51,M,ARS per USD
+2016-04-30,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2016-04-30,bcra_reserves,BCRA,34380.0,M,USD mn
+2016-04-30,datos_emae_index,datos.gob.ar,144.92921584007314,M,Index base 2004
+2016-04-30,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-04-30,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-05-31,bcra_badlar,BCRA,30.964285714285715,M,Percent nominal annual rate
+2016-05-31,bcra_official_fx,BCRA,14.25,M,ARS per USD
+2016-05-31,bcra_policy_rate,BCRA,35.25,M,Percent nominal annual rate
+2016-05-31,bcra_reserves,BCRA,30171.0,M,USD mn
+2016-05-31,datos_emae_index,datos.gob.ar,144.60979068880104,M,Index base 2004
+2016-05-31,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-05-31,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-06-30,bcra_badlar,BCRA,28.946875,M,Percent nominal annual rate
+2016-06-30,bcra_official_fx,BCRA,15.21,M,ARS per USD
+2016-06-30,bcra_policy_rate,BCRA,30.75,M,Percent nominal annual rate
+2016-06-30,bcra_reserves,BCRA,30507.0,M,USD mn
+2016-06-30,datos_emae_index,datos.gob.ar,144.28461730121603,M,Index base 2004
+2016-06-30,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-06-30,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-07-31,bcra_badlar,BCRA,26.01875,M,Percent nominal annual rate
+2016-07-31,bcra_official_fx,BCRA,15.29,M,ARS per USD
+2016-07-31,bcra_policy_rate,BCRA,30.25,M,Percent nominal annual rate
+2016-07-31,bcra_reserves,BCRA,32511.0,M,USD mn
+2016-07-31,datos_emae_index,datos.gob.ar,144.44230222025726,M,Index base 2004
+2016-07-31,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-07-31,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-08-31,bcra_badlar,BCRA,24.84375,M,Percent nominal annual rate
+2016-08-31,bcra_official_fx,BCRA,15.16,M,ARS per USD
+2016-08-31,bcra_policy_rate,BCRA,28.25,M,Percent nominal annual rate
+2016-08-31,bcra_reserves,BCRA,31150.0,M,USD mn
+2016-08-31,datos_emae_index,datos.gob.ar,145.5165865459859,M,Index base 2004
+2016-08-31,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-08-31,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-09-30,bcra_badlar,BCRA,23.053977272727273,M,Percent nominal annual rate
+2016-09-30,bcra_official_fx,BCRA,15.49,M,ARS per USD
+2016-09-30,bcra_policy_rate,BCRA,26.75,M,Percent nominal annual rate
+2016-09-30,bcra_reserves,BCRA,29902.0,M,USD mn
+2016-09-30,datos_emae_index,datos.gob.ar,144.9142293049511,M,Index base 2004
+2016-09-30,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-09-30,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-10-31,bcra_badlar,BCRA,22.090625,M,Percent nominal annual rate
+2016-10-31,bcra_official_fx,BCRA,15.4,M,ARS per USD
+2016-10-31,bcra_policy_rate,BCRA,26.75,M,Percent nominal annual rate
+2016-10-31,bcra_reserves,BCRA,37210.0,M,USD mn
+2016-10-31,datos_emae_index,datos.gob.ar,145.0099426627921,M,Index base 2004
+2016-10-31,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-10-31,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-11-30,bcra_badlar,BCRA,21.098214285714285,M,Percent nominal annual rate
+2016-11-30,bcra_official_fx,BCRA,16.1,M,ARS per USD
+2016-11-30,bcra_policy_rate,BCRA,24.75,M,Percent nominal annual rate
+2016-11-30,bcra_reserves,BCRA,37378.0,M,USD mn
+2016-11-30,datos_emae_index,datos.gob.ar,145.71579727175728,M,Index base 2004
+2016-11-30,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-11-30,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2016-12-31,bcra_badlar,BCRA,20.028125,M,Percent nominal annual rate
+2016-12-31,bcra_official_fx,BCRA,16.13,M,ARS per USD
+2016-12-31,bcra_policy_rate,BCRA,24.75,M,Percent nominal annual rate
+2016-12-31,bcra_reserves,BCRA,39308.0,M,USD mn
+2016-12-31,datos_cpi_index,datos.gob.ar,100.0,M,Index
+2016-12-31,datos_emae_index,datos.gob.ar,146.9826617165933,M,Index base 2004
+2016-12-31,wb_arg_gdp_growth,World Bank,-2.08032784377811,M,Annual percent
+2016-12-31,wb_us_gdp_growth,World Bank,1.81945147788167,M,Annual percent
+2017-01-31,bcra_badlar,BCRA,19.767045454545453,M,Percent nominal annual rate
+2017-01-31,bcra_official_fx,BCRA,16.14,M,ARS per USD
+2017-01-31,bcra_policy_rate,BCRA,24.75,M,Percent nominal annual rate
+2017-01-31,bcra_reserves,BCRA,46887.0,M,USD mn
+2017-01-31,datos_cpi_index,datos.gob.ar,101.5859,M,Index
+2017-01-31,datos_emae_index,datos.gob.ar,147.28783054174625,M,Index base 2004
+2017-01-31,datos_inflation_mom,datos.gob.ar,1.58589999999998,M,Monthly percent change
+2017-01-31,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-01-31,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-02-28,bcra_badlar,BCRA,20.0625,M,Percent nominal annual rate
+2017-02-28,bcra_official_fx,BCRA,15.76,M,ARS per USD
+2017-02-28,bcra_policy_rate,BCRA,24.75,M,Percent nominal annual rate
+2017-02-28,bcra_reserves,BCRA,50608.0,M,USD mn
+2017-02-28,datos_cpi_index,datos.gob.ar,103.6859,M,Index
+2017-02-28,datos_emae_index,datos.gob.ar,146.9341346266432,M,Index base 2004
+2017-02-28,datos_inflation_mom,datos.gob.ar,2.06721602112105,M,Monthly percent change
+2017-02-28,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-02-28,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-03-31,bcra_badlar,BCRA,19.5,M,Percent nominal annual rate
+2017-03-31,bcra_official_fx,BCRA,15.63,M,ARS per USD
+2017-03-31,bcra_policy_rate,BCRA,24.75,M,Percent nominal annual rate
+2017-03-31,bcra_reserves,BCRA,50522.0,M,USD mn
+2017-03-31,datos_cpi_index,datos.gob.ar,106.1476,M,Index
+2017-03-31,datos_emae_index,datos.gob.ar,147.75615312299135,M,Index base 2004
+2017-03-31,datos_inflation_mom,datos.gob.ar,2.37418974036005,M,Monthly percent change
+2017-03-31,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-03-31,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-04-30,bcra_badlar,BCRA,19.24652777777778,M,Percent nominal annual rate
+2017-04-30,bcra_official_fx,BCRA,15.72,M,ARS per USD
+2017-04-30,bcra_policy_rate,BCRA,26.25,M,Percent nominal annual rate
+2017-04-30,bcra_reserves,BCRA,48217.0,M,USD mn
+2017-04-30,datos_cpi_index,datos.gob.ar,108.9667,M,Index
+2017-04-30,datos_emae_index,datos.gob.ar,147.64422761579598,M,Index base 2004
+2017-04-30,datos_inflation_mom,datos.gob.ar,2.65583018363109,M,Monthly percent change
+2017-04-30,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-04-30,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-05-31,bcra_badlar,BCRA,19.633928571428573,M,Percent nominal annual rate
+2017-05-31,bcra_official_fx,BCRA,16.38,M,ARS per USD
+2017-05-31,bcra_policy_rate,BCRA,26.25,M,Percent nominal annual rate
+2017-05-31,bcra_reserves,BCRA,46146.0,M,USD mn
+2017-05-31,datos_cpi_index,datos.gob.ar,110.5301,M,Index
+2017-05-31,datos_emae_index,datos.gob.ar,148.506517670411,M,Index base 2004
+2017-05-31,datos_inflation_mom,datos.gob.ar,1.43475024938812,M,Monthly percent change
+2017-05-31,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-05-31,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-06-30,bcra_badlar,BCRA,19.80952380952381,M,Percent nominal annual rate
+2017-06-30,bcra_official_fx,BCRA,16.88,M,ARS per USD
+2017-06-30,bcra_policy_rate,BCRA,26.25,M,Percent nominal annual rate
+2017-06-30,bcra_reserves,BCRA,47995.0,M,USD mn
+2017-06-30,datos_cpi_index,datos.gob.ar,111.8477,M,Index
+2017-06-30,datos_emae_index,datos.gob.ar,150.16406696867037,M,Index base 2004
+2017-06-30,datos_inflation_mom,datos.gob.ar,1.19207347138923,M,Monthly percent change
+2017-06-30,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-06-30,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-07-31,bcra_badlar,BCRA,20.160714285714285,M,Percent nominal annual rate
+2017-07-31,bcra_official_fx,BCRA,17.94,M,ARS per USD
+2017-07-31,bcra_policy_rate,BCRA,26.25,M,Percent nominal annual rate
+2017-07-31,bcra_reserves,BCRA,47014.0,M,USD mn
+2017-07-31,datos_cpi_index,datos.gob.ar,113.7852,M,Index
+2017-07-31,datos_emae_index,datos.gob.ar,150.41944165359786,M,Index base 2004
+2017-07-31,datos_inflation_mom,datos.gob.ar,1.7322662871029002,M,Monthly percent change
+2017-07-31,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-07-31,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-08-31,bcra_badlar,BCRA,20.806818181818183,M,Percent nominal annual rate
+2017-08-31,bcra_official_fx,BCRA,17.61,M,ARS per USD
+2017-08-31,bcra_policy_rate,BCRA,26.25,M,Percent nominal annual rate
+2017-08-31,bcra_reserves,BCRA,48877.0,M,USD mn
+2017-08-31,datos_cpi_index,datos.gob.ar,115.3819,M,Index
+2017-08-31,datos_emae_index,datos.gob.ar,150.44302122832045,M,Index base 2004
+2017-08-31,datos_inflation_mom,datos.gob.ar,1.40325806871193,M,Monthly percent change
+2017-08-31,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-08-31,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-09-30,bcra_badlar,BCRA,21.327380952380953,M,Percent nominal annual rate
+2017-09-30,bcra_official_fx,BCRA,17.6,M,ARS per USD
+2017-09-30,bcra_policy_rate,BCRA,26.25,M,Percent nominal annual rate
+2017-09-30,bcra_reserves,BCRA,50237.0,M,USD mn
+2017-09-30,datos_cpi_index,datos.gob.ar,117.5719,M,Index
+2017-09-30,datos_emae_index,datos.gob.ar,151.22418367580548,M,Index base 2004
+2017-09-30,datos_inflation_mom,datos.gob.ar,1.89804466731784,M,Monthly percent change
+2017-09-30,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-09-30,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-10-31,bcra_badlar,BCRA,21.645833333333332,M,Percent nominal annual rate
+2017-10-31,bcra_official_fx,BCRA,17.93,M,ARS per USD
+2017-10-31,bcra_policy_rate,BCRA,27.75,M,Percent nominal annual rate
+2017-10-31,bcra_reserves,BCRA,51810.0,M,USD mn
+2017-10-31,datos_cpi_index,datos.gob.ar,119.3528,M,Index
+2017-10-31,datos_emae_index,datos.gob.ar,151.758219009497,M,Index base 2004
+2017-10-31,datos_inflation_mom,datos.gob.ar,1.51473268697708,M,Monthly percent change
+2017-10-31,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-10-31,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-11-30,bcra_badlar,BCRA,22.59375,M,Percent nominal annual rate
+2017-11-30,bcra_official_fx,BCRA,17.63,M,ARS per USD
+2017-11-30,bcra_policy_rate,BCRA,28.75,M,Percent nominal annual rate
+2017-11-30,bcra_reserves,BCRA,54563.0,M,USD mn
+2017-11-30,datos_cpi_index,datos.gob.ar,120.994,M,Index
+2017-11-30,datos_emae_index,datos.gob.ar,152.5742130755417,M,Index base 2004
+2017-11-30,datos_inflation_mom,datos.gob.ar,1.3750829473627701,M,Monthly percent change
+2017-11-30,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-11-30,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2017-12-31,bcra_badlar,BCRA,23.273026315789473,M,Percent nominal annual rate
+2017-12-31,bcra_official_fx,BCRA,18.92,M,ARS per USD
+2017-12-31,bcra_policy_rate,BCRA,28.75,M,Percent nominal annual rate
+2017-12-31,bcra_reserves,BCRA,55055.0,M,USD mn
+2017-12-31,datos_cpi_index,datos.gob.ar,124.7956,M,Index
+2017-12-31,datos_emae_index,datos.gob.ar,152.11469489125977,M,Index base 2004
+2017-12-31,datos_inflation_mom,datos.gob.ar,3.14197398218092,M,Monthly percent change
+2017-12-31,wb_arg_gdp_growth,World Bank,2.81850297775918,M,Annual percent
+2017-12-31,wb_us_gdp_growth,World Bank,2.45762229852507,M,Annual percent
+2018-01-31,bcra_badlar,BCRA,22.96590909090909,M,Percent nominal annual rate
+2018-01-31,bcra_official_fx,BCRA,19.93,M,ARS per USD
+2018-01-31,bcra_policy_rate,BCRA,27.25,M,Percent nominal annual rate
+2018-01-31,bcra_reserves,BCRA,62024.0,M,USD mn
+2018-01-31,datos_cpi_index,datos.gob.ar,126.9887,M,Index
+2018-01-31,datos_emae_index,datos.gob.ar,150.73526012195717,M,Index base 2004
+2018-01-31,datos_inflation_mom,datos.gob.ar,1.7573536246470098,M,Monthly percent change
+2018-01-31,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-01-31,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-02-28,bcra_badlar,BCRA,22.78125,M,Percent nominal annual rate
+2018-02-28,bcra_official_fx,BCRA,20.42,M,ARS per USD
+2018-02-28,bcra_policy_rate,BCRA,27.25,M,Percent nominal annual rate
+2018-02-28,bcra_reserves,BCRA,61509.0,M,USD mn
+2018-02-28,datos_cpi_index,datos.gob.ar,130.0606,M,Index
+2018-02-28,datos_emae_index,datos.gob.ar,151.90328057084443,M,Index base 2004
+2018-02-28,datos_inflation_mom,datos.gob.ar,2.4190341345332302,M,Monthly percent change
+2018-02-28,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-02-28,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-03-31,bcra_badlar,BCRA,22.8125,M,Percent nominal annual rate
+2018-03-31,bcra_official_fx,BCRA,20.44,M,ARS per USD
+2018-03-31,bcra_policy_rate,BCRA,27.25,M,Percent nominal annual rate
+2018-03-31,bcra_reserves,BCRA,61726.0,M,USD mn
+2018-03-31,datos_cpi_index,datos.gob.ar,133.1054,M,Index
+2018-03-31,datos_emae_index,datos.gob.ar,151.33512477508165,M,Index base 2004
+2018-03-31,datos_inflation_mom,datos.gob.ar,2.34106255084169,M,Monthly percent change
+2018-03-31,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-03-31,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-04-30,bcra_badlar,BCRA,22.81578947368421,M,Percent nominal annual rate
+2018-04-30,bcra_official_fx,BCRA,20.88,M,ARS per USD
+2018-04-30,bcra_policy_rate,BCRA,30.25,M,Percent nominal annual rate
+2018-04-30,bcra_reserves,BCRA,56623.0,M,USD mn
+2018-04-30,datos_cpi_index,datos.gob.ar,136.7512,M,Index
+2018-04-30,datos_emae_index,datos.gob.ar,146.83545544273494,M,Index base 2004
+2018-04-30,datos_inflation_mom,datos.gob.ar,2.7390323758465103,M,Monthly percent change
+2018-04-30,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-04-30,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-05-31,bcra_badlar,BCRA,28.285714285714285,M,Percent nominal annual rate
+2018-05-31,bcra_official_fx,BCRA,25.51,M,ARS per USD
+2018-05-31,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2018-05-31,bcra_reserves,BCRA,50098.0,M,USD mn
+2018-05-31,datos_cpi_index,datos.gob.ar,139.5893,M,Index
+2018-05-31,datos_emae_index,datos.gob.ar,144.73606068174158,M,Index base 2004
+2018-05-31,datos_inflation_mom,datos.gob.ar,2.07537484131765,M,Monthly percent change
+2018-05-31,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-05-31,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-06-30,bcra_badlar,BCRA,30.565625,M,Percent nominal annual rate
+2018-06-30,bcra_official_fx,BCRA,29.57,M,ARS per USD
+2018-06-30,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2018-06-30,bcra_reserves,BCRA,61881.0,M,USD mn
+2018-06-30,datos_cpi_index,datos.gob.ar,144.8053,M,Index
+2018-06-30,datos_emae_index,datos.gob.ar,143.43435071467957,M,Index base 2004
+2018-06-30,datos_inflation_mom,datos.gob.ar,3.7366760919353896,M,Monthly percent change
+2018-06-30,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-06-30,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-07-31,bcra_badlar,BCRA,34.520833333333336,M,Percent nominal annual rate
+2018-07-31,bcra_official_fx,BCRA,28.03,M,ARS per USD
+2018-07-31,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2018-07-31,bcra_reserves,BCRA,57996.0,M,USD mn
+2018-07-31,datos_cpi_index,datos.gob.ar,149.2966,M,Index
+2018-07-31,datos_emae_index,datos.gob.ar,143.8593540054695,M,Index base 2004
+2018-07-31,datos_inflation_mom,datos.gob.ar,3.10161299344708,M,Monthly percent change
+2018-07-31,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-07-31,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-08-31,bcra_badlar,BCRA,35.16761363636363,M,Percent nominal annual rate
+2018-08-31,bcra_official_fx,BCRA,38.0,M,ARS per USD
+2018-08-31,bcra_policy_rate,BCRA,60.0,M,Percent nominal annual rate
+2018-08-31,bcra_reserves,BCRA,52658.0,M,USD mn
+2018-08-31,datos_cpi_index,datos.gob.ar,155.1034,M,Index
+2018-08-31,datos_emae_index,datos.gob.ar,146.6868146054301,M,Index base 2004
+2018-08-31,datos_inflation_mom,datos.gob.ar,3.88943887536621,M,Monthly percent change
+2018-08-31,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-08-31,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-09-30,bcra_badlar,BCRA,41.85625,M,Percent nominal annual rate
+2018-09-30,bcra_official_fx,BCRA,41.89,M,ARS per USD
+2018-09-30,bcra_policy_rate,BCRA,65.0,M,Percent nominal annual rate
+2018-09-30,bcra_reserves,BCRA,49003.0,M,USD mn
+2018-09-30,datos_cpi_index,datos.gob.ar,165.2383,M,Index
+2018-09-30,datos_emae_index,datos.gob.ar,143.21638592657462,M,Index base 2004
+2018-09-30,datos_inflation_mom,datos.gob.ar,6.534286160071299,M,Monthly percent change
+2018-09-30,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-09-30,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-10-31,bcra_badlar,BCRA,50.49147727272727,M,Percent nominal annual rate
+2018-10-31,bcra_official_fx,BCRA,36.98,M,ARS per USD
+2018-10-31,bcra_policy_rate,BCRA,68.048,M,Percent nominal annual rate
+2018-10-31,bcra_reserves,BCRA,53955.0,M,USD mn
+2018-10-31,datos_cpi_index,datos.gob.ar,174.1473,M,Index
+2018-10-31,datos_emae_index,datos.gob.ar,143.46264585114906,M,Index base 2004
+2018-10-31,datos_inflation_mom,datos.gob.ar,5.39160715161073,M,Monthly percent change
+2018-10-31,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-10-31,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-11-30,bcra_badlar,BCRA,51.36513157894737,M,Percent nominal annual rate
+2018-11-30,bcra_official_fx,BCRA,38.81,M,ARS per USD
+2018-11-30,bcra_policy_rate,BCRA,60.753,M,Percent nominal annual rate
+2018-11-30,bcra_reserves,BCRA,51193.0,M,USD mn
+2018-11-30,datos_cpi_index,datos.gob.ar,179.6388,M,Index
+2018-11-30,datos_emae_index,datos.gob.ar,141.5857201570667,M,Index base 2004
+2018-11-30,datos_inflation_mom,datos.gob.ar,3.1533649961842602,M,Monthly percent change
+2018-11-30,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-11-30,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2018-12-31,bcra_badlar,BCRA,48.635416666666664,M,Percent nominal annual rate
+2018-12-31,bcra_official_fx,BCRA,38.85,M,ARS per USD
+2018-12-31,bcra_policy_rate,BCRA,59.252,M,Percent nominal annual rate
+2018-12-31,bcra_reserves,BCRA,65786.0,M,USD mn
+2018-12-31,datos_cpi_index,datos.gob.ar,184.2552,M,Index
+2018-12-31,datos_emae_index,datos.gob.ar,142.00617267082225,M,Index base 2004
+2018-12-31,datos_inflation_mom,datos.gob.ar,2.56982344571439,M,Monthly percent change
+2018-12-31,wb_arg_gdp_growth,World Bank,-2.61739646282038,M,Annual percent
+2018-12-31,wb_us_gdp_growth,World Bank,2.96650506901305,M,Annual percent
+2019-01-31,bcra_badlar,BCRA,45.8125,M,Percent nominal annual rate
+2019-01-31,bcra_official_fx,BCRA,38.28,M,ARS per USD
+2019-01-31,bcra_policy_rate,BCRA,53.687,M,Percent nominal annual rate
+2019-01-31,bcra_reserves,BCRA,66811.0,M,USD mn
+2019-01-31,datos_cpi_index,datos.gob.ar,189.6101,M,Index
+2019-01-31,datos_emae_index,datos.gob.ar,141.79432368279794,M,Index base 2004
+2019-01-31,datos_inflation_mom,datos.gob.ar,2.90624090934745,M,Monthly percent change
+2019-01-31,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-01-31,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-02-28,bcra_badlar,BCRA,37.584375,M,Percent nominal annual rate
+2019-02-28,bcra_official_fx,BCRA,40.14,M,ARS per USD
+2019-02-28,bcra_policy_rate,BCRA,50.127,M,Percent nominal annual rate
+2019-02-28,bcra_reserves,BCRA,68015.0,M,USD mn
+2019-02-28,datos_cpi_index,datos.gob.ar,196.7501,M,Index
+2019-02-28,datos_emae_index,datos.gob.ar,144.15550670865235,M,Index base 2004
+2019-02-28,datos_inflation_mom,datos.gob.ar,3.76562218995719,M,Monthly percent change
+2019-02-28,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-02-28,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-03-31,bcra_badlar,BCRA,41.67434210526316,M,Percent nominal annual rate
+2019-03-31,bcra_official_fx,BCRA,44.4,M,ARS per USD
+2019-03-31,bcra_policy_rate,BCRA,68.155,M,Percent nominal annual rate
+2019-03-31,bcra_reserves,BCRA,66187.0,M,USD mn
+2019-03-31,datos_cpi_index,datos.gob.ar,205.9571,M,Index
+2019-03-31,datos_emae_index,datos.gob.ar,142.59443805924374,M,Index base 2004
+2019-03-31,datos_inflation_mom,datos.gob.ar,4.67954018828959,M,Monthly percent change
+2019-03-31,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-03-31,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-04-30,bcra_badlar,BCRA,48.70723684210526,M,Percent nominal annual rate
+2019-04-30,bcra_official_fx,BCRA,45.36,M,ARS per USD
+2019-04-30,bcra_policy_rate,BCRA,73.93,M,Percent nominal annual rate
+2019-04-30,bcra_reserves,BCRA,71663.0,M,USD mn
+2019-04-30,datos_cpi_index,datos.gob.ar,212.9596414,M,Index
+2019-04-30,datos_emae_index,datos.gob.ar,142.60231019450458,M,Index base 2004
+2019-04-30,datos_inflation_mom,datos.gob.ar,3.44469794923312,M,Monthly percent change
+2019-04-30,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-04-30,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-05-31,bcra_badlar,BCRA,52.58806818181818,M,Percent nominal annual rate
+2019-05-31,bcra_official_fx,BCRA,46.1,M,ARS per USD
+2019-05-31,bcra_policy_rate,BCRA,70.73,M,Percent nominal annual rate
+2019-05-31,bcra_reserves,BCRA,64779.0,M,USD mn
+2019-05-31,datos_cpi_index,datos.gob.ar,219.5691,M,Index
+2019-05-31,datos_emae_index,datos.gob.ar,144.6132395614579,M,Index base 2004
+2019-05-31,datos_inflation_mom,datos.gob.ar,3.05906969998361,M,Monthly percent change
+2019-05-31,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-05-31,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-06-30,bcra_badlar,BCRA,50.895833333333336,M,Percent nominal annual rate
+2019-06-30,bcra_official_fx,BCRA,43.7,M,ARS per USD
+2019-06-30,bcra_policy_rate,BCRA,62.688,M,Percent nominal annual rate
+2019-06-30,bcra_reserves,BCRA,64278.0,M,USD mn
+2019-06-30,datos_cpi_index,datos.gob.ar,225.537,M,Index
+2019-06-30,datos_emae_index,datos.gob.ar,143.72744711431142,M,Index base 2004
+2019-06-30,datos_inflation_mom,datos.gob.ar,2.71800540239952,M,Monthly percent change
+2019-06-30,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-06-30,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-07-31,bcra_badlar,BCRA,48.625,M,Percent nominal annual rate
+2019-07-31,bcra_official_fx,BCRA,45.02,M,ARS per USD
+2019-07-31,bcra_policy_rate,BCRA,60.396,M,Percent nominal annual rate
+2019-07-31,bcra_reserves,BCRA,67899.0,M,USD mn
+2019-07-31,datos_cpi_index,datos.gob.ar,230.494,M,Index
+2019-07-31,datos_emae_index,datos.gob.ar,145.55248976350893,M,Index base 2004
+2019-07-31,datos_inflation_mom,datos.gob.ar,2.1978655386921,M,Monthly percent change
+2019-07-31,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-07-31,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-08-31,bcra_badlar,BCRA,55.44345238095238,M,Percent nominal annual rate
+2019-08-31,bcra_official_fx,BCRA,62.04,M,ARS per USD
+2019-08-31,bcra_policy_rate,BCRA,83.264,M,Percent nominal annual rate
+2019-08-31,bcra_reserves,BCRA,54100.0,M,USD mn
+2019-08-31,datos_cpi_index,datos.gob.ar,239.6077,M,Index
+2019-08-31,datos_emae_index,datos.gob.ar,144.6185374108843,M,Index base 2004
+2019-08-31,datos_inflation_mom,datos.gob.ar,3.95398578704868,M,Monthly percent change
+2019-08-31,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-08-31,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-09-30,bcra_badlar,BCRA,59.95238095238095,M,Percent nominal annual rate
+2019-09-30,bcra_official_fx,BCRA,59.82,M,ARS per USD
+2019-09-30,bcra_policy_rate,BCRA,78.372,M,Percent nominal annual rate
+2019-09-30,bcra_reserves,BCRA,48703.0,M,USD mn
+2019-09-30,datos_cpi_index,datos.gob.ar,253.7102,M,Index
+2019-09-30,datos_emae_index,datos.gob.ar,140.45106888843378,M,Index base 2004
+2019-09-30,datos_inflation_mom,datos.gob.ar,5.885662272122301,M,Monthly percent change
+2019-09-30,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-09-30,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-10-31,bcra_badlar,BCRA,55.12215909090909,M,Percent nominal annual rate
+2019-10-31,bcra_official_fx,BCRA,63.23,M,ARS per USD
+2019-10-31,bcra_policy_rate,BCRA,68.002,M,Percent nominal annual rate
+2019-10-31,bcra_reserves,BCRA,43260.0,M,USD mn
+2019-10-31,datos_cpi_index,datos.gob.ar,262.0661,M,Index
+2019-10-31,datos_emae_index,datos.gob.ar,143.742263900992,M,Index base 2004
+2019-10-31,datos_inflation_mom,datos.gob.ar,3.29348209098412,M,Monthly percent change
+2019-10-31,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-10-31,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-11-30,bcra_badlar,BCRA,45.98684210526316,M,Percent nominal annual rate
+2019-11-30,bcra_official_fx,BCRA,62.93,M,ARS per USD
+2019-11-30,bcra_policy_rate,BCRA,63.002,M,Percent nominal annual rate
+2019-11-30,bcra_reserves,BCRA,43772.0,M,USD mn
+2019-11-30,datos_cpi_index,datos.gob.ar,273.2158,M,Index
+2019-11-30,datos_emae_index,datos.gob.ar,140.8263802272095,M,Index base 2004
+2019-11-30,datos_inflation_mom,datos.gob.ar,4.25453730948031,M,Monthly percent change
+2019-11-30,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-11-30,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2019-12-31,bcra_badlar,BCRA,41.953947368421055,M,Percent nominal annual rate
+2019-12-31,bcra_official_fx,BCRA,62.99,M,ARS per USD
+2019-12-31,bcra_policy_rate,BCRA,55.0,M,Percent nominal annual rate
+2019-12-31,bcra_reserves,BCRA,44848.0,M,USD mn
+2019-12-31,datos_cpi_index,datos.gob.ar,283.4442,M,Index
+2019-12-31,datos_emae_index,datos.gob.ar,140.10762172203482,M,Index base 2004
+2019-12-31,datos_inflation_mom,datos.gob.ar,3.74370735513833,M,Monthly percent change
+2019-12-31,wb_arg_gdp_growth,World Bank,-2.00086100285785,M,Annual percent
+2019-12-31,wb_us_gdp_growth,World Bank,2.58382533412825,M,Annual percent
+2020-01-31,bcra_badlar,BCRA,36.15056818181818,M,Percent nominal annual rate
+2020-01-31,bcra_official_fx,BCRA,63.03,M,ARS per USD
+2020-01-31,bcra_policy_rate,BCRA,50.0,M,Percent nominal annual rate
+2020-01-31,bcra_reserves,BCRA,44917.0,M,USD mn
+2020-01-31,datos_cpi_index,datos.gob.ar,289.8299,M,Index
+2020-01-31,datos_emae_index,datos.gob.ar,140.6036798183564,M,Index base 2004
+2020-01-31,datos_inflation_mom,datos.gob.ar,2.25289492605598,M,Monthly percent change
+2020-01-31,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-01-31,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-02-29,bcra_badlar,BCRA,33.58680555555556,M,Percent nominal annual rate
+2020-02-29,bcra_official_fx,BCRA,64.26,M,ARS per USD
+2020-02-29,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2020-02-29,bcra_reserves,BCRA,44791.0,M,USD mn
+2020-02-29,datos_cpi_index,datos.gob.ar,295.666,M,Index
+2020-02-29,datos_emae_index,datos.gob.ar,139.35074093412922,M,Index base 2004
+2020-02-29,datos_inflation_mom,datos.gob.ar,2.0136293736429502,M,Monthly percent change
+2020-02-29,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-02-29,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-03-31,bcra_badlar,BCRA,29.56578947368421,M,Percent nominal annual rate
+2020-03-31,bcra_official_fx,BCRA,66.58,M,ARS per USD
+2020-03-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2020-03-31,bcra_reserves,BCRA,43561.0,M,USD mn
+2020-03-31,datos_cpi_index,datos.gob.ar,305.5515,M,Index
+2020-03-31,datos_emae_index,datos.gob.ar,125.97316204831112,M,Index base 2004
+2020-03-31,datos_inflation_mom,datos.gob.ar,3.34346864367225,M,Monthly percent change
+2020-03-31,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-03-31,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-04-30,bcra_badlar,BCRA,19.984375,M,Percent nominal annual rate
+2020-04-30,bcra_official_fx,BCRA,69.16,M,ARS per USD
+2020-04-30,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2020-04-30,bcra_reserves,BCRA,43568.0,M,USD mn
+2020-04-30,datos_cpi_index,datos.gob.ar,310.1243,M,Index
+2020-04-30,datos_emae_index,datos.gob.ar,106.18032476382056,M,Index base 2004
+2020-04-30,datos_inflation_mom,datos.gob.ar,1.49657259087256,M,Monthly percent change
+2020-04-30,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-04-30,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-05-31,bcra_badlar,BCRA,23.4375,M,Percent nominal annual rate
+2020-05-31,bcra_official_fx,BCRA,70.76,M,ARS per USD
+2020-05-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2020-05-31,bcra_reserves,BCRA,42589.0,M,USD mn
+2020-05-31,datos_cpi_index,datos.gob.ar,314.9087,M,Index
+2020-05-31,datos_emae_index,datos.gob.ar,117.56499589517144,M,Index base 2004
+2020-05-31,datos_inflation_mom,datos.gob.ar,1.54273625123861,M,Monthly percent change
+2020-05-31,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-05-31,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-06-30,bcra_badlar,BCRA,29.535714285714285,M,Percent nominal annual rate
+2020-06-30,bcra_official_fx,BCRA,74.07,M,ARS per USD
+2020-06-30,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2020-06-30,bcra_reserves,BCRA,43242.0,M,USD mn
+2020-06-30,datos_cpi_index,datos.gob.ar,321.9738,M,Index
+2020-06-30,datos_emae_index,datos.gob.ar,124.71912720009033,M,Index base 2004
+2020-06-30,datos_inflation_mom,datos.gob.ar,2.2435391591276903,M,Monthly percent change
+2020-06-30,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-06-30,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-07-31,bcra_badlar,BCRA,29.532738095238095,M,Percent nominal annual rate
+2020-07-31,bcra_official_fx,BCRA,76.39,M,ARS per USD
+2020-07-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2020-07-31,bcra_reserves,BCRA,43386.0,M,USD mn
+2020-07-31,datos_cpi_index,datos.gob.ar,328.2014,M,Index
+2020-07-31,datos_emae_index,datos.gob.ar,126.2676630625566,M,Index base 2004
+2020-07-31,datos_inflation_mom,datos.gob.ar,1.93419464565129,M,Monthly percent change
+2020-07-31,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-07-31,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-08-31,bcra_badlar,BCRA,29.653125,M,Percent nominal annual rate
+2020-08-31,bcra_official_fx,BCRA,78.36,M,ARS per USD
+2020-08-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2020-08-31,bcra_reserves,BCRA,42842.0,M,USD mn
+2020-08-31,datos_cpi_index,datos.gob.ar,337.0632,M,Index
+2020-08-31,datos_emae_index,datos.gob.ar,128.8629726485103,M,Index base 2004
+2020-08-31,datos_inflation_mom,datos.gob.ar,2.70011035906612,M,Monthly percent change
+2020-08-31,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-08-31,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-09-30,bcra_badlar,BCRA,29.744318181818183,M,Percent nominal annual rate
+2020-09-30,bcra_official_fx,BCRA,80.63,M,ARS per USD
+2020-09-30,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2020-09-30,bcra_reserves,BCRA,41379.0,M,USD mn
+2020-09-30,datos_cpi_index,datos.gob.ar,346.6207,M,Index
+2020-09-30,datos_emae_index,datos.gob.ar,130.69181304546763,M,Index base 2004
+2020-09-30,datos_inflation_mom,datos.gob.ar,2.8355216469789504,M,Monthly percent change
+2020-09-30,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-09-30,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-10-31,bcra_badlar,BCRA,30.696428571428573,M,Percent nominal annual rate
+2020-10-31,bcra_official_fx,BCRA,83.89,M,ARS per USD
+2020-10-31,bcra_policy_rate,BCRA,36.0,M,Percent nominal annual rate
+2020-10-31,bcra_reserves,BCRA,39856.0,M,USD mn
+2020-10-31,datos_cpi_index,datos.gob.ar,359.657,M,Index
+2020-10-31,datos_emae_index,datos.gob.ar,133.2652589793559,M,Index base 2004
+2020-10-31,datos_inflation_mom,datos.gob.ar,3.7609698439821897,M,Monthly percent change
+2020-10-31,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-10-31,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-11-30,bcra_badlar,BCRA,32.94078947368421,M,Percent nominal annual rate
+2020-11-30,bcra_official_fx,BCRA,86.72,M,ARS per USD
+2020-11-30,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2020-11-30,bcra_reserves,BCRA,38652.0,M,USD mn
+2020-11-30,datos_cpi_index,datos.gob.ar,371.0211,M,Index
+2020-11-30,datos_emae_index,datos.gob.ar,134.71071040246167,M,Index base 2004
+2020-11-30,datos_inflation_mom,datos.gob.ar,3.15970494109665,M,Monthly percent change
+2020-11-30,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-11-30,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2020-12-31,bcra_badlar,BCRA,34.21527777777778,M,Percent nominal annual rate
+2020-12-31,bcra_official_fx,BCRA,89.87,M,ARS per USD
+2020-12-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2020-12-31,bcra_reserves,BCRA,39387.0,M,USD mn
+2020-12-31,datos_cpi_index,datos.gob.ar,385.8826,M,Index
+2020-12-31,datos_emae_index,datos.gob.ar,136.8230877290651,M,Index base 2004
+2020-12-31,datos_inflation_mom,datos.gob.ar,4.00556733835353,M,Monthly percent change
+2020-12-31,wb_arg_gdp_growth,World Bank,-9.9004848136464,M,Annual percent
+2020-12-31,wb_us_gdp_growth,World Bank,-2.16302914036166,M,Annual percent
+2021-01-31,bcra_badlar,BCRA,34.121875,M,Percent nominal annual rate
+2021-01-31,bcra_official_fx,BCRA,92.7,M,ARS per USD
+2021-01-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-01-31,bcra_reserves,BCRA,39515.0,M,USD mn
+2021-01-31,datos_cpi_index,datos.gob.ar,401.5071,M,Index
+2021-01-31,datos_emae_index,datos.gob.ar,139.6389457898663,M,Index base 2004
+2021-01-31,datos_inflation_mom,datos.gob.ar,4.04902941982872,M,Monthly percent change
+2021-01-31,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-01-31,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-02-28,bcra_badlar,BCRA,34.10069444444444,M,Percent nominal annual rate
+2021-02-28,bcra_official_fx,BCRA,95.12,M,ARS per USD
+2021-02-28,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-02-28,bcra_reserves,BCRA,39518.0,M,USD mn
+2021-02-28,datos_cpi_index,datos.gob.ar,415.8595,M,Index
+2021-02-28,datos_emae_index,datos.gob.ar,138.0951140943037,M,Index base 2004
+2021-02-28,datos_inflation_mom,datos.gob.ar,3.57463168148211,M,Monthly percent change
+2021-02-28,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-02-28,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-03-31,bcra_badlar,BCRA,34.06818181818182,M,Percent nominal annual rate
+2021-03-31,bcra_official_fx,BCRA,97.69,M,ARS per USD
+2021-03-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-03-31,bcra_reserves,BCRA,39593.0,M,USD mn
+2021-03-31,datos_cpi_index,datos.gob.ar,435.8657,M,Index
+2021-03-31,datos_emae_index,datos.gob.ar,141.03398403621657,M,Index base 2004
+2021-03-31,datos_inflation_mom,datos.gob.ar,4.81080749628179,M,Monthly percent change
+2021-03-31,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-03-31,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-04-30,bcra_badlar,BCRA,34.096875,M,Percent nominal annual rate
+2021-04-30,bcra_official_fx,BCRA,98.9,M,ARS per USD
+2021-04-30,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-04-30,bcra_reserves,BCRA,40263.0,M,USD mn
+2021-04-30,datos_cpi_index,datos.gob.ar,453.6503,M,Index
+2021-04-30,datos_emae_index,datos.gob.ar,139.45903788617423,M,Index base 2004
+2021-04-30,datos_inflation_mom,datos.gob.ar,4.080293539959659,M,Monthly percent change
+2021-04-30,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-04-30,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-05-31,bcra_badlar,BCRA,34.11513157894737,M,Percent nominal annual rate
+2021-05-31,bcra_official_fx,BCRA,100.09,M,ARS per USD
+2021-05-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-05-31,bcra_reserves,BCRA,41872.0,M,USD mn
+2021-05-31,datos_cpi_index,datos.gob.ar,468.725,M,Index
+2021-05-31,datos_emae_index,datos.gob.ar,138.97237834209403,M,Index base 2004
+2021-05-31,datos_inflation_mom,datos.gob.ar,3.3229780736395402,M,Monthly percent change
+2021-05-31,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-05-31,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-06-30,bcra_badlar,BCRA,34.11904761904762,M,Percent nominal annual rate
+2021-06-30,bcra_official_fx,BCRA,101.17,M,ARS per USD
+2021-06-30,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-06-30,bcra_reserves,BCRA,42437.0,M,USD mn
+2021-06-30,datos_cpi_index,datos.gob.ar,483.6049,M,Index
+2021-06-30,datos_emae_index,datos.gob.ar,141.52841212917215,M,Index base 2004
+2021-06-30,datos_inflation_mom,datos.gob.ar,3.1745479758920503,M,Monthly percent change
+2021-06-30,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-06-30,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-07-31,bcra_badlar,BCRA,34.13095238095238,M,Percent nominal annual rate
+2021-07-31,bcra_official_fx,BCRA,102.06,M,ARS per USD
+2021-07-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-07-31,bcra_reserves,BCRA,42582.0,M,USD mn
+2021-07-31,datos_cpi_index,datos.gob.ar,498.0987,M,Index
+2021-07-31,datos_emae_index,datos.gob.ar,141.3450874886051,M,Index base 2004
+2021-07-31,datos_inflation_mom,datos.gob.ar,2.99703332203624,M,Monthly percent change
+2021-07-31,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-07-31,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-08-31,bcra_badlar,BCRA,34.157738095238095,M,Percent nominal annual rate
+2021-08-31,bcra_official_fx,BCRA,103.14,M,ARS per USD
+2021-08-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-08-31,bcra_reserves,BCRA,46180.0,M,USD mn
+2021-08-31,datos_cpi_index,datos.gob.ar,510.3942,M,Index
+2021-08-31,datos_emae_index,datos.gob.ar,143.24815928365717,M,Index base 2004
+2021-08-31,datos_inflation_mom,datos.gob.ar,2.46848666740147,M,Monthly percent change
+2021-08-31,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-08-31,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-09-30,bcra_badlar,BCRA,34.15909090909091,M,Percent nominal annual rate
+2021-09-30,bcra_official_fx,BCRA,104.3,M,ARS per USD
+2021-09-30,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-09-30,bcra_reserves,BCRA,42911.0,M,USD mn
+2021-09-30,datos_cpi_index,datos.gob.ar,528.4968,M,Index
+2021-09-30,datos_emae_index,datos.gob.ar,144.02680631022127,M,Index base 2004
+2021-09-30,datos_inflation_mom,datos.gob.ar,3.5467879533113797,M,Monthly percent change
+2021-09-30,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-09-30,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-10-31,bcra_badlar,BCRA,34.141447368421055,M,Percent nominal annual rate
+2021-10-31,bcra_official_fx,BCRA,105.23,M,ARS per USD
+2021-10-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-10-31,bcra_reserves,BCRA,42817.0,M,USD mn
+2021-10-31,datos_cpi_index,datos.gob.ar,547.0802,M,Index
+2021-10-31,datos_emae_index,datos.gob.ar,143.34148953752734,M,Index base 2004
+2021-10-31,datos_inflation_mom,datos.gob.ar,3.51627483837178,M,Monthly percent change
+2021-10-31,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-10-31,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-11-30,bcra_badlar,BCRA,34.17559523809524,M,Percent nominal annual rate
+2021-11-30,bcra_official_fx,BCRA,106.48,M,ARS per USD
+2021-11-30,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-11-30,bcra_reserves,BCRA,41530.0,M,USD mn
+2021-11-30,datos_cpi_index,datos.gob.ar,560.9184,M,Index
+2021-11-30,datos_emae_index,datos.gob.ar,145.88334396965624,M,Index base 2004
+2021-11-30,datos_inflation_mom,datos.gob.ar,2.52946460135095,M,Monthly percent change
+2021-11-30,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-11-30,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2021-12-31,bcra_badlar,BCRA,34.2,M,Percent nominal annual rate
+2021-12-31,bcra_official_fx,BCRA,108.29,M,ARS per USD
+2021-12-31,bcra_policy_rate,BCRA,38.0,M,Percent nominal annual rate
+2021-12-31,bcra_reserves,BCRA,39662.0,M,USD mn
+2021-12-31,datos_cpi_index,datos.gob.ar,582.4575,M,Index
+2021-12-31,datos_emae_index,datos.gob.ar,149.7681865564734,M,Index base 2004
+2021-12-31,datos_inflation_mom,datos.gob.ar,3.83997030584126,M,Monthly percent change
+2021-12-31,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
+2021-12-31,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
+2022-01-31,bcra_badlar,BCRA,36.92559523809524,M,Percent nominal annual rate
+2022-01-31,bcra_official_fx,BCRA,110.71,M,ARS per USD
+2022-01-31,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2022-01-31,bcra_reserves,BCRA,37589.0,M,USD mn
+2022-01-31,datos_cpi_index,datos.gob.ar,605.0317,M,Index
+2022-01-31,datos_emae_index,datos.gob.ar,148.43728728335583,M,Index base 2004
+2022-01-31,datos_inflation_mom,datos.gob.ar,3.87568191670637,M,Monthly percent change
+2022-01-31,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-01-31,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-02-28,bcra_badlar,BCRA,38.31578947368421,M,Percent nominal annual rate
+2022-02-28,bcra_official_fx,BCRA,112.95,M,ARS per USD
+2022-02-28,bcra_policy_rate,BCRA,42.5,M,Percent nominal annual rate
+2022-02-28,bcra_reserves,BCRA,37018.0,M,USD mn
+2022-02-28,datos_cpi_index,datos.gob.ar,633.4341,M,Index
+2022-02-28,datos_emae_index,datos.gob.ar,150.6328944075289,M,Index base 2004
+2022-02-28,datos_inflation_mom,datos.gob.ar,4.6943656010089905,M,Monthly percent change
+2022-02-28,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-02-28,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-03-31,bcra_badlar,BCRA,40.541666666666664,M,Percent nominal annual rate
+2022-03-31,bcra_official_fx,BCRA,116.45,M,ARS per USD
+2022-03-31,bcra_policy_rate,BCRA,44.5,M,Percent nominal annual rate
+2022-03-31,bcra_reserves,BCRA,43137.0,M,USD mn
+2022-03-31,datos_cpi_index,datos.gob.ar,676.0566,M,Index
+2022-03-31,datos_emae_index,datos.gob.ar,150.47159205926275,M,Index base 2004
+2022-03-31,datos_inflation_mom,datos.gob.ar,6.72879783390254,M,Monthly percent change
+2022-03-31,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-03-31,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-04-30,bcra_badlar,BCRA,43.27302631578947,M,Percent nominal annual rate
+2022-04-30,bcra_official_fx,BCRA,120.64,M,ARS per USD
+2022-04-30,bcra_policy_rate,BCRA,47.0,M,Percent nominal annual rate
+2022-04-30,bcra_reserves,BCRA,42007.0,M,USD mn
+2022-04-30,datos_cpi_index,datos.gob.ar,716.9399,M,Index
+2022-04-30,datos_emae_index,datos.gob.ar,152.0034071839209,M,Index base 2004
+2022-04-30,datos_inflation_mom,datos.gob.ar,6.04141724228415,M,Monthly percent change
+2022-04-30,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-04-30,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-05-31,bcra_badlar,BCRA,45.521875,M,Percent nominal annual rate
+2022-05-31,bcra_official_fx,BCRA,125.62,M,ARS per USD
+2022-05-31,bcra_policy_rate,BCRA,49.0,M,Percent nominal annual rate
+2022-05-31,bcra_reserves,BCRA,41561.0,M,USD mn
+2022-05-31,datos_cpi_index,datos.gob.ar,753.147,M,Index
+2022-05-31,datos_emae_index,datos.gob.ar,152.16490263017786,M,Index base 2004
+2022-05-31,datos_inflation_mom,datos.gob.ar,5.05607476635514,M,Monthly percent change
+2022-05-31,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-05-31,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-06-30,bcra_badlar,BCRA,48.20625,M,Percent nominal annual rate
+2022-06-30,bcra_official_fx,BCRA,130.44,M,ARS per USD
+2022-06-30,bcra_policy_rate,BCRA,52.0,M,Percent nominal annual rate
+2022-06-30,bcra_reserves,BCRA,42787.0,M,USD mn
+2022-06-30,datos_cpi_index,datos.gob.ar,793.0278,M,Index
+2022-06-30,datos_emae_index,datos.gob.ar,154.1907798078942,M,Index base 2004
+2022-06-30,datos_inflation_mom,datos.gob.ar,5.29522125162815,M,Monthly percent change
+2022-06-30,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-06-30,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-07-31,bcra_badlar,BCRA,51.07142857142857,M,Percent nominal annual rate
+2022-07-31,bcra_official_fx,BCRA,137.93,M,ARS per USD
+2022-07-31,bcra_policy_rate,BCRA,60.0,M,Percent nominal annual rate
+2022-07-31,bcra_reserves,BCRA,38232.0,M,USD mn
+2022-07-31,datos_cpi_index,datos.gob.ar,851.761,M,Index
+2022-07-31,datos_emae_index,datos.gob.ar,152.4734633194265,M,Index base 2004
+2022-07-31,datos_inflation_mom,datos.gob.ar,7.40619685715935,M,Monthly percent change
+2022-07-31,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-07-31,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-08-31,bcra_badlar,BCRA,60.48863636363637,M,Percent nominal annual rate
+2022-08-31,bcra_official_fx,BCRA,145.77,M,ARS per USD
+2022-08-31,bcra_policy_rate,BCRA,69.5,M,Percent nominal annual rate
+2022-08-31,bcra_reserves,BCRA,36734.0,M,USD mn
+2022-08-31,datos_cpi_index,datos.gob.ar,911.1316,M,Index
+2022-08-31,datos_emae_index,datos.gob.ar,151.65743372718188,M,Index base 2004
+2022-08-31,datos_inflation_mom,datos.gob.ar,6.970335575355061,M,Monthly percent change
+2022-08-31,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-08-31,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-09-30,bcra_badlar,BCRA,66.48809523809524,M,Percent nominal annual rate
+2022-09-30,bcra_official_fx,BCRA,154.25,M,ARS per USD
+2022-09-30,bcra_policy_rate,BCRA,75.0,M,Percent nominal annual rate
+2022-09-30,bcra_reserves,BCRA,37625.0,M,USD mn
+2022-09-30,datos_cpi_index,datos.gob.ar,967.3076,M,Index
+2022-09-30,datos_emae_index,datos.gob.ar,150.7750708473458,M,Index base 2004
+2022-09-30,datos_inflation_mom,datos.gob.ar,6.16551988757716,M,Monthly percent change
+2022-09-30,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-09-30,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-10-31,bcra_badlar,BCRA,69.0625,M,Percent nominal annual rate
+2022-10-31,bcra_official_fx,BCRA,163.89,M,ARS per USD
+2022-10-31,bcra_policy_rate,BCRA,75.0,M,Percent nominal annual rate
+2022-10-31,bcra_reserves,BCRA,38676.0,M,USD mn
+2022-10-31,datos_cpi_index,datos.gob.ar,1028.706,M,Index
+2022-10-31,datos_emae_index,datos.gob.ar,149.23974308318589,M,Index base 2004
+2022-10-31,datos_inflation_mom,datos.gob.ar,6.34735010869345,M,Monthly percent change
+2022-10-31,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-10-31,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-11-30,bcra_badlar,BCRA,69.17857142857143,M,Percent nominal annual rate
+2022-11-30,bcra_official_fx,BCRA,174.55,M,ARS per USD
+2022-11-30,bcra_policy_rate,BCRA,75.0,M,Percent nominal annual rate
+2022-11-30,bcra_reserves,BCRA,38009.0,M,USD mn
+2022-11-30,datos_cpi_index,datos.gob.ar,1079.2787,M,Index
+2022-11-30,datos_emae_index,datos.gob.ar,148.5074999013887,M,Index base 2004
+2022-11-30,datos_inflation_mom,datos.gob.ar,4.91614708186791,M,Monthly percent change
+2022-11-30,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-11-30,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2022-12-31,bcra_badlar,BCRA,69.3,M,Percent nominal annual rate
+2022-12-31,bcra_official_fx,BCRA,184.64,M,ARS per USD
+2022-12-31,bcra_policy_rate,BCRA,75.0,M,Percent nominal annual rate
+2022-12-31,bcra_reserves,BCRA,44598.0,M,USD mn
+2022-12-31,datos_cpi_index,datos.gob.ar,1134.5875,M,Index
+2022-12-31,datos_emae_index,datos.gob.ar,148.5213147080778,M,Index base 2004
+2022-12-31,datos_inflation_mom,datos.gob.ar,5.12460775886709,M,Monthly percent change
+2022-12-31,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
+2022-12-31,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
+2023-01-31,bcra_badlar,BCRA,69.46875,M,Percent nominal annual rate
+2023-01-31,bcra_official_fx,BCRA,194.36,M,ARS per USD
+2023-01-31,bcra_policy_rate,BCRA,75.0,M,Percent nominal annual rate
+2023-01-31,bcra_reserves,BCRA,41417.0,M,USD mn
+2023-01-31,datos_cpi_index,datos.gob.ar,1202.979,M,Index
+2023-01-31,datos_emae_index,datos.gob.ar,149.69317822957683,M,Index base 2004
+2023-01-31,datos_inflation_mom,datos.gob.ar,6.02787356638425,M,Monthly percent change
+2023-01-31,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-01-31,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-02-28,bcra_badlar,BCRA,69.77430555555556,M,Percent nominal annual rate
+2023-02-28,bcra_official_fx,BCRA,204.39,M,ARS per USD
+2023-02-28,bcra_policy_rate,BCRA,75.0,M,Percent nominal annual rate
+2023-02-28,bcra_reserves,BCRA,38709.0,M,USD mn
+2023-02-28,datos_cpi_index,datos.gob.ar,1282.7091,M,Index
+2023-02-28,datos_emae_index,datos.gob.ar,149.64274747212693,M,Index base 2004
+2023-02-28,datos_inflation_mom,datos.gob.ar,6.62772168092709,M,Monthly percent change
+2023-02-28,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-02-28,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-03-31,bcra_badlar,BCRA,70.98011363636364,M,Percent nominal annual rate
+2023-03-31,bcra_official_fx,BCRA,216.24,M,ARS per USD
+2023-03-31,bcra_policy_rate,BCRA,78.0,M,Percent nominal annual rate
+2023-03-31,bcra_reserves,BCRA,39060.0,M,USD mn
+2023-03-31,datos_cpi_index,datos.gob.ar,1381.1601,M,Index
+2023-03-31,datos_emae_index,datos.gob.ar,150.83505977466783,M,Index base 2004
+2023-03-31,datos_inflation_mom,datos.gob.ar,7.67523984978355,M,Monthly percent change
+2023-03-31,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-03-31,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-04-30,bcra_badlar,BCRA,74.23611111111111,M,Percent nominal annual rate
+2023-04-30,bcra_official_fx,BCRA,229.63,M,ARS per USD
+2023-04-30,bcra_policy_rate,BCRA,91.0,M,Percent nominal annual rate
+2023-04-30,bcra_reserves,BCRA,35001.0,M,USD mn
+2023-04-30,datos_cpi_index,datos.gob.ar,1497.2147,M,Index
+2023-04-30,datos_emae_index,datos.gob.ar,147.36470885338534,M,Index base 2004
+2023-04-30,datos_inflation_mom,datos.gob.ar,8.40268988367096,M,Monthly percent change
+2023-04-30,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-04-30,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-05-31,bcra_badlar,BCRA,90.046875,M,Percent nominal annual rate
+2023-05-31,bcra_official_fx,BCRA,250.37,M,ARS per USD
+2023-05-31,bcra_policy_rate,BCRA,97.0,M,Percent nominal annual rate
+2023-05-31,bcra_reserves,BCRA,33001.0,M,USD mn
+2023-05-31,datos_cpi_index,datos.gob.ar,1613.5895,M,Index
+2023-05-31,datos_emae_index,datos.gob.ar,145.67210800721972,M,Index base 2004
+2023-05-31,datos_inflation_mom,datos.gob.ar,7.77275296589059,M,Monthly percent change
+2023-05-31,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-05-31,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-06-30,bcra_badlar,BCRA,92.446875,M,Percent nominal annual rate
+2023-06-30,bcra_official_fx,BCRA,270.16,M,ARS per USD
+2023-06-30,bcra_policy_rate,BCRA,97.0,M,Percent nominal annual rate
+2023-06-30,bcra_reserves,BCRA,27926.0,M,USD mn
+2023-06-30,datos_cpi_index,datos.gob.ar,1709.6115,M,Index
+2023-06-30,datos_emae_index,datos.gob.ar,146.29688511039032,M,Index base 2004
+2023-06-30,datos_inflation_mom,datos.gob.ar,5.9508319805006105,M,Monthly percent change
+2023-06-30,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-06-30,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-07-31,bcra_badlar,BCRA,92.60119047619048,M,Percent nominal annual rate
+2023-07-31,bcra_official_fx,BCRA,287.92,M,ARS per USD
+2023-07-31,bcra_policy_rate,BCRA,97.0,M,Percent nominal annual rate
+2023-07-31,bcra_reserves,BCRA,24092.0,M,USD mn
+2023-07-31,datos_cpi_index,datos.gob.ar,1818.0838,M,Index
+2023-07-31,datos_emae_index,datos.gob.ar,148.75232261473298,M,Index base 2004
+2023-07-31,datos_inflation_mom,datos.gob.ar,6.34485086231579,M,Monthly percent change
+2023-07-31,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-07-31,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-08-31,bcra_badlar,BCRA,104.01704545454545,M,Percent nominal annual rate
+2023-08-31,bcra_official_fx,BCRA,366.63,M,ARS per USD
+2023-08-31,bcra_policy_rate,BCRA,118.0,M,Percent nominal annual rate
+2023-08-31,bcra_reserves,BCRA,27818.0,M,USD mn
+2023-08-31,datos_cpi_index,datos.gob.ar,2044.2832,M,Index
+2023-08-31,datos_emae_index,datos.gob.ar,150.0926319307934,M,Index base 2004
+2023-08-31,datos_inflation_mom,datos.gob.ar,12.44163772868995,M,Monthly percent change
+2023-08-31,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-08-31,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-09-30,bcra_badlar,BCRA,113.73511904761905,M,Percent nominal annual rate
+2023-09-30,bcra_official_fx,BCRA,365.6,M,ARS per USD
+2023-09-30,bcra_policy_rate,BCRA,118.0,M,Percent nominal annual rate
+2023-09-30,bcra_reserves,BCRA,26925.0,M,USD mn
+2023-09-30,datos_cpi_index,datos.gob.ar,2304.9242,M,Index
+2023-09-30,datos_emae_index,datos.gob.ar,149.55846428674684,M,Index base 2004
+2023-09-30,datos_inflation_mom,datos.gob.ar,12.74975013246695,M,Monthly percent change
+2023-09-30,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-09-30,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-10-31,bcra_badlar,BCRA,122.08125,M,Percent nominal annual rate
+2023-10-31,bcra_official_fx,BCRA,367.94,M,ARS per USD
+2023-10-31,bcra_policy_rate,BCRA,133.0,M,Percent nominal annual rate
+2023-10-31,bcra_reserves,BCRA,22559.0,M,USD mn
+2023-10-31,datos_cpi_index,datos.gob.ar,2496.273,M,Index
+2023-10-31,datos_emae_index,datos.gob.ar,148.14029444558713,M,Index base 2004
+2023-10-31,datos_inflation_mom,datos.gob.ar,8.30173938041001,M,Monthly percent change
+2023-10-31,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-10-31,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-11-30,bcra_badlar,BCRA,129.35,M,Percent nominal annual rate
+2023-11-30,bcra_official_fx,BCRA,378.37,M,ARS per USD
+2023-11-30,bcra_policy_rate,BCRA,133.0,M,Percent nominal annual rate
+2023-11-30,bcra_reserves,BCRA,21513.0,M,USD mn
+2023-11-30,datos_cpi_index,datos.gob.ar,2816.0628,M,Index
+2023-11-30,datos_emae_index,datos.gob.ar,146.51277382726593,M,Index base 2004
+2023-11-30,datos_inflation_mom,datos.gob.ar,12.81069017691574,M,Monthly percent change
+2023-11-30,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-11-30,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2023-12-31,bcra_badlar,BCRA,121.17105263157895,M,Percent nominal annual rate
+2023-12-31,bcra_official_fx,BCRA,847.11,M,ARS per USD
+2023-12-31,bcra_policy_rate,BCRA,100.0,M,Percent nominal annual rate
+2023-12-31,bcra_reserves,BCRA,23073.0,M,USD mn
+2023-12-31,datos_cpi_index,datos.gob.ar,3533.1922,M,Index
+2023-12-31,datos_emae_index,datos.gob.ar,142.94160983525137,M,Index base 2004
+2023-12-31,datos_inflation_mom,datos.gob.ar,25.46567498423684,M,Monthly percent change
+2023-12-31,wb_arg_gdp_growth,World Bank,-1.85578803046339,M,Annual percent
+2023-12-31,wb_us_gdp_growth,World Bank,2.88755600749487,M,Annual percent
+2024-01-31,bcra_badlar,BCRA,109.16761363636364,M,Percent nominal annual rate
+2024-01-31,bcra_official_fx,BCRA,872.89,M,ARS per USD
+2024-01-31,bcra_policy_rate,BCRA,100.0,M,Percent nominal annual rate
+2024-01-31,bcra_reserves,BCRA,27642.0,M,USD mn
+2024-01-31,datos_cpi_index,datos.gob.ar,4261.5324,M,Index
+2024-01-31,datos_emae_index,datos.gob.ar,143.76883369012882,M,Index base 2004
+2024-01-31,datos_inflation_mom,datos.gob.ar,20.61422528896106,M,Monthly percent change
+2024-01-31,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-01-31,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-02-29,bcra_badlar,BCRA,108.89473684210526,M,Percent nominal annual rate
+2024-02-29,bcra_official_fx,BCRA,887.5,M,ARS per USD
+2024-02-29,bcra_policy_rate,BCRA,100.0,M,Percent nominal annual rate
+2024-02-29,bcra_reserves,BCRA,26690.0,M,USD mn
+2024-02-29,datos_cpi_index,datos.gob.ar,4825.7881,M,Index
+2024-02-29,datos_emae_index,datos.gob.ar,143.89465322280864,M,Index base 2004
+2024-02-29,datos_inflation_mom,datos.gob.ar,13.24067605352477,M,Monthly percent change
+2024-02-29,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-02-29,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-03-31,bcra_badlar,BCRA,85.41447368421052,M,Percent nominal annual rate
+2024-03-31,bcra_official_fx,BCRA,901.63,M,ARS per USD
+2024-03-31,bcra_policy_rate,BCRA,80.0,M,Percent nominal annual rate
+2024-03-31,bcra_reserves,BCRA,27127.0,M,USD mn
+2024-03-31,datos_cpi_index,datos.gob.ar,5357.0929,M,Index
+2024-03-31,datos_emae_index,datos.gob.ar,142.77426190677184,M,Index base 2004
+2024-03-31,datos_inflation_mom,datos.gob.ar,11.00970015654023,M,Monthly percent change
+2024-03-31,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-03-31,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-04-30,bcra_badlar,BCRA,62.66875,M,Percent nominal annual rate
+2024-04-30,bcra_official_fx,BCRA,920.57,M,ARS per USD
+2024-04-30,bcra_policy_rate,BCRA,60.0,M,Percent nominal annual rate
+2024-04-30,bcra_reserves,BCRA,27578.0,M,USD mn
+2024-04-30,datos_cpi_index,datos.gob.ar,5830.2271,M,Index
+2024-04-30,datos_emae_index,datos.gob.ar,140.89793664197632,M,Index base 2004
+2024-04-30,datos_inflation_mom,datos.gob.ar,8.83192076060508,M,Monthly percent change
+2024-04-30,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-04-30,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-05-31,bcra_badlar,BCRA,35.58522727272727,M,Percent nominal annual rate
+2024-05-31,bcra_official_fx,BCRA,933.76,M,ARS per USD
+2024-05-31,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2024-05-31,bcra_reserves,BCRA,28664.0,M,USD mn
+2024-05-31,datos_cpi_index,datos.gob.ar,6073.7,M,Index
+2024-05-31,datos_emae_index,datos.gob.ar,142.51215427525324,M,Index base 2004
+2024-05-31,datos_inflation_mom,datos.gob.ar,4.2,M,Monthly percent change
+2024-05-31,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-05-31,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-06-30,bcra_badlar,BCRA,33.4264705882353,M,Percent nominal annual rate
+2024-06-30,bcra_official_fx,BCRA,950.42,M,ARS per USD
+2024-06-30,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2024-06-30,bcra_reserves,BCRA,29022.0,M,USD mn
+2024-06-30,datos_cpi_index,datos.gob.ar,6351.7145,M,Index
+2024-06-30,datos_emae_index,datos.gob.ar,143.64245592690298,M,Index base 2004
+2024-06-30,datos_inflation_mom,datos.gob.ar,4.57706578830274,M,Monthly percent change
+2024-06-30,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-06-30,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-07-31,bcra_badlar,BCRA,36.90625,M,Percent nominal annual rate
+2024-07-31,bcra_official_fx,BCRA,970.88,M,ARS per USD
+2024-07-31,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2024-07-31,bcra_reserves,BCRA,26402.0,M,USD mn
+2024-07-31,datos_cpi_index,datos.gob.ar,6607.7479,M,Index
+2024-07-31,datos_emae_index,datos.gob.ar,147.44117252611102,M,Index base 2004
+2024-07-31,datos_inflation_mom,datos.gob.ar,4.03093369514639,M,Monthly percent change
+2024-07-31,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-07-31,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-08-31,bcra_badlar,BCRA,38.84375,M,Percent nominal annual rate
+2024-08-31,bcra_official_fx,BCRA,991.42,M,ARS per USD
+2024-08-31,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2024-08-31,bcra_reserves,BCRA,26719.0,M,USD mn
+2024-08-31,datos_cpi_index,datos.gob.ar,6883.4412,M,Index
+2024-08-31,datos_emae_index,datos.gob.ar,148.15608489238346,M,Index base 2004
+2024-08-31,datos_inflation_mom,datos.gob.ar,4.17227327937252,M,Monthly percent change
+2024-08-31,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-08-31,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-09-30,bcra_badlar,BCRA,39.38095238095238,M,Percent nominal annual rate
+2024-09-30,bcra_official_fx,BCRA,1004.94,M,ARS per USD
+2024-09-30,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2024-09-30,bcra_reserves,BCRA,27172.0,M,USD mn
+2024-09-30,datos_cpi_index,datos.gob.ar,7122.2421,M,Index
+2024-09-30,datos_emae_index,datos.gob.ar,147.91126702726274,M,Index base 2004
+2024-09-30,datos_inflation_mom,datos.gob.ar,3.46920810480664,M,Monthly percent change
+2024-09-30,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-09-30,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-10-31,bcra_badlar,BCRA,40.50852272727273,M,Percent nominal annual rate
+2024-10-31,bcra_official_fx,BCRA,1020.75,M,ARS per USD
+2024-10-31,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
+2024-10-31,bcra_reserves,BCRA,28618.0,M,USD mn
+2024-10-31,datos_cpi_index,datos.gob.ar,7313.9542,M,Index
+2024-10-31,datos_emae_index,datos.gob.ar,148.87494748794492,M,Index base 2004
+2024-10-31,datos_inflation_mom,datos.gob.ar,2.69173804131146,M,Monthly percent change
+2024-10-31,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-10-31,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-11-30,bcra_badlar,BCRA,36.171052631578945,M,Percent nominal annual rate
+2024-11-30,bcra_official_fx,BCRA,1040.27,M,ARS per USD
+2024-11-30,bcra_policy_rate,BCRA,35.0,M,Percent nominal annual rate
+2024-11-30,bcra_reserves,BCRA,30214.0,M,USD mn
+2024-11-30,datos_cpi_index,datos.gob.ar,7491.4314,M,Index
+2024-11-30,datos_emae_index,datos.gob.ar,150.49590003515124,M,Index base 2004
+2024-11-30,datos_inflation_mom,datos.gob.ar,2.4265560755083597,M,Monthly percent change
+2024-11-30,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-11-30,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2024-12-31,bcra_badlar,BCRA,32.875,M,Percent nominal annual rate
+2024-12-31,bcra_official_fx,BCRA,1060.28,M,ARS per USD
+2024-12-31,bcra_policy_rate,BCRA,32.0,M,Percent nominal annual rate
+2024-12-31,bcra_reserves,BCRA,29640.0,M,USD mn
+2024-12-31,datos_cpi_index,datos.gob.ar,7694.0075,M,Index
+2024-12-31,datos_emae_index,datos.gob.ar,151.2893443454618,M,Index base 2004
+2024-12-31,datos_inflation_mom,datos.gob.ar,2.70410405146337,M,Monthly percent change
+2024-12-31,wb_arg_gdp_growth,World Bank,-1.34293072157739,M,Annual percent
+2024-12-31,wb_us_gdp_growth,World Bank,2.79300127716779,M,Annual percent
+2025-01-31,bcra_badlar,BCRA,31.49715909090909,M,Percent nominal annual rate
+2025-01-31,bcra_official_fx,BCRA,1079.63,M,ARS per USD
+2025-01-31,bcra_policy_rate,BCRA,29.0,M,Percent nominal annual rate
+2025-01-31,bcra_reserves,BCRA,28310.0,M,USD mn
+2025-01-31,datos_cpi_index,datos.gob.ar,7864.1257,M,Index
+2025-01-31,datos_emae_index,datos.gob.ar,151.84835710402444,M,Index base 2004
+2025-01-31,datos_inflation_mom,datos.gob.ar,2.21104801366518,M,Monthly percent change
+2025-02-28,bcra_badlar,BCRA,28.478125,M,Percent nominal annual rate
+2025-02-28,bcra_official_fx,BCRA,1093.18,M,ARS per USD
+2025-02-28,bcra_policy_rate,BCRA,29.0,M,Percent nominal annual rate
+2025-02-28,bcra_reserves,BCRA,28117.0,M,USD mn
+2025-02-28,datos_cpi_index,datos.gob.ar,8052.9927,M,Index
+2025-02-28,datos_emae_index,datos.gob.ar,153.14243736157638,M,Index base 2004
+2025-02-28,datos_inflation_mom,datos.gob.ar,2.40162743075178,M,Monthly percent change
+2025-03-31,bcra_badlar,BCRA,29.506944444444443,M,Percent nominal annual rate
+2025-03-31,bcra_official_fx,BCRA,1103.73,M,ARS per USD
+2025-03-31,bcra_policy_rate,BCRA,29.0,M,Percent nominal annual rate
+2025-03-31,bcra_reserves,BCRA,24986.0,M,USD mn
+2025-03-31,datos_cpi_index,datos.gob.ar,8353.3158,M,Index
+2025-03-31,datos_emae_index,datos.gob.ar,150.32026807591762,M,Index base 2004
+2025-03-31,datos_inflation_mom,datos.gob.ar,3.7293353066121604,M,Monthly percent change
+2025-04-30,bcra_badlar,BCRA,33.1546052631579,M,Percent nominal annual rate
+2025-04-30,bcra_official_fx,BCRA,1193.88,M,ARS per USD
+2025-04-30,bcra_policy_rate,BCRA,29.0,M,Percent nominal annual rate
+2025-04-30,bcra_reserves,BCRA,38928.0,M,USD mn
+2025-04-30,datos_cpi_index,datos.gob.ar,8585.6078,M,Index
+2025-04-30,datos_emae_index,datos.gob.ar,151.92898883643196,M,Index base 2004
+2025-04-30,datos_inflation_mom,datos.gob.ar,2.78083584485095,M,Monthly percent change
+2025-05-31,bcra_badlar,BCRA,32.753125,M,Percent nominal annual rate
+2025-05-31,bcra_official_fx,BCRA,1209.35,M,ARS per USD
+2025-05-31,bcra_policy_rate,BCRA,29.0,M,Percent nominal annual rate
+2025-05-31,bcra_reserves,BCRA,36919.0,M,USD mn
+2025-05-31,datos_cpi_index,datos.gob.ar,8714.4871,M,Index
+2025-05-31,datos_emae_index,datos.gob.ar,151.68489734200023,M,Index base 2004
+2025-05-31,datos_inflation_mom,datos.gob.ar,1.5011086343823,M,Monthly percent change
+2025-06-30,bcra_badlar,BCRA,32.161184210526315,M,Percent nominal annual rate
+2025-06-30,bcra_official_fx,BCRA,1217.87,M,ARS per USD
+2025-06-30,bcra_policy_rate,BCRA,29.0,M,Percent nominal annual rate
+2025-06-30,bcra_reserves,BCRA,39973.0,M,USD mn
+2025-06-30,datos_cpi_index,datos.gob.ar,8855.5681,M,Index
+2025-06-30,datos_emae_index,datos.gob.ar,151.2477979258723,M,Index base 2004
+2025-06-30,datos_inflation_mom,datos.gob.ar,1.6189248819933302,M,Monthly percent change
+2025-07-31,bcra_badlar,BCRA,32.49715909090909,M,Percent nominal annual rate
+2025-07-31,bcra_official_fx,BCRA,1385.56,M,ARS per USD
+2025-07-31,bcra_policy_rate,BCRA,29.0,M,Percent nominal annual rate
+2025-07-31,bcra_reserves,BCRA,38866.0,M,USD mn
+2025-07-31,datos_cpi_index,datos.gob.ar,9023.973,M,Index
+2025-07-31,datos_emae_index,datos.gob.ar,151.51469569017755,M,Index base 2004
+2025-07-31,datos_inflation_mom,datos.gob.ar,1.90168375533128,M,Monthly percent change
+2025-08-31,bcra_badlar,BCRA,48.03125,M,Percent nominal annual rate
+2025-08-31,bcra_official_fx,BCRA,1361.42,M,ARS per USD
+2025-08-31,bcra_reserves,BCRA,39986.0,M,USD mn
+2025-08-31,datos_cpi_index,datos.gob.ar,9193.2441,M,Index
+2025-08-31,datos_emae_index,datos.gob.ar,152.55472207534925,M,Index base 2004
+2025-08-31,datos_inflation_mom,datos.gob.ar,1.87579351135027,M,Monthly percent change
+2025-09-30,bcra_badlar,BCRA,48.42897727272727,M,Percent nominal annual rate
+2025-09-30,bcra_official_fx,BCRA,1406.79,M,ARS per USD
+2025-09-30,bcra_reserves,BCRA,40374.0,M,USD mn
+2025-09-30,datos_cpi_index,datos.gob.ar,9384.0922,M,Index
+2025-09-30,datos_emae_index,datos.gob.ar,153.4943406678635,M,Index base 2004
+2025-09-30,datos_inflation_mom,datos.gob.ar,2.07596032395136,M,Monthly percent change
+2025-10-31,bcra_badlar,BCRA,46.16761363636363,M,Percent nominal annual rate
+2025-10-31,bcra_official_fx,BCRA,1475.11,M,ARS per USD
+2025-10-31,bcra_reserves,BCRA,39382.0,M,USD mn
+2025-10-31,datos_cpi_index,datos.gob.ar,9603.8623,M,Index
+2025-10-31,datos_emae_index,datos.gob.ar,152.654356053428,M,Index base 2004
+2025-10-31,datos_inflation_mom,datos.gob.ar,2.34194310239195,M,Monthly percent change
+2025-11-30,bcra_badlar,BCRA,32.025735294117645,M,Percent nominal annual rate
+2025-11-30,bcra_official_fx,BCRA,1487.59,M,ARS per USD
+2025-11-30,bcra_reserves,BCRA,40335.0,M,USD mn
+2025-11-30,datos_cpi_index,datos.gob.ar,9841.3581,M,Index
+2025-11-30,datos_emae_index,datos.gob.ar,152.48907642385822,M,Index base 2004
+2025-11-30,datos_inflation_mom,datos.gob.ar,2.47291967107856,M,Monthly percent change
+2025-12-31,bcra_badlar,BCRA,26.460526315789473,M,Percent nominal annual rate
+2025-12-31,bcra_official_fx,BCRA,1479.28,M,ARS per USD
+2025-12-31,bcra_reserves,BCRA,41167.0,M,USD mn
+2025-12-31,datos_cpi_index,datos.gob.ar,10121.3715,M,Index
+2025-12-31,datos_emae_index,datos.gob.ar,155.2798620314735,M,Index base 2004
+2025-12-31,datos_inflation_mom,datos.gob.ar,2.8452719345717097,M,Monthly percent change
+2026-01-31,bcra_badlar,BCRA,31.202380952380953,M,Percent nominal annual rate
+2026-01-31,bcra_official_fx,BCRA,1465.01,M,ARS per USD
+2026-01-31,bcra_reserves,BCRA,44503.0,M,USD mn
+2026-01-31,datos_cpi_index,datos.gob.ar,10413.0309,M,Index
+2026-01-31,datos_emae_index,datos.gob.ar,155.93678506834027,M,Index base 2004
+2026-01-31,datos_inflation_mom,datos.gob.ar,2.88161935366171,M,Monthly percent change
+2026-02-28,bcra_badlar,BCRA,30.791666666666668,M,Percent nominal annual rate
+2026-02-28,bcra_official_fx,BCRA,1426.45,M,ARS per USD
+2026-02-28,bcra_reserves,BCRA,45566.0,M,USD mn
+2026-02-28,datos_cpi_index,datos.gob.ar,10714.6255,M,Index
+2026-02-28,datos_inflation_mom,datos.gob.ar,2.89631907267269,M,Monthly percent change
+2026-03-31,bcra_badlar,BCRA,27.56875,M,Percent nominal annual rate
+2026-03-31,bcra_official_fx,BCRA,1409.48,M,ARS per USD
+2026-03-31,bcra_reserves,BCRA,43381.0,M,USD mn

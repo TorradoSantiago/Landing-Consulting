@@ -120,6 +120,16 @@ const offers = [
 
 const proofCases = [
   {
+    title: "Argentina market and financial-crime monitor",
+    type: "Live automation",
+    challenge:
+      "Show companies a live sample of the kind of country-risk, market, and sanctions context I can package for client work.",
+    proof:
+      "Weekly pipeline pulling BCRA, datos.gob.ar, World Bank, OFAC, and UN sources into a client-facing brief with charts, sanctions coverage, and jurisdiction signals.",
+    linkLabel: "Open live monitor",
+    href: "/market-monitor",
+  },
+  {
     title: "Korea Income & Welfare",
     type: "Public case study",
     challenge:
@@ -193,6 +203,9 @@ export default function Home() {
           </div>
 
           <nav className="hidden items-center gap-7 text-sm font-medium text-slate-600 md:flex">
+            <a href="/market-monitor" className="transition hover:text-slate-950">
+              Monitor
+            </a>
             <a href="#services" className="transition hover:text-slate-950">
               Services
             </a>
@@ -242,6 +255,12 @@ export default function Home() {
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">
+              <a
+                href="/market-monitor"
+                className="rounded-full bg-[#123d72] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#0f315c]"
+              >
+                Open live monitor
+              </a>
               <a
                 href="#proof"
                 className="rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"

@@ -29,6 +29,7 @@ The promise is clear: turn messy questions, data, and workflows into decision-re
 - Service lines tied to real business problems.
 - Trust signals grounded in actual experience and public work.
 - Selected cases with public and private proof.
+- Live Argentina Market Monitor page backed by a weekly Python pipeline.
 - Packaged ways to start working together.
 - Contact block built for conversion, not just presence.
 
@@ -39,6 +40,23 @@ The promise is clear: turn messy questions, data, and workflows into decision-re
 - TypeScript
 - Tailwind CSS 4
 - ESLint
+- Python market-monitor subproject with pandas, statsmodels, and GitHub Actions
+
+## Market monitor
+
+The repo now includes `market_monitor/`, a production-style Python pipeline that:
+
+- pulls data from BCRA, datos.gob.ar, FRED, and World Bank;
+- harmonizes everything to a monthly feature layer;
+- runs baseline forecasts and SARIMAX for inflation and official USD/ARS;
+- writes charts, `summary.json`, and `report.md`;
+- republishes those outputs into `public/market-monitor/` so the Next.js site can render them.
+
+Run it locally from `market_monitor/`:
+
+```bash
+python -m src.pipeline
+```
 
 ## Run locally
 

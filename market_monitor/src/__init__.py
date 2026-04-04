@@ -1,0 +1,1 @@
+"""Argentina market monitor package."""

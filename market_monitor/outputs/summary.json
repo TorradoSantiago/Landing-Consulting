@@ -1,0 +1,366 @@
+{
+  "run_timestamp": "2026-04-04T22:20:33+00:00",
+  "targets": [
+    "datos_inflation_mom",
+    "bcra_official_fx"
+  ],
+  "latest_observations": {
+    "bcra_badlar": {
+      "date": "2026-03-31",
+      "value": 27.56875
+    },
+    "bcra_official_fx": {
+      "date": "2026-03-31",
+      "value": 1409.48
+    },
+    "bcra_policy_rate": {
+      "date": "2025-07-31",
+      "value": 29.0
+    },
+    "bcra_reserves": {
+      "date": "2026-03-31",
+      "value": 43381.0
+    },
+    "datos_cpi_index": {
+      "date": "2026-02-28",
+      "value": 10714.6255
+    },
+    "datos_emae_index": {
+      "date": "2026-01-31",
+      "value": 155.93678506834027
+    },
+    "datos_inflation_mom": {
+      "date": "2026-02-28",
+      "value": 2.89631907267269
+    },
+    "wb_arg_gdp_growth": {
+      "date": "2026-03-31",
+      "value": -1.34293072157739
+    },
+    "wb_us_gdp_growth": {
+      "date": "2026-03-31",
+      "value": 2.79300127716779
+    },
+    "bcra_official_fx_mom": {
+      "date": "2026-03-31",
+      "value": -1.1896666549826462
+    },
+    "bcra_reserves_mom": {
+      "date": "2026-03-31",
+      "value": -4.795242066453054
+    },
+    "datos_emae_mom": {
+      "date": "2026-01-31",
+      "value": 0.42305745785220505
+    },
+    "bcra_badlar_lag1": {
+      "date": "2026-03-31",
+      "value": 30.791666666666668
+    },
+    "bcra_official_fx_lag1": {
+      "date": "2026-03-31",
+      "value": 1426.45
+    },
+    "bcra_policy_rate_lag1": {
+      "date": "2025-08-31",
+      "value": 29.0
+    },
+    "bcra_reserves_lag1": {
+      "date": "2026-03-31",
+      "value": 45566.0
+    },
+    "datos_cpi_index_lag1": {
+      "date": "2026-03-31",
+      "value": 10714.6255
+    },
+    "datos_emae_index_lag1": {
+      "date": "2026-02-28",
+      "value": 155.93678506834027
+    },
+    "datos_inflation_mom_lag1": {
+      "date": "2026-03-31",
+      "value": 2.89631907267269
+    },
+    "wb_arg_gdp_growth_lag1": {
+      "date": "2026-03-31",
+      "value": -1.34293072157739
+    },
+    "wb_us_gdp_growth_lag1": {
+      "date": "2026-03-31",
+      "value": 2.79300127716779
+    },
+    "bcra_official_fx_mom_lag1": {
+      "date": "2026-03-31",
+      "value": -2.632063944955998
+    },
+    "bcra_reserves_mom_lag1": {
+      "date": "2026-03-31",
+      "value": 2.3886030155270355
+    },
+    "datos_emae_mom_lag1": {
+      "date": "2026-02-28",
+      "value": 0.42305745785220505
+    }
+  },
+  "forecast_horizon_months": 3,
+  "model_metrics": {
+    "datos_inflation_mom": {
+      "naive": {
+        "mae": 0.742293317844025,
+        "rmse": 1.255379064489673,
+        "n_test_points": 24
+      },
+      "moving_average": {
+        "mae": 1.535681231512231,
+        "rmse": 2.7777008715030957,
+        "n_test_points": 24
+      },
+      "sarimax": {
+        "mae": 0.9285108051898961,
+        "rmse": 1.122730097070103,
+        "n_test_points": 24
+      }
+    },
+    "bcra_official_fx": {
+      "naive": {
+        "mae": 29.68124999999998,
+        "rmse": 45.4630003867614,
+        "n_test_points": 24
+      },
+      "moving_average": {
+        "mae": 53.849027777777756,
+        "rmse": 64.38721139483913,
+        "n_test_points": 24
+      },
+      "sarimax": {
+        "mae": 35.05842003393808,
+        "rmse": 49.88220147155503,
+        "n_test_points": 24
+      }
+    }
+  },
+  "selected_models": {
+    "datos_inflation_mom": {
+      "display_name": "Monthly inflation",
+      "name": "naive",
+      "label": "Naive baseline",
+      "mae": 0.742293317844025,
+      "rmse": 1.255379064489673,
+      "used_exog": [
+        "bcra_badlar_lag1",
+        "bcra_official_fx_mom_lag1",
+        "datos_emae_mom_lag1"
+      ],
+      "forecast": [
+        {
+          "date": "2026-03-31",
+          "value": 2.89631907267269
+        },
+        {
+          "date": "2026-04-30",
+          "value": 2.89631907267269
+        },
+        {
+          "date": "2026-05-31",
+          "value": 2.89631907267269
+        }
+      ]
+    },
+    "bcra_official_fx": {
+      "display_name": "Official USD/ARS",
+      "name": "naive",
+      "label": "Naive baseline",
+      "mae": 29.68124999999998,
+      "rmse": 45.4630003867614,
+      "used_exog": [
+        "datos_inflation_mom_lag1",
+        "bcra_badlar_lag1",
+        "bcra_reserves_mom_lag1"
+      ],
+      "forecast": [
+        {
+          "date": "2026-04-30",
+          "value": 1409.48
+        },
+        {
+          "date": "2026-05-31",
+          "value": 1409.48
+        },
+        {
+          "date": "2026-06-30",
+          "value": 1409.48
+        }
+      ]
+    }
+  },
+  "financial_crime": {
+    "sanctions": {
+      "ofac": {
+        "entries": 18698,
+        "programs": 73,
+        "published_on": "04/03/2026",
+        "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
+      },
+      "un": {
+        "individuals": 733,
+        "entities": 272,
+        "total": 1005,
+        "generated_at": "2026-04-03T23:00:07.299Z",
+        "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
+      }
+    },
+    "fatf": {
+      "snapshot_date": "2026-02-13",
+      "grey_list_count": 22,
+      "high_risk_count": 3,
+      "grey_list": [
+        "Algeria",
+        "Angola",
+        "Bolivia",
+        "Bulgaria",
+        "Cameroon",
+        "Cote d'Ivoire",
+        "Democratic Republic of the Congo",
+        "Haiti",
+        "Kenya",
+        "Kuwait",
+        "Lao PDR",
+        "Lebanon",
+        "Monaco",
+        "Namibia",
+        "Nepal",
+        "Papua New Guinea",
+        "South Sudan",
+        "Syria",
+        "Venezuela",
+        "Vietnam",
+        "Virgin Islands (UK)",
+        "Yemen"
+      ],
+      "high_risk": [
+        "Democratic People's Republic of Korea",
+        "Iran",
+        "Myanmar"
+      ],
+      "grey_list_url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-february-2026.html",
+      "high_risk_url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/Call-for-action-february-2026.html"
+    },
+    "governance": {
+      "year": "2023",
+      "source_updated": "2026-02-24",
+      "countries": {
+        "AR": {
+          "name": "Argentina",
+          "percentile_rank": 41.9811325073242
+        },
+        "BR": {
+          "name": "Brazil",
+          "percentile_rank": 34.4339637756348
+        },
+        "GB": {
+          "name": "United Kingdom",
+          "percentile_rank": 90.5660400390625
+        },
+        "SG": {
+          "name": "Singapore",
+          "percentile_rank": 98.1132049560547
+        },
+        "US": {
+          "name": "United States",
+          "percentile_rank": 83.0188674926758
+        }
+      },
+      "url": "https://api.worldbank.org/v2/country/AR;BR;GB;SG;US/indicator/CC.PER.RNK?format=json&mrv=1&per_page=100"
+    },
+    "public_bases": [
+      {
+        "category": "Sanctions screening",
+        "label": "OFAC SDN XML",
+        "description": "Official U.S. sanctions source for name screening, list coverage tracking, and sanctions operations.",
+        "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
+      },
+      {
+        "category": "Multilateral sanctions",
+        "label": "UN consolidated list XML",
+        "description": "Official UN sanctions reference for global screening and cross-border due-diligence work.",
+        "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
+      },
+      {
+        "category": "Jurisdiction monitoring",
+        "label": "FATF monitored jurisdictions",
+        "description": "Useful anchor for AML/CFT country-risk memos and enhanced due-diligence framing.",
+        "url": "https://www.fatf-gafi.org/en/topics/high-risk-and-other-monitored-jurisdictions.html"
+      },
+      {
+        "category": "Governance benchmark",
+        "label": "World Bank control of corruption",
+        "description": "Slow-moving but useful benchmark when a client needs jurisdiction context, not just list screening.",
+        "url": "https://api.worldbank.org/v2/country/AR;BR;GB;SG;US/indicator/CC.PER.RNK?format=json&mrv=1&per_page=100"
+      },
+      {
+        "category": "Benchmark / enrichment",
+        "label": "Basel AML Index",
+        "description": "Helpful benchmark for country exposure framing, even if not consumed through a simple open API.",
+        "url": "https://index.baselgovernance.org"
+      },
+      {
+        "category": "Enrichment layer",
+        "label": "OpenSanctions",
+        "description": "Useful non-official enrichment layer when clients need broader source aggregation beyond the official lists.",
+        "url": "https://www.opensanctions.org"
+      }
+    ]
+  },
+  "source_status": [
+    {
+      "source": "bcra",
+      "status": "live",
+      "rows": 10537,
+      "note": "Fetched from live public API."
+    },
+    {
+      "source": "datos_gob_ar",
+      "status": "live",
+      "rows": 486,
+      "note": "Fetched from live public API."
+    },
+    {
+      "source": "fred",
+      "status": "skipped",
+      "rows": 0,
+      "note": "Skipped because FRED_API_KEY is not configured."
+    },
+    {
+      "source": "world_bank",
+      "status": "live",
+      "rows": 32,
+      "note": "Fetched from live public API."
+    },
+    {
+      "source": "fatf_snapshot",
+      "status": "snapshot",
+      "note": "FATF pages are Cloudflare-protected, so the pipeline uses a verified snapshot from 2026-02-13."
+    },
+    {
+      "source": "ofac_sdn",
+      "status": "live",
+      "note": "Fetched from the official OFAC sanctions XML."
+    },
+    {
+      "source": "un_consolidated",
+      "status": "live",
+      "note": "Fetched from the official UN consolidated sanctions XML."
+    },
+    {
+      "source": "world_bank_governance",
+      "status": "live",
+      "note": "Fetched from World Bank control-of-corruption percentile ranks."
+    }
+  ],
+  "chart_files": [
+    "datos_inflation_mom_forecast.png",
+    "bcra_official_fx_forecast.png",
+    "model_metrics.png",
+    "macro_snapshot.png"
+  ]
+}
