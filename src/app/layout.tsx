@@ -14,9 +14,19 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Santiago Torrado | Analytics, risk, and applied economics",
+  title: "Santiago Torrado | AML/KYC · Applied Economics · Data Analytics",
   description:
-    "Independent analytics work for regulated teams, fintech, consulting, and mission-driven organizations. Financial crime analytics, applied economics, dashboards, and executive deliverables.",
+    "Analyst and economist based in Buenos Aires. AML/KYC at American Express, MSc Applied Economics at UTDT. Available for financial crime analytics, applied econometrics, and data projects — Argentine and international opportunities.",
+  keywords: [
+    "AML analyst",
+    "KYC analyst",
+    "financial crime analytics",
+    "applied economics",
+    "data analytics Buenos Aires",
+    "econometrics",
+    "UTDT",
+    "Santiago Torrado",
+  ],
 };
 
 export default function RootLayout({
@@ -25,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="en">
       <body className={`${manrope.variable} ${cormorant.variable} antialiased`}>
         {children}
       </body>
