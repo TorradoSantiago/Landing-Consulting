@@ -14,9 +14,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Santiago Torrado | Consultoria en datos, evaluacion y estrategia",
+  title: "Santiago Torrado | Analytics, risk, and applied economics",
   description:
-    "Consultoria para equipos publicos, privados y sociales que necesitan convertir datos, evaluacion y contexto institucional en decisiones accionables.",
+    "Independent analytics work for regulated teams, fintech, consulting, and mission-driven organizations. Financial crime analytics, applied economics, dashboards, and executive deliverables.",
 };
 
 export default function RootLayout({

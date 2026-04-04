@@ -1,27 +1,59 @@
 # Landing Consulting
 
-Landing en Next.js para presentar una oferta de consultoria en datos, evaluacion y estrategia aplicada. La version actual refuerza tres cosas: claridad de propuesta, profundidad de portfolio y una direccion visual mas premium.
+Personal consulting site for Santiago Torrado, positioned around financial crime analytics, applied economics, and decision-oriented data work.
 
-## Cambios de esta iteracion
+If you want a short, non-technical explanation first, start with `BRIEF.md`.
 
-- Hero y narrativa mas fuertes para posicionar mejor la propuesta de valor.
-- Nuevas secciones de servicios, proceso, casos y modelos de trabajo.
-- Casos del portfolio explicados desde el problema, la prueba de trabajo y el entregable.
-- Ajustes visuales en fondos, contraste y jerarquia tipografica.
+## Purpose
+
+This site is not a generic portfolio homepage. It is a business-development asset designed to:
+
+- present a sharper consulting offer;
+- show proof of execution through selected cases;
+- convert visitors into conversations through direct calls to action;
+- align the public site with the target professional narrative: analytics, risk, and applied economics.
+
+## Positioning
+
+The current version is built to speak to:
+
+- fintech, payments, and regulated teams;
+- consulting and research teams;
+- mission-driven and policy-oriented organizations.
+
+The promise is clear: turn messy questions, data, and workflows into decision-ready deliverables.
+
+## Key sections
+
+- Hero with focused positioning and direct contact paths.
+- Service lines tied to real business problems.
+- Trust signals grounded in actual experience and public work.
+- Selected cases with public and private proof.
+- Packaged ways to start working together.
+- Contact block built for conversion, not just presence.
 
 ## Stack
 
 - Next.js 16
 - React 19
-- Tailwind CSS 4
 - TypeScript
+- Tailwind CSS 4
+- ESLint
 
-## Scripts
+## Run locally
 
-- `npm run dev`
-- `npm run build`
-- `npm run lint`
+```bash
+npm install
+npm run dev
+```
 
-## Enfoque
+## Quality checks
 
-El sitio esta pensado para convertir repositorios y experiencia dispersa en una propuesta comercial mas clara y defendible.
+```bash
+npm run lint
+npm run build
+```
+
+## Why this repo matters
+
+For Santiago's broader repositioning, this repo is the bridge between portfolio and pipeline. It is where GitHub work, consulting ambition, and public credibility start to connect into something commercially usable.
