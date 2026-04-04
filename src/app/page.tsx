@@ -1,3 +1,5 @@
+import { DataObservatory } from "./components/DataObservatory";
+
 const signalCards = [
   {
     label: "Current seat",
@@ -214,13 +216,13 @@ export default function Home() {
               for regulated teams, fintech, consulting, and mission-driven work
             </p>
             <h1 className="mt-8 max-w-5xl font-[family:var(--font-display)] text-6xl leading-none text-slate-950 sm:text-7xl">
-              Analisis serio para equipos que necesitan decidir mejor, documentar mejor, y mostrar mejor.
+              Rigorous analysis for teams that need to decide faster, document better, and show their work.
             </h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-              Trabajo en el cruce entre financial crime, analytics, y economia
-              aplicada. Ayudo a convertir datos, procesos, y preguntas difusas
-              en entregables defendibles: diagnosticos, notebooks, dashboards,
-              automatizaciones, y materiales ejecutivos.
+              I work at the intersection of financial crime, data analytics, and
+              applied economics — helping convert messy data, unclear processes,
+              and open questions into defensible deliverables: diagnostics,
+              notebooks, dashboards, automations, and executive materials.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3 text-xs text-slate-500">
@@ -305,6 +307,8 @@ export default function Home() {
         </div>
       </section>
 
+      <DataObservatory />
+
       <section id="services" className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
         <div className="max-w-3xl">
           <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
@@ -314,9 +318,9 @@ export default function Home() {
             Where I can be useful right now
           </h2>
           <p className="mt-5 text-lg leading-8 text-slate-600">
-            La propuesta no es &quot;hacer de todo&quot;. Es entrar donde una pregunta
-            importante necesita mejor estructura, mejor evidencia, o mejor
-            presentacion para poder mover una decision.
+            The offer is not &quot;do everything.&quot; It is to enter where an important
+            question needs better structure, better evidence, or better
+            communication to move a real decision forward.
           </p>
         </div>
 
@@ -383,8 +387,9 @@ export default function Home() {
               Selected cases and signals of execution
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              Para vender trabajo analitico no alcanza con listar skills. Hay
-              que mostrar criterio, estructura, y capacidad de entrega.
+              Listing skills is not enough to sell analytical work. You need to
+              show judgment, structure, and the ability to ship something a
+              decision-maker can actually use.
             </p>
           </div>
 
@@ -425,6 +430,143 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── UTDT RESEARCH LOG ── */}
+      <section className="border-y border-[#e6ddd0] bg-[#f7f3ec]">
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+            <div className="max-w-3xl">
+              <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
+                MSc Research Log
+              </p>
+              <h2 className="mt-3 font-[family:var(--font-display)] text-5xl leading-none text-slate-950">
+                UTDT Applied Economics — ongoing project output
+              </h2>
+              <p className="mt-4 text-base leading-8 text-slate-600">
+                The master&apos;s program at Universidad Torcuato Di Tella runs
+                through 2026. Each course produces one or more public
+                deliverables. This log is updated as projects ship.
+              </p>
+            </div>
+            <a
+              href="https://github.com/TorradoSantiago?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+              className="self-start text-sm font-semibold text-slate-600 transition hover:text-slate-950"
+            >
+              All repositories →
+            </a>
+          </div>
+
+          <div className="mt-10 overflow-hidden rounded-[24px] border border-[#e2dacf]">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-[#e2dacf] bg-white/70">
+                  <th className="px-6 py-4 text-left text-xs uppercase tracking-[0.18em] text-slate-500 w-[30%]">Course / Area</th>
+                  <th className="px-6 py-4 text-left text-xs uppercase tracking-[0.18em] text-slate-500 w-[30%]">Project</th>
+                  <th className="px-6 py-4 text-left text-xs uppercase tracking-[0.18em] text-slate-500 hidden md:table-cell">Deliverable</th>
+                  <th className="px-6 py-4 text-left text-xs uppercase tracking-[0.18em] text-slate-500 w-[100px]">Status</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[#ede7de] bg-white/50">
+                {[
+                  {
+                    course: "Econometrics & ML",
+                    project: "Korea Income & Welfare",
+                    deliverable: "Supervised ML on 92,857 welfare microdata records",
+                    status: "published",
+                    href: "https://github.com/TorradoSantiago/korea_income-welfare",
+                  },
+                  {
+                    course: "Applied Regression",
+                    project: "Regression exercises",
+                    deliverable: "Notebook series covering OLS, assumptions, diagnostics",
+                    status: "published",
+                    href: "https://github.com/TorradoSantiago/ejercicios.regresion",
+                  },
+                  {
+                    course: "Labor Economics / EDA",
+                    project: "EDA EPH — Buenos Aires",
+                    deliverable: "Exploratory analysis of household income and labor data (INDEC EPH)",
+                    status: "published",
+                    href: "https://github.com/TorradoSantiago/EDA.EPH-Phyton",
+                  },
+                  {
+                    course: "Policy Evaluation",
+                    project: "Conectar Esperanza",
+                    deliverable: "R-based evaluation framework for a public transport access program",
+                    status: "published",
+                    href: "https://github.com/TorradoSantiago/ConectarEsperanza-Policy-R",
+                  },
+                  {
+                    course: "Causal Inference",
+                    project: "TBD — Q2 2026",
+                    deliverable: "Difference-in-differences or RDD design on Argentine policy",
+                    status: "in-progress",
+                    href: null,
+                  },
+                  {
+                    course: "Macroeconomics",
+                    project: "TBD — Q2 2026",
+                    deliverable: "Macro model calibration or DSGE exercise",
+                    status: "upcoming",
+                    href: null,
+                  },
+                  {
+                    course: "Financial Economics",
+                    project: "TBD — Q3 2026",
+                    deliverable: "Asset pricing or risk model applied to Argentine market data",
+                    status: "upcoming",
+                    href: null,
+                  },
+                ].map((row) => (
+                  <tr key={row.course} className="transition hover:bg-white/80">
+                    <td className="px-6 py-4 font-medium text-slate-700">{row.course}</td>
+                    <td className="px-6 py-4">
+                      {row.href ? (
+                        <a
+                          href={row.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="font-semibold text-slate-900 underline-offset-4 hover:underline"
+                        >
+                          {row.project}
+                        </a>
+                      ) : (
+                        <span className="text-slate-400">{row.project}</span>
+                      )}
+                    </td>
+                    <td className="hidden px-6 py-4 text-slate-600 md:table-cell">
+                      {row.deliverable}
+                    </td>
+                    <td className="px-6 py-4">
+                      <span
+                        className={`rounded-full px-3 py-1 text-xs font-medium ${
+                          row.status === "published"
+                            ? "bg-[#eef7ee] text-green-700"
+                            : row.status === "in-progress"
+                            ? "bg-[#fdf4ec] text-orange-700"
+                            : "bg-[#f4f0ea] text-slate-500"
+                        }`}
+                      >
+                        {row.status === "published"
+                          ? "Published"
+                          : row.status === "in-progress"
+                          ? "In progress"
+                          : "Upcoming"}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p className="mt-5 text-xs text-slate-400">
+            This table updates as projects are completed and pushed to GitHub. Upcoming entries show planned work based on the UTDT MEA curriculum.
+          </p>
+        </div>
+      </section>
+
       <section id="offers" className="border-y border-[#e6ddd0] bg-[#fbf8f3]">
         <div className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
           <div className="max-w-3xl">
@@ -435,8 +577,9 @@ export default function Home() {
               Concrete ways to start working together
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              Si la pagina va a vender, tiene que dejar claro como entra un
-              proyecto, que forma toma, y que recibe el cliente al final.
+              If the page is going to convert, it needs to make clear how a
+              project starts, what shape it takes, and what the client receives
+              at the end.
             </p>
           </div>
 
@@ -527,9 +670,9 @@ export default function Home() {
                   If you need a sharper diagnosis, a cleaner analysis, or a more executive deliverable, this can start fast.
                 </h2>
                 <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-                  Lo mas simple es escribirme con el problema, el contexto, y
-                  el entregable esperado. Si tiene sentido, armamos un primer
-                  alcance y una forma de trabajo.
+                  The simplest starting point is a message with the problem,
+                  the context, and the expected deliverable. If it makes sense,
+                  we define a first scope and a way of working together.
                 </p>
               </div>
 
