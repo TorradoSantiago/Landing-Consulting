@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-04-04T22:20:33+00:00",
+  "run_timestamp": "2026-04-06T13:16:35+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -116,8 +116,8 @@
         "n_test_points": 24
       },
       "sarimax": {
-        "mae": 0.9285108051898961,
-        "rmse": 1.122730097070103,
+        "mae": 0.9285108051516805,
+        "rmse": 1.122730097035018,
         "n_test_points": 24
       }
     },
@@ -133,8 +133,8 @@
         "n_test_points": 24
       },
       "sarimax": {
-        "mae": 35.05842003393808,
-        "rmse": 49.88220147155503,
+        "mae": 35.05842005216862,
+        "rmse": 49.8822014807055,
         "n_test_points": 24
       }
     }
@@ -205,7 +205,7 @@
         "individuals": 733,
         "entities": 272,
         "total": 1005,
-        "generated_at": "2026-04-03T23:00:07.299Z",
+        "generated_at": "2026-04-04T23:00:06.652Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -246,30 +246,9 @@
       "high_risk_url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/Call-for-action-february-2026.html"
     },
     "governance": {
-      "year": "2023",
-      "source_updated": "2026-02-24",
-      "countries": {
-        "AR": {
-          "name": "Argentina",
-          "percentile_rank": 41.9811325073242
-        },
-        "BR": {
-          "name": "Brazil",
-          "percentile_rank": 34.4339637756348
-        },
-        "GB": {
-          "name": "United Kingdom",
-          "percentile_rank": 90.5660400390625
-        },
-        "SG": {
-          "name": "Singapore",
-          "percentile_rank": 98.1132049560547
-        },
-        "US": {
-          "name": "United States",
-          "percentile_rank": 83.0188674926758
-        }
-      },
+      "year": null,
+      "source_updated": null,
+      "countries": {},
       "url": "https://api.worldbank.org/v2/country/AR;BR;GB;SG;US/indicator/CC.PER.RNK?format=json&mrv=1&per_page=100"
     },
     "public_bases": [
@@ -320,9 +299,9 @@
     },
     {
       "source": "datos_gob_ar",
-      "status": "live",
+      "status": "fallback",
       "rows": 486,
-      "note": "Fetched from live public API."
+      "note": "Loaded previous snapshot after fetch error: 403 Client Error: Forbidden for url: https://apis.datos.gob.ar/series/api/series?ids=145.3_INGNACUAL_DICI_M_38%2C148.3_INIVELNAL_DICI_M_26%2C143.3_NO_PR_2004_A_31&limit=5000"
     },
     {
       "source": "fred",
@@ -353,8 +332,8 @@
     },
     {
       "source": "world_bank_governance",
-      "status": "live",
-      "note": "Fetched from World Bank control-of-corruption percentile ranks."
+      "status": "failed",
+      "note": "HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
     }
   ],
   "chart_files": [
