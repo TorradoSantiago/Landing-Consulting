@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-04-06T13:16:35+00:00",
+  "run_timestamp": "2026-04-13T13:43:35+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -19,7 +19,7 @@
     },
     "bcra_reserves": {
       "date": "2026-03-31",
-      "value": 43381.0
+      "value": 42052.0
     },
     "datos_cpi_index": {
       "date": "2026-02-28",
@@ -47,7 +47,7 @@
     },
     "bcra_reserves_mom": {
       "date": "2026-03-31",
-      "value": -4.795242066453054
+      "value": -7.711890444629765
     },
     "datos_emae_mom": {
       "date": "2026-01-31",
@@ -116,8 +116,8 @@
         "n_test_points": 24
       },
       "sarimax": {
-        "mae": 0.9285108051516805,
-        "rmse": 1.122730097035018,
+        "mae": 0.9285109690588801,
+        "rmse": 1.122730215248933,
         "n_test_points": 24
       }
     },
@@ -133,8 +133,8 @@
         "n_test_points": 24
       },
       "sarimax": {
-        "mae": 35.05842005216862,
-        "rmse": 49.8822014807055,
+        "mae": 35.05848402381305,
+        "rmse": 49.88226011176247,
         "n_test_points": 24
       }
     }
@@ -205,7 +205,7 @@
         "individuals": 733,
         "entities": 272,
         "total": 1005,
-        "generated_at": "2026-04-04T23:00:06.652Z",
+        "generated_at": "2026-04-11T23:00:03.535Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,7 +294,7 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10537,
+      "rows": 10552,
       "note": "Fetched from live public API."
     },
     {
@@ -333,7 +333,7 @@
     {
       "source": "world_bank_governance",
       "status": "failed",
-      "note": "HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
+      "note": "list index out of range"
     }
   ],
   "chart_files": [

@@ -974,7 +974,7 @@ date,series_id,source,value,frequency,unit
 2021-12-31,wb_arg_gdp_growth,World Bank,10.4418119882506,M,Annual percent
 2021-12-31,wb_us_gdp_growth,World Bank,6.05505293244555,M,Annual percent
 2022-01-31,bcra_badlar,BCRA,36.92559523809524,M,Percent nominal annual rate
-2022-01-31,bcra_official_fx,BCRA,110.71,M,ARS per USD
+2022-01-31,bcra_official_fx,BCRA,110.68,M,ARS per USD
 2022-01-31,bcra_policy_rate,BCRA,40.0,M,Percent nominal annual rate
 2022-01-31,bcra_reserves,BCRA,37589.0,M,USD mn
 2022-01-31,datos_cpi_index,datos.gob.ar,605.0317,M,Index
@@ -983,7 +983,7 @@ date,series_id,source,value,frequency,unit
 2022-01-31,wb_arg_gdp_growth,World Bank,6.02074537534855,M,Annual percent
 2022-01-31,wb_us_gdp_growth,World Bank,2.51237531986017,M,Annual percent
 2022-02-28,bcra_badlar,BCRA,38.31578947368421,M,Percent nominal annual rate
-2022-02-28,bcra_official_fx,BCRA,112.95,M,ARS per USD
+2022-02-28,bcra_official_fx,BCRA,112.89,M,ARS per USD
 2022-02-28,bcra_policy_rate,BCRA,42.5,M,Percent nominal annual rate
 2022-02-28,bcra_reserves,BCRA,37018.0,M,USD mn
 2022-02-28,datos_cpi_index,datos.gob.ar,633.4341,M,Index
@@ -1389,4 +1389,4 @@ date,series_id,source,value,frequency,unit
 2026-02-28,datos_inflation_mom,datos.gob.ar,2.89631907267269,M,Monthly percent change
 2026-03-31,bcra_badlar,BCRA,27.56875,M,Percent nominal annual rate
 2026-03-31,bcra_official_fx,BCRA,1409.48,M,ARS per USD
-2026-03-31,bcra_reserves,BCRA,43381.0,M,USD mn
+2026-03-31,bcra_reserves,BCRA,42052.0,M,USD mn

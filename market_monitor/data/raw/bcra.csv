@@ -2735,6 +2735,11 @@ date,series_id,source,value,frequency,unit
 2026-03-27,bcra_badlar,BCRA,24.8125,D,Percent nominal annual rate
 2026-03-30,bcra_badlar,BCRA,25.0625,D,Percent nominal annual rate
 2026-03-31,bcra_badlar,BCRA,25.375,D,Percent nominal annual rate
+2026-04-01,bcra_badlar,BCRA,25.1875,D,Percent nominal annual rate
+2026-04-06,bcra_badlar,BCRA,24.4375,D,Percent nominal annual rate
+2026-04-07,bcra_badlar,BCRA,25.3125,D,Percent nominal annual rate
+2026-04-08,bcra_badlar,BCRA,24.9375,D,Percent nominal annual rate
+2026-04-09,bcra_badlar,BCRA,23.25,D,Percent nominal annual rate
 2015-01-02,bcra_official_fx,BCRA,8.61,D,ARS per USD
 2015-01-05,bcra_official_fx,BCRA,8.62,D,ARS per USD
 2015-01-06,bcra_official_fx,BCRA,8.62,D,ARS per USD
@@ -4441,46 +4446,46 @@ date,series_id,source,value,frequency,unit
 2021-12-28,bcra_official_fx,BCRA,108.14,D,ARS per USD
 2021-12-29,bcra_official_fx,BCRA,108.16,D,ARS per USD
 2021-12-30,bcra_official_fx,BCRA,108.29,D,ARS per USD
-2022-01-03,bcra_official_fx,BCRA,108.48,D,ARS per USD
-2022-01-04,bcra_official_fx,BCRA,108.61,D,ARS per USD
-2022-01-05,bcra_official_fx,BCRA,108.63,D,ARS per USD
-2022-01-06,bcra_official_fx,BCRA,108.72,D,ARS per USD
-2022-01-07,bcra_official_fx,BCRA,108.86,D,ARS per USD
-2022-01-10,bcra_official_fx,BCRA,108.96,D,ARS per USD
-2022-01-11,bcra_official_fx,BCRA,108.97,D,ARS per USD
-2022-01-12,bcra_official_fx,BCRA,109.05,D,ARS per USD
-2022-01-13,bcra_official_fx,BCRA,109.11,D,ARS per USD
-2022-01-14,bcra_official_fx,BCRA,109.21,D,ARS per USD
-2022-01-17,bcra_official_fx,BCRA,109.46,D,ARS per USD
-2022-01-18,bcra_official_fx,BCRA,109.64,D,ARS per USD
-2022-01-19,bcra_official_fx,BCRA,109.67,D,ARS per USD
-2022-01-20,bcra_official_fx,BCRA,109.71,D,ARS per USD
-2022-01-21,bcra_official_fx,BCRA,109.79,D,ARS per USD
-2022-01-24,bcra_official_fx,BCRA,110.08,D,ARS per USD
-2022-01-25,bcra_official_fx,BCRA,110.11,D,ARS per USD
-2022-01-26,bcra_official_fx,BCRA,110.15,D,ARS per USD
-2022-01-27,bcra_official_fx,BCRA,110.5,D,ARS per USD
-2022-01-28,bcra_official_fx,BCRA,110.68,D,ARS per USD
-2022-01-31,bcra_official_fx,BCRA,110.71,D,ARS per USD
-2022-02-01,bcra_official_fx,BCRA,110.75,D,ARS per USD
-2022-02-02,bcra_official_fx,BCRA,110.92,D,ARS per USD
+2022-01-03,bcra_official_fx,BCRA,108.29,D,ARS per USD
+2022-01-04,bcra_official_fx,BCRA,108.48,D,ARS per USD
+2022-01-05,bcra_official_fx,BCRA,108.61,D,ARS per USD
+2022-01-06,bcra_official_fx,BCRA,108.63,D,ARS per USD
+2022-01-07,bcra_official_fx,BCRA,108.72,D,ARS per USD
+2022-01-10,bcra_official_fx,BCRA,108.86,D,ARS per USD
+2022-01-11,bcra_official_fx,BCRA,108.96,D,ARS per USD
+2022-01-12,bcra_official_fx,BCRA,108.97,D,ARS per USD
+2022-01-13,bcra_official_fx,BCRA,109.05,D,ARS per USD
+2022-01-14,bcra_official_fx,BCRA,109.11,D,ARS per USD
+2022-01-17,bcra_official_fx,BCRA,109.21,D,ARS per USD
+2022-01-18,bcra_official_fx,BCRA,109.46,D,ARS per USD
+2022-01-19,bcra_official_fx,BCRA,109.64,D,ARS per USD
+2022-01-20,bcra_official_fx,BCRA,109.67,D,ARS per USD
+2022-01-21,bcra_official_fx,BCRA,109.71,D,ARS per USD
+2022-01-24,bcra_official_fx,BCRA,109.79,D,ARS per USD
+2022-01-25,bcra_official_fx,BCRA,110.08,D,ARS per USD
+2022-01-26,bcra_official_fx,BCRA,110.11,D,ARS per USD
+2022-01-27,bcra_official_fx,BCRA,110.15,D,ARS per USD
+2022-01-28,bcra_official_fx,BCRA,110.5,D,ARS per USD
+2022-01-31,bcra_official_fx,BCRA,110.68,D,ARS per USD
+2022-02-01,bcra_official_fx,BCRA,110.71,D,ARS per USD
+2022-02-02,bcra_official_fx,BCRA,110.75,D,ARS per USD
 2022-02-03,bcra_official_fx,BCRA,110.92,D,ARS per USD
-2022-02-04,bcra_official_fx,BCRA,111.37,D,ARS per USD
-2022-02-07,bcra_official_fx,BCRA,111.46,D,ARS per USD
-2022-02-08,bcra_official_fx,BCRA,111.49,D,ARS per USD
-2022-02-09,bcra_official_fx,BCRA,111.52,D,ARS per USD
-2022-02-10,bcra_official_fx,BCRA,111.59,D,ARS per USD
-2022-02-11,bcra_official_fx,BCRA,111.67,D,ARS per USD
-2022-02-14,bcra_official_fx,BCRA,112.01,D,ARS per USD
-2022-02-15,bcra_official_fx,BCRA,112.17,D,ARS per USD
-2022-02-16,bcra_official_fx,BCRA,112.21,D,ARS per USD
-2022-02-17,bcra_official_fx,BCRA,112.24,D,ARS per USD
-2022-02-18,bcra_official_fx,BCRA,112.48,D,ARS per USD
-2022-02-21,bcra_official_fx,BCRA,112.71,D,ARS per USD
-2022-02-22,bcra_official_fx,BCRA,112.8,D,ARS per USD
-2022-02-23,bcra_official_fx,BCRA,112.83,D,ARS per USD
-2022-02-24,bcra_official_fx,BCRA,112.89,D,ARS per USD
-2022-02-25,bcra_official_fx,BCRA,112.95,D,ARS per USD
+2022-02-04,bcra_official_fx,BCRA,110.92,D,ARS per USD
+2022-02-07,bcra_official_fx,BCRA,111.37,D,ARS per USD
+2022-02-08,bcra_official_fx,BCRA,111.46,D,ARS per USD
+2022-02-09,bcra_official_fx,BCRA,111.49,D,ARS per USD
+2022-02-10,bcra_official_fx,BCRA,111.52,D,ARS per USD
+2022-02-11,bcra_official_fx,BCRA,111.59,D,ARS per USD
+2022-02-14,bcra_official_fx,BCRA,111.67,D,ARS per USD
+2022-02-15,bcra_official_fx,BCRA,112.01,D,ARS per USD
+2022-02-16,bcra_official_fx,BCRA,112.17,D,ARS per USD
+2022-02-17,bcra_official_fx,BCRA,112.21,D,ARS per USD
+2022-02-18,bcra_official_fx,BCRA,112.24,D,ARS per USD
+2022-02-21,bcra_official_fx,BCRA,112.48,D,ARS per USD
+2022-02-22,bcra_official_fx,BCRA,112.71,D,ARS per USD
+2022-02-23,bcra_official_fx,BCRA,112.8,D,ARS per USD
+2022-02-24,bcra_official_fx,BCRA,112.83,D,ARS per USD
+2022-02-25,bcra_official_fx,BCRA,112.89,D,ARS per USD
 2022-03-02,bcra_official_fx,BCRA,113.33,D,ARS per USD
 2022-03-03,bcra_official_fx,BCRA,113.48,D,ARS per USD
 2022-03-04,bcra_official_fx,BCRA,113.69,D,ARS per USD
@@ -5471,7 +5476,12 @@ date,series_id,source,value,frequency,unit
 2026-03-27,bcra_official_fx,BCRA,1404.43,D,ARS per USD
 2026-03-30,bcra_official_fx,BCRA,1419.32,D,ARS per USD
 2026-03-31,bcra_official_fx,BCRA,1409.48,D,ARS per USD
-2026-04-01,bcra_official_fx,BCRA,1418.99,D,ARS per USD
+2026-04-01,bcra_official_fx,BCRA,1419.32,D,ARS per USD
+2026-04-06,bcra_official_fx,BCRA,1416.6,D,ARS per USD
+2026-04-07,bcra_official_fx,BCRA,1418.78,D,ARS per USD
+2026-04-08,bcra_official_fx,BCRA,1412.02,D,ARS per USD
+2026-04-09,bcra_official_fx,BCRA,1409.92,D,ARS per USD
+2026-04-10,bcra_official_fx,BCRA,1399.42,D,ARS per USD
 2015-12-16,bcra_policy_rate,BCRA,38.0,D,Percent nominal annual rate
 2015-12-17,bcra_policy_rate,BCRA,38.0,D,Percent nominal annual rate
 2015-12-18,bcra_policy_rate,BCRA,38.0,D,Percent nominal annual rate
@@ -10536,3 +10546,8 @@ date,series_id,source,value,frequency,unit
 2026-03-26,bcra_reserves,BCRA,43534.0,D,USD mn
 2026-03-27,bcra_reserves,BCRA,43713.0,D,USD mn
 2026-03-30,bcra_reserves,BCRA,43381.0,D,USD mn
+2026-03-31,bcra_reserves,BCRA,42052.0,D,USD mn
+2026-04-01,bcra_reserves,BCRA,44445.0,D,USD mn
+2026-04-06,bcra_reserves,BCRA,44248.0,D,USD mn
+2026-04-07,bcra_reserves,BCRA,44445.0,D,USD mn
+2026-04-08,bcra_reserves,BCRA,44759.0,D,USD mn

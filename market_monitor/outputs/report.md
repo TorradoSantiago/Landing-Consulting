@@ -1,6 +1,6 @@
 # Argentina Market Monitor
 
-Run timestamp: 2026-04-06 13:16:35
+Run timestamp: 2026-04-13 13:43:35
 
 ## What changed this week
 
@@ -29,7 +29,7 @@ Run timestamp: 2026-04-06 13:16:35
 ## Global financial crime signals
 
 - OFAC SDN coverage: 18698 entries across 73 programs (published 04/03/2026).
-- UN consolidated sanctions list: 1005 total entries (generated 2026-04-04T23:00:06.652Z).
+- UN consolidated sanctions list: 1005 total entries (generated 2026-04-11T23:00:03.535Z).
 - FATF monitored jurisdictions snapshot: 22 grey-list jurisdictions and 3 high-risk jurisdictions in the verified 2026-02-13 snapshot.
 
 ## How this supports client work
