@@ -1,25 +1,25 @@
 {
-  "run_timestamp": "2026-04-27T13:59:03+00:00",
+  "run_timestamp": "2026-05-04T14:06:14+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
   ],
   "latest_observations": {
     "bcra_badlar": {
-      "date": "2026-03-31",
-      "value": 27.56875
+      "date": "2026-04-30",
+      "value": 22.529605263157894
     },
     "bcra_official_fx": {
-      "date": "2026-03-31",
-      "value": 1409.48
+      "date": "2026-04-30",
+      "value": 1415.8
     },
     "bcra_policy_rate": {
       "date": "2025-07-31",
       "value": 29.0
     },
     "bcra_reserves": {
-      "date": "2026-03-31",
-      "value": 42052.0
+      "date": "2026-04-30",
+      "value": 45818.0
     },
     "datos_cpi_index": {
       "date": "2026-03-31",
@@ -34,68 +34,68 @@
       "value": 3.38262219244152
     },
     "wb_arg_gdp_growth": {
-      "date": "2026-03-31",
+      "date": "2026-04-30",
       "value": -1.34293072157739
     },
     "wb_us_gdp_growth": {
-      "date": "2026-03-31",
+      "date": "2026-04-30",
       "value": 2.79300127716779
     },
     "bcra_official_fx_mom": {
-      "date": "2026-03-31",
-      "value": -1.1896666549826462
+      "date": "2026-04-30",
+      "value": 0.4483923148962621
     },
     "bcra_reserves_mom": {
-      "date": "2026-03-31",
-      "value": -7.711890444629765
+      "date": "2026-04-30",
+      "value": 8.955578807191088
     },
     "datos_emae_mom": {
       "date": "2026-01-31",
       "value": 0.42305745785220505
     },
     "bcra_badlar_lag1": {
-      "date": "2026-03-31",
-      "value": 30.791666666666668
+      "date": "2026-04-30",
+      "value": 27.56875
     },
     "bcra_official_fx_lag1": {
-      "date": "2026-03-31",
-      "value": 1426.45
+      "date": "2026-04-30",
+      "value": 1409.48
     },
     "bcra_policy_rate_lag1": {
       "date": "2025-08-31",
       "value": 29.0
     },
     "bcra_reserves_lag1": {
-      "date": "2026-03-31",
-      "value": 45566.0
+      "date": "2026-04-30",
+      "value": 42052.0
     },
     "datos_cpi_index_lag1": {
-      "date": "2026-03-31",
-      "value": 10714.6255
+      "date": "2026-04-30",
+      "value": 11077.0608
     },
     "datos_emae_index_lag1": {
       "date": "2026-02-28",
       "value": 155.93678506834027
     },
     "datos_inflation_mom_lag1": {
-      "date": "2026-03-31",
-      "value": 2.89631907267269
+      "date": "2026-04-30",
+      "value": 3.38262219244152
     },
     "wb_arg_gdp_growth_lag1": {
-      "date": "2026-03-31",
+      "date": "2026-04-30",
       "value": -1.34293072157739
     },
     "wb_us_gdp_growth_lag1": {
-      "date": "2026-03-31",
+      "date": "2026-04-30",
       "value": 2.79300127716779
     },
     "bcra_official_fx_mom_lag1": {
-      "date": "2026-03-31",
-      "value": -2.632063944955998
+      "date": "2026-04-30",
+      "value": -1.1896666549826462
     },
     "bcra_reserves_mom_lag1": {
-      "date": "2026-03-31",
-      "value": 2.3886030155270355
+      "date": "2026-04-30",
+      "value": -7.711890444629765
     },
     "datos_emae_mom_lag1": {
       "date": "2026-02-28",
@@ -123,18 +123,18 @@
     },
     "bcra_official_fx": {
       "naive": {
-        "mae": 29.68124999999998,
-        "rmse": 45.4630003867614,
+        "mae": 29.155416666666643,
+        "rmse": 45.31668405969999,
         "n_test_points": 24
       },
       "moving_average": {
-        "mae": 53.849027777777756,
-        "rmse": 64.38721139483913,
+        "mae": 53.20805555555554,
+        "rmse": 64.13247435322191,
         "n_test_points": 24
       },
       "sarimax": {
-        "mae": 35.05842005216862,
-        "rmse": 49.8822014807055,
+        "mae": 32.25981312111583,
+        "rmse": 47.38104982056612,
         "n_test_points": 24
       }
     }
@@ -170,8 +170,8 @@
       "display_name": "Official USD/ARS",
       "name": "naive",
       "label": "Naive baseline",
-      "mae": 29.68124999999998,
-      "rmse": 45.4630003867614,
+      "mae": 29.155416666666643,
+      "rmse": 45.31668405969999,
       "used_exog": [
         "datos_inflation_mom_lag1",
         "bcra_badlar_lag1",
@@ -179,16 +179,16 @@
       ],
       "forecast": [
         {
-          "date": "2026-04-30",
-          "value": 1409.48
-        },
-        {
           "date": "2026-05-31",
-          "value": 1409.48
+          "value": 1415.8
         },
         {
           "date": "2026-06-30",
-          "value": 1409.48
+          "value": 1415.8
+        },
+        {
+          "date": "2026-07-31",
+          "value": 1415.8
         }
       ]
     }
@@ -196,16 +196,16 @@
   "financial_crime": {
     "sanctions": {
       "ofac": {
-        "entries": 18863,
+        "entries": 18927,
         "programs": 73,
-        "published_on": "04/24/2026",
+        "published_on": "05/01/2026",
         "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
       },
       "un": {
-        "individuals": 733,
+        "individuals": 737,
         "entities": 272,
-        "total": 1005,
-        "generated_at": "2026-04-25T23:00:06.746Z",
+        "total": 1009,
+        "generated_at": "2026-05-02T23:00:06.632Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,7 +294,7 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10582,
+      "rows": 10594,
       "note": "Fetched from live public API."
     },
     {
