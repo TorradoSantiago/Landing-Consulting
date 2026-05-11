@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-05-04T14:06:14+00:00",
+  "run_timestamp": "2026-05-11T14:57:39+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -7,7 +7,7 @@
   "latest_observations": {
     "bcra_badlar": {
       "date": "2026-04-30",
-      "value": 22.529605263157894
+      "value": 22.446875
     },
     "bcra_official_fx": {
       "date": "2026-04-30",
@@ -19,7 +19,7 @@
     },
     "bcra_reserves": {
       "date": "2026-04-30",
-      "value": 45818.0
+      "value": 44516.0
     },
     "datos_cpi_index": {
       "date": "2026-03-31",
@@ -47,7 +47,7 @@
     },
     "bcra_reserves_mom": {
       "date": "2026-04-30",
-      "value": 8.955578807191088
+      "value": 5.859412156377819
     },
     "datos_emae_mom": {
       "date": "2026-01-31",
@@ -196,16 +196,16 @@
   "financial_crime": {
     "sanctions": {
       "ofac": {
-        "entries": 18927,
-        "programs": 73,
-        "published_on": "05/01/2026",
+        "entries": 18947,
+        "programs": 74,
+        "published_on": "05/08/2026",
         "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
       },
       "un": {
         "individuals": 737,
         "entities": 272,
         "total": 1009,
-        "generated_at": "2026-05-02T23:00:06.632Z",
+        "generated_at": "2026-05-09T23:00:02.101Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,7 +294,7 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10594,
+      "rows": 10609,
       "note": "Fetched from live public API."
     },
     {

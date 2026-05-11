@@ -1,6 +1,6 @@
 # Argentina Market Monitor
 
-Run timestamp: 2026-05-04 14:06:14
+Run timestamp: 2026-05-11 14:57:39
 
 ## What changed this week
 
@@ -24,12 +24,12 @@ Run timestamp: 2026-05-04 14:06:14
 ## Risks to the base case
 
 - Official FX monthly change last printed 0.45, which may affect short-term inflation momentum.
-- BADLAR stands at 22.53, keeping domestic rates as a key local conditioning variable.
+- BADLAR stands at 22.45, keeping domestic rates as a key local conditioning variable.
 
 ## Global financial crime signals
 
-- OFAC SDN coverage: 18927 entries across 73 programs (published 05/01/2026).
-- UN consolidated sanctions list: 1009 total entries (generated 2026-05-02T23:00:06.632Z).
+- OFAC SDN coverage: 18947 entries across 74 programs (published 05/08/2026).
+- UN consolidated sanctions list: 1009 total entries (generated 2026-05-09T23:00:02.101Z).
 - FATF monitored jurisdictions snapshot: 22 grey-list jurisdictions and 3 high-risk jurisdictions in the verified 2026-02-13 snapshot.
 
 ## How this supports client work
