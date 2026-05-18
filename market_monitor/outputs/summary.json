@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-05-11T14:57:39+00:00",
+  "run_timestamp": "2026-05-18T15:36:36+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -196,16 +196,16 @@
   "financial_crime": {
     "sanctions": {
       "ofac": {
-        "entries": 18947,
+        "entries": 18959,
         "programs": 74,
-        "published_on": "05/08/2026",
+        "published_on": "05/11/2026",
         "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
       },
       "un": {
         "individuals": 737,
         "entities": 272,
         "total": 1009,
-        "generated_at": "2026-05-09T23:00:02.101Z",
+        "generated_at": "2026-05-16T23:00:02.220Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,7 +294,7 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10609,
+      "rows": 10624,
       "note": "Fetched from live public API."
     },
     {
