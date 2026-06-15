@@ -3,7 +3,7 @@
 Weekly Argentina macro and market monitor embedded inside the `Landing-Consulting` repository. The project turns public data into a repeatable research asset: data ingestion, cleaning, light forecasting, chart generation, and a portfolio-ready Markdown brief.
 
 <!-- LAST_UPDATED_START -->
-Last updated: 2026-06-08T15:56:25+00:00
+Last updated: 2026-06-15T17:17:15+00:00
 <!-- LAST_UPDATED_END -->
 
 ## Project purpose

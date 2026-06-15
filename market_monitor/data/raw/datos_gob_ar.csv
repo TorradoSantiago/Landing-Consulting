@@ -112,6 +112,7 @@ date,series_id,source,value,frequency,unit
 2026-02-01,datos_cpi_index,datos.gob.ar,10714.6255,M,Index
 2026-03-01,datos_cpi_index,datos.gob.ar,11077.0608,M,Index
 2026-04-01,datos_cpi_index,datos.gob.ar,11363.0904,M,Index
+2026-05-01,datos_cpi_index,datos.gob.ar,11607.3937,M,Index
 2004-01-01,datos_emae_index,datos.gob.ar,98.4760115642586,M,Index base 2004
 2004-02-01,datos_emae_index,datos.gob.ar,98.17671069931733,M,Index base 2004
 2004-03-01,datos_emae_index,datos.gob.ar,97.74658789128245,M,Index base 2004
@@ -491,3 +492,4 @@ date,series_id,source,value,frequency,unit
 2026-02-01,datos_inflation_mom,datos.gob.ar,2.89631907267269,M,Monthly percent change
 2026-03-01,datos_inflation_mom,datos.gob.ar,3.38262219244152,M,Monthly percent change
 2026-04-01,datos_inflation_mom,datos.gob.ar,2.58217956156745,M,Monthly percent change
+2026-05-01,datos_inflation_mom,datos.gob.ar,2.14997233499085,M,Monthly percent change
