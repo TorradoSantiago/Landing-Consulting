@@ -1,11 +1,11 @@
 # Argentina Market Monitor
 
-Run timestamp: 2026-06-22 17:01:26
+Run timestamp: 2026-06-29 15:50:15
 
 ## What changed this week
 
 - The pipeline refreshed public data and updated the monthly analytical layer.
-- Live sources: 4. Fallback sources: 1. Skipped sources: 1.
+- Live sources: 5. Fallback sources: 0. Skipped sources: 1.
 - The two v1 forecast targets remain monthly inflation and official USD/ARS.
 - Financial-crime coverage refreshed around sanctions screening, FATF monitoring, and governance benchmarks.
 
@@ -28,8 +28,8 @@ Run timestamp: 2026-06-22 17:01:26
 
 ## Global financial crime signals
 
-- OFAC SDN coverage: 19073 entries across 74 programs (published 06/18/2026).
-- UN consolidated sanctions list: 1002 total entries (generated 2026-06-20T23:00:05.607Z).
+- OFAC SDN coverage: 19115 entries across 74 programs (published 06/29/2026).
+- UN consolidated sanctions list: 1002 total entries (generated 2026-06-27T23:00:05.425Z).
 - FATF monitored jurisdictions snapshot: 22 grey-list jurisdictions and 3 high-risk jurisdictions in the verified 2026-02-13 snapshot.
 
 ## How this supports client work

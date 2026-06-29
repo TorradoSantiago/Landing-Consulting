@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-06-22T17:01:26+00:00",
+  "run_timestamp": "2026-06-29T15:50:15+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -196,16 +196,16 @@
   "financial_crime": {
     "sanctions": {
       "ofac": {
-        "entries": 19073,
+        "entries": 19115,
         "programs": 74,
-        "published_on": "06/18/2026",
+        "published_on": "06/29/2026",
         "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
       },
       "un": {
         "individuals": 730,
         "entities": 272,
         "total": 1002,
-        "generated_at": "2026-06-20T23:00:05.607Z",
+        "generated_at": "2026-06-27T23:00:05.425Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,7 +294,7 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10693,
+      "rows": 10708,
       "note": "Fetched from live public API."
     },
     {
@@ -311,9 +311,9 @@
     },
     {
       "source": "world_bank",
-      "status": "fallback",
+      "status": "live",
       "rows": 32,
-      "note": "Loaded previous snapshot after fetch error: HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
+      "note": "Fetched from live public API."
     },
     {
       "source": "fatf_snapshot",
