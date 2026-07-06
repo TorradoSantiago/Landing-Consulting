@@ -1,6 +1,6 @@
 # Argentina Market Monitor
 
-Run timestamp: 2026-06-29 15:50:15
+Run timestamp: 2026-07-06 15:36:32
 
 ## What changed this week
 
@@ -12,24 +12,24 @@ Run timestamp: 2026-06-29 15:50:15
 ## Latest readings
 
 - Monthly inflation: 2.15 on 2026-05-31.
-- Official USD/ARS: 1,431.57 on 2026-05-31.
-- Selected model for inflation: Naive baseline (MAE 0.61).
-- Selected model for official USD/ARS: Naive baseline (MAE 29.26).
+- Official USD/ARS: 1,502.09 on 2026-06-30.
+- Selected model for inflation: Naive baseline (MAE 0.44).
+- Selected model for official USD/ARS: SARIMAX (MAE 31.34).
 
 ## Model outlook
 
-- Inflation forecast path: 2026-05-31: 2.58, 2026-06-30: 2.58, 2026-07-31: 2.58.
-- Official USD/ARS forecast path: 2026-06-30: 1,431.57, 2026-07-31: 1,431.57, 2026-08-31: 1,431.57.
+- Inflation forecast path: 2026-06-30: 2.15, 2026-07-31: 2.15, 2026-08-31: 2.15.
+- Official USD/ARS forecast path: 2026-07-31: 1,507.25, 2026-08-31: 1,507.62, 2026-09-30: 1,507.64.
 
 ## Risks to the base case
 
-- Official FX monthly change last printed 1.11, which may affect short-term inflation momentum.
-- BADLAR stands at 21.35, keeping domestic rates as a key local conditioning variable.
+- Official FX monthly change last printed 4.93, which may affect short-term inflation momentum.
+- BADLAR stands at 20.69, keeping domestic rates as a key local conditioning variable.
 
 ## Global financial crime signals
 
-- OFAC SDN coverage: 19115 entries across 74 programs (published 06/29/2026).
-- UN consolidated sanctions list: 1002 total entries (generated 2026-06-27T23:00:05.425Z).
+- OFAC SDN coverage: 19129 entries across 74 programs (published 07/01/2026).
+- UN consolidated sanctions list: 1002 total entries (generated 2026-07-04T23:00:06.467Z).
 - FATF monitored jurisdictions snapshot: 22 grey-list jurisdictions and 3 high-risk jurisdictions in the verified 2026-02-13 snapshot.
 
 ## How this supports client work
