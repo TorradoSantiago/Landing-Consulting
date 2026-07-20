@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-07-13T14:37:18+00:00",
+  "run_timestamp": "2026-07-20T14:09:30+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -22,16 +22,16 @@
       "value": 44870.0
     },
     "datos_cpi_index": {
-      "date": "2026-05-31",
-      "value": 11607.3937
+      "date": "2026-06-30",
+      "value": 11826.4103
     },
     "datos_emae_index": {
       "date": "2026-04-30",
       "value": 154.49351243562697
     },
     "datos_inflation_mom": {
-      "date": "2026-05-31",
-      "value": 2.14997233499085
+      "date": "2026-06-30",
+      "value": 1.8868714688293702
     },
     "wb_arg_gdp_growth": {
       "date": "2026-06-30",
@@ -196,16 +196,16 @@
   "financial_crime": {
     "sanctions": {
       "ofac": {
-        "entries": 19156,
-        "programs": 74,
-        "published_on": "07/13/2026",
+        "entries": 19169,
+        "programs": 73,
+        "published_on": "07/17/2026",
         "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
       },
       "un": {
-        "individuals": 730,
-        "entities": 272,
-        "total": 1002,
-        "generated_at": "2026-07-11T23:00:02.271Z",
+        "individuals": 736,
+        "entities": 274,
+        "total": 1010,
+        "generated_at": "2026-07-18T23:00:00.986Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,13 +294,13 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10732,
+      "rows": 10747,
       "note": "Fetched from live public API."
     },
     {
       "source": "datos_gob_ar",
       "status": "live",
-      "rows": 495,
+      "rows": 497,
       "note": "Fetched from live public API."
     },
     {
@@ -313,7 +313,7 @@
       "source": "world_bank",
       "status": "fallback",
       "rows": 32,
-      "note": "Loaded previous snapshot after fetch error: 400 Client Error: Bad Request for url: https://api.worldbank.org/v2/country/AR/indicator/NY.GDP.MKTP.KD.ZG?format=json&per_page=100&mrv=16"
+      "note": "Loaded previous snapshot after fetch error: HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
     },
     {
       "source": "fatf_snapshot",
@@ -333,7 +333,7 @@
     {
       "source": "world_bank_governance",
       "status": "failed",
-      "note": "list index out of range"
+      "note": "HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
     }
   ],
   "chart_files": [
