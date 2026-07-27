@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-07-20T14:09:30+00:00",
+  "run_timestamp": "2026-07-27T14:37:59+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -26,8 +26,8 @@
       "value": 11826.4103
     },
     "datos_emae_index": {
-      "date": "2026-04-30",
-      "value": 154.49351243562697
+      "date": "2026-05-31",
+      "value": 153.62027214485033
     },
     "datos_inflation_mom": {
       "date": "2026-06-30",
@@ -50,8 +50,8 @@
       "value": -6.895192247836823
     },
     "datos_emae_mom": {
-      "date": "2026-04-30",
-      "value": -1.5257220005713168
+      "date": "2026-05-31",
+      "value": -0.46400580852590245
     },
     "bcra_badlar_lag1": {
       "date": "2026-06-30",
@@ -74,8 +74,8 @@
       "value": 11607.3937
     },
     "datos_emae_index_lag1": {
-      "date": "2026-05-31",
-      "value": 154.49351243562697
+      "date": "2026-06-30",
+      "value": 153.62027214485033
     },
     "datos_inflation_mom_lag1": {
       "date": "2026-06-30",
@@ -98,26 +98,26 @@
       "value": 8.25995147812022
     },
     "datos_emae_mom_lag1": {
-      "date": "2026-05-31",
-      "value": -1.5257220005713168
+      "date": "2026-06-30",
+      "value": -0.46400580852590245
     }
   },
   "forecast_horizon_months": 3,
   "model_metrics": {
     "datos_inflation_mom": {
       "naive": {
-        "mae": 0.4372215229979721,
-        "rmse": 0.5668911575032041,
+        "mae": 0.43247298457541966,
+        "rmse": 0.5642036232600446,
         "n_test_points": 24
       },
       "moving_average": {
-        "mae": 0.7052266471680398,
-        "rmse": 1.0285999851598122,
+        "mae": 0.5961118711996319,
+        "rmse": 0.7705515661789689,
         "n_test_points": 24
       },
       "sarimax": {
-        "mae": 0.8329375941722601,
-        "rmse": 1.01474312089513,
+        "mae": 0.7677909986262822,
+        "rmse": 0.9487095530422262,
         "n_test_points": 24
       }
     },
@@ -144,8 +144,8 @@
       "display_name": "Monthly inflation",
       "name": "naive",
       "label": "Naive baseline",
-      "mae": 0.4372215229979721,
-      "rmse": 0.5668911575032041,
+      "mae": 0.43247298457541966,
+      "rmse": 0.5642036232600446,
       "used_exog": [
         "bcra_badlar_lag1",
         "bcra_official_fx_mom_lag1",
@@ -153,16 +153,16 @@
       ],
       "forecast": [
         {
-          "date": "2026-06-30",
-          "value": 2.14997233499085
-        },
-        {
           "date": "2026-07-31",
-          "value": 2.14997233499085
+          "value": 1.8868714688293702
         },
         {
           "date": "2026-08-31",
-          "value": 2.14997233499085
+          "value": 1.8868714688293702
+        },
+        {
+          "date": "2026-09-30",
+          "value": 1.8868714688293702
         }
       ]
     },
@@ -196,16 +196,16 @@
   "financial_crime": {
     "sanctions": {
       "ofac": {
-        "entries": 19169,
+        "entries": 19254,
         "programs": 73,
-        "published_on": "07/17/2026",
+        "published_on": "07/24/2026",
         "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
       },
       "un": {
         "individuals": 736,
-        "entities": 274,
-        "total": 1010,
-        "generated_at": "2026-07-18T23:00:00.986Z",
+        "entities": 275,
+        "total": 1011,
+        "generated_at": "2026-07-25T23:00:04.401Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,13 +294,13 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10747,
+      "rows": 10762,
       "note": "Fetched from live public API."
     },
     {
       "source": "datos_gob_ar",
       "status": "live",
-      "rows": 497,
+      "rows": 498,
       "note": "Fetched from live public API."
     },
     {
@@ -311,9 +311,9 @@
     },
     {
       "source": "world_bank",
-      "status": "fallback",
+      "status": "live",
       "rows": 32,
-      "note": "Loaded previous snapshot after fetch error: HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
+      "note": "Fetched from live public API."
     },
     {
       "source": "fatf_snapshot",
@@ -333,7 +333,7 @@
     {
       "source": "world_bank_governance",
       "status": "failed",
-      "note": "HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
+      "note": "list index out of range"
     }
   ],
   "chart_files": [
