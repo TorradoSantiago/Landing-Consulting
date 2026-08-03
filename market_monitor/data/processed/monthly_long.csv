@@ -1411,3 +1411,6 @@ date,series_id,source,value,frequency,unit
 2026-06-30,bcra_reserves,BCRA,44870.0,M,USD mn
 2026-06-30,datos_cpi_index,datos.gob.ar,11826.4103,M,Index
 2026-06-30,datos_inflation_mom,datos.gob.ar,1.8868714688293702,M,Monthly percent change
+2026-07-31,bcra_badlar,BCRA,21.303125,M,Percent nominal annual rate
+2026-07-31,bcra_official_fx,BCRA,1511.12,M,ARS per USD
+2026-07-31,bcra_reserves,BCRA,49196.0,M,USD mn

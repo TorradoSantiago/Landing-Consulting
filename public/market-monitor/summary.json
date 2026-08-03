@@ -1,25 +1,25 @@
 {
-  "run_timestamp": "2026-07-27T14:37:59+00:00",
+  "run_timestamp": "2026-08-03T14:42:16+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
   ],
   "latest_observations": {
     "bcra_badlar": {
-      "date": "2026-06-30",
-      "value": 20.69047619047619
+      "date": "2026-07-31",
+      "value": 21.303125
     },
     "bcra_official_fx": {
-      "date": "2026-06-30",
-      "value": 1502.09
+      "date": "2026-07-31",
+      "value": 1511.12
     },
     "bcra_policy_rate": {
       "date": "2025-07-31",
       "value": 29.0
     },
     "bcra_reserves": {
-      "date": "2026-06-30",
-      "value": 44870.0
+      "date": "2026-07-31",
+      "value": 49196.0
     },
     "datos_cpi_index": {
       "date": "2026-06-30",
@@ -34,68 +34,68 @@
       "value": 1.8868714688293702
     },
     "wb_arg_gdp_growth": {
-      "date": "2026-06-30",
+      "date": "2026-07-31",
       "value": 4.36733330217022
     },
     "wb_us_gdp_growth": {
-      "date": "2026-06-30",
+      "date": "2026-07-31",
       "value": 2.16138195623856
     },
     "bcra_official_fx_mom": {
-      "date": "2026-06-30",
-      "value": 4.926060199640947
+      "date": "2026-07-31",
+      "value": 0.6011623804166089
     },
     "bcra_reserves_mom": {
-      "date": "2026-06-30",
-      "value": -6.895192247836823
+      "date": "2026-07-31",
+      "value": 9.641185647425887
     },
     "datos_emae_mom": {
       "date": "2026-05-31",
       "value": -0.46400580852590245
     },
     "bcra_badlar_lag1": {
-      "date": "2026-06-30",
-      "value": 21.345394736842106
+      "date": "2026-07-31",
+      "value": 20.69047619047619
     },
     "bcra_official_fx_lag1": {
-      "date": "2026-06-30",
-      "value": 1431.57
+      "date": "2026-07-31",
+      "value": 1502.09
     },
     "bcra_policy_rate_lag1": {
       "date": "2025-08-31",
       "value": 29.0
     },
     "bcra_reserves_lag1": {
-      "date": "2026-06-30",
-      "value": 48193.0
+      "date": "2026-07-31",
+      "value": 44870.0
     },
     "datos_cpi_index_lag1": {
-      "date": "2026-06-30",
-      "value": 11607.3937
+      "date": "2026-07-31",
+      "value": 11826.4103
     },
     "datos_emae_index_lag1": {
       "date": "2026-06-30",
       "value": 153.62027214485033
     },
     "datos_inflation_mom_lag1": {
-      "date": "2026-06-30",
-      "value": 2.14997233499085
+      "date": "2026-07-31",
+      "value": 1.8868714688293702
     },
     "wb_arg_gdp_growth_lag1": {
-      "date": "2026-06-30",
+      "date": "2026-07-31",
       "value": 4.36733330217022
     },
     "wb_us_gdp_growth_lag1": {
-      "date": "2026-06-30",
+      "date": "2026-07-31",
       "value": 2.16138195623856
     },
     "bcra_official_fx_mom_lag1": {
-      "date": "2026-06-30",
-      "value": 1.1138578895324214
+      "date": "2026-07-31",
+      "value": 4.926060199640947
     },
     "bcra_reserves_mom_lag1": {
-      "date": "2026-06-30",
-      "value": 8.25995147812022
+      "date": "2026-07-31",
+      "value": -6.895192247836823
     },
     "datos_emae_mom_lag1": {
       "date": "2026-06-30",
@@ -123,18 +123,18 @@
     },
     "bcra_official_fx": {
       "naive": {
-        "mae": 31.507083333333313,
-        "rmse": 47.45905081400877,
+        "mae": 31.03083333333331,
+        "rmse": 47.310853846307474,
         "n_test_points": 24
       },
       "moving_average": {
-        "mae": 54.673611111111086,
-        "rmse": 65.79257078402067,
+        "mae": 55.72930555555553,
+        "rmse": 66.56833129212808,
         "n_test_points": 24
       },
       "sarimax": {
-        "mae": 31.340731030032117,
-        "rmse": 47.01611393328333,
+        "mae": 30.922950369348737,
+        "rmse": 46.88993202988741,
         "n_test_points": 24
       }
     }
@@ -170,8 +170,8 @@
       "display_name": "Official USD/ARS",
       "name": "sarimax",
       "label": "SARIMAX",
-      "mae": 31.340731030032117,
-      "rmse": 47.01611393328333,
+      "mae": 30.922950369348737,
+      "rmse": 46.88993202988741,
       "used_exog": [
         "datos_inflation_mom_lag1",
         "bcra_badlar_lag1",
@@ -179,16 +179,16 @@
       ],
       "forecast": [
         {
-          "date": "2026-07-31",
-          "value": 1507.2465230922282
-        },
-        {
           "date": "2026-08-31",
-          "value": 1507.615220551457
+          "value": 1512.1755763149795
         },
         {
           "date": "2026-09-30",
-          "value": 1507.6415828529557
+          "value": 1512.2538485849827
+        },
+        {
+          "date": "2026-10-31",
+          "value": 1512.2596525691804
         }
       ]
     }
@@ -196,16 +196,16 @@
   "financial_crime": {
     "sanctions": {
       "ofac": {
-        "entries": 19254,
+        "entries": 19181,
         "programs": 73,
-        "published_on": "07/24/2026",
+        "published_on": "07/30/2026",
         "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
       },
       "un": {
         "individuals": 736,
         "entities": 275,
         "total": 1011,
-        "generated_at": "2026-07-25T23:00:04.401Z",
+        "generated_at": "2026-08-03T06:59:53.080Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,7 +294,7 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10762,
+      "rows": 10777,
       "note": "Fetched from live public API."
     },
     {
@@ -311,9 +311,9 @@
     },
     {
       "source": "world_bank",
-      "status": "live",
+      "status": "fallback",
       "rows": 32,
-      "note": "Fetched from live public API."
+      "note": "Loaded previous snapshot after fetch error: HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
     },
     {
       "source": "fatf_snapshot",
@@ -333,7 +333,7 @@
     {
       "source": "world_bank_governance",
       "status": "failed",
-      "note": "list index out of range"
+      "note": "HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
     }
   ],
   "chart_files": [
