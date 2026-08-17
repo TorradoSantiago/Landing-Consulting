@@ -1,17 +1,17 @@
 # Argentina Market Monitor
 
-Run timestamp: 2026-08-10 13:10:28
+Run timestamp: 2026-08-17 12:45:07
 
 ## What changed this week
 
 - The pipeline refreshed public data and updated the monthly analytical layer.
-- Live sources: 4. Fallback sources: 1. Skipped sources: 1.
+- Live sources: 5. Fallback sources: 0. Skipped sources: 1.
 - The two v1 forecast targets remain monthly inflation and official USD/ARS.
 - Financial-crime coverage refreshed around sanctions screening, FATF monitoring, and governance benchmarks.
 
 ## Latest readings
 
-- Monthly inflation: 1.89 on 2026-06-30.
+- Monthly inflation: 2.11 on 2026-07-31.
 - Official USD/ARS: 1,511.12 on 2026-07-31.
 - Selected model for inflation: Naive baseline (MAE 0.43).
 - Selected model for official USD/ARS: SARIMAX (MAE 30.92).
@@ -29,7 +29,7 @@ Run timestamp: 2026-08-10 13:10:28
 ## Global financial crime signals
 
 - OFAC SDN coverage: 19199 entries across 73 programs (published 08/07/2026).
-- UN consolidated sanctions list: 1011 total entries (generated 2026-08-08T23:00:02.286Z).
+- UN consolidated sanctions list: 1011 total entries (generated 2026-08-15T23:00:06.639Z).
 - FATF monitored jurisdictions snapshot: 22 grey-list jurisdictions and 3 high-risk jurisdictions in the verified 2026-02-13 snapshot.
 
 ## How this supports client work

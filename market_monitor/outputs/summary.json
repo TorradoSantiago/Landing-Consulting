@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-08-10T13:10:28+00:00",
+  "run_timestamp": "2026-08-17T12:45:07+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -22,16 +22,16 @@
       "value": 47599.0
     },
     "datos_cpi_index": {
-      "date": "2026-06-30",
-      "value": 11826.4103
+      "date": "2026-07-31",
+      "value": 12076.3937
     },
     "datos_emae_index": {
       "date": "2026-05-31",
       "value": 153.62027214485033
     },
     "datos_inflation_mom": {
-      "date": "2026-06-30",
-      "value": 1.8868714688293702
+      "date": "2026-07-31",
+      "value": 2.1137724267861797
     },
     "wb_arg_gdp_growth": {
       "date": "2026-07-31",
@@ -205,7 +205,7 @@
         "individuals": 736,
         "entities": 275,
         "total": 1011,
-        "generated_at": "2026-08-08T23:00:02.286Z",
+        "generated_at": "2026-08-15T23:00:06.639Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,13 +294,13 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10792,
+      "rows": 10807,
       "note": "Fetched from live public API."
     },
     {
       "source": "datos_gob_ar",
       "status": "live",
-      "rows": 498,
+      "rows": 500,
       "note": "Fetched from live public API."
     },
     {
@@ -311,9 +311,9 @@
     },
     {
       "source": "world_bank",
-      "status": "fallback",
+      "status": "live",
       "rows": 32,
-      "note": "Loaded previous snapshot after fetch error: 400 Client Error: Bad Request for url: https://api.worldbank.org/v2/country/US/indicator/NY.GDP.MKTP.KD.ZG?format=json&per_page=100&mrv=16"
+      "note": "Fetched from live public API."
     },
     {
       "source": "fatf_snapshot",

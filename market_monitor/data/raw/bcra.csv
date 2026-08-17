@@ -2820,6 +2820,11 @@ date,series_id,source,value,frequency,unit
 2026-08-04,bcra_badlar,BCRA,22.3125,D,Percent nominal annual rate
 2026-08-05,bcra_badlar,BCRA,20.875,D,Percent nominal annual rate
 2026-08-06,bcra_badlar,BCRA,22.0,D,Percent nominal annual rate
+2026-08-07,bcra_badlar,BCRA,21.5,D,Percent nominal annual rate
+2026-08-10,bcra_badlar,BCRA,21.625,D,Percent nominal annual rate
+2026-08-11,bcra_badlar,BCRA,22.8125,D,Percent nominal annual rate
+2026-08-12,bcra_badlar,BCRA,21.0,D,Percent nominal annual rate
+2026-08-13,bcra_badlar,BCRA,22.5625,D,Percent nominal annual rate
 2015-01-02,bcra_official_fx,BCRA,8.61,D,ARS per USD
 2015-01-05,bcra_official_fx,BCRA,8.62,D,ARS per USD
 2015-01-06,bcra_official_fx,BCRA,8.62,D,ARS per USD
@@ -5642,6 +5647,11 @@ date,series_id,source,value,frequency,unit
 2026-08-05,bcra_official_fx,BCRA,1520.12,D,ARS per USD
 2026-08-06,bcra_official_fx,BCRA,1518.24,D,ARS per USD
 2026-08-07,bcra_official_fx,BCRA,1521.28,D,ARS per USD
+2026-08-10,bcra_official_fx,BCRA,1520.43,D,ARS per USD
+2026-08-11,bcra_official_fx,BCRA,1517.89,D,ARS per USD
+2026-08-12,bcra_official_fx,BCRA,1515.66,D,ARS per USD
+2026-08-13,bcra_official_fx,BCRA,1515.66,D,ARS per USD
+2026-08-14,bcra_official_fx,BCRA,1512.59,D,ARS per USD
 2015-12-16,bcra_policy_rate,BCRA,38.0,D,Percent nominal annual rate
 2015-12-17,bcra_policy_rate,BCRA,38.0,D,Percent nominal annual rate
 2015-12-18,bcra_policy_rate,BCRA,38.0,D,Percent nominal annual rate
@@ -10791,3 +10801,8 @@ date,series_id,source,value,frequency,unit
 2026-08-03,bcra_reserves,BCRA,49372.0,D,USD mn
 2026-08-04,bcra_reserves,BCRA,49639.0,D,USD mn
 2026-08-05,bcra_reserves,BCRA,50058.0,D,USD mn
+2026-08-06,bcra_reserves,BCRA,48834.0,D,USD mn
+2026-08-07,bcra_reserves,BCRA,49457.0,D,USD mn
+2026-08-10,bcra_reserves,BCRA,49564.0,D,USD mn
+2026-08-11,bcra_reserves,BCRA,49586.0,D,USD mn
+2026-08-12,bcra_reserves,BCRA,49628.0,D,USD mn
