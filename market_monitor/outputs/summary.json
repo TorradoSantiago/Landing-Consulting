@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-09-07T17:26:38+00:00",
+  "run_timestamp": "2026-09-14T17:52:01+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -22,16 +22,16 @@
       "value": 48259.0
     },
     "datos_cpi_index": {
-      "date": "2026-07-31",
-      "value": 12076.3937
+      "date": "2026-08-31",
+      "value": 12276.766
     },
     "datos_emae_index": {
       "date": "2026-06-30",
       "value": 154.1172638221334
     },
     "datos_inflation_mom": {
-      "date": "2026-07-31",
-      "value": 2.1137724267861797
+      "date": "2026-08-31",
+      "value": 1.65920642352028
     },
     "wb_arg_gdp_growth": {
       "date": "2026-08-31",
@@ -196,16 +196,16 @@
   "financial_crime": {
     "sanctions": {
       "ofac": {
-        "entries": 19329,
+        "entries": 19388,
         "programs": 73,
-        "published_on": "09/04/2026",
+        "published_on": "09/10/2026",
         "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
       },
       "un": {
         "individuals": 736,
         "entities": 275,
         "total": 1011,
-        "generated_at": "2026-09-05T23:00:04.811Z",
+        "generated_at": "2026-09-12T23:00:05.988Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,13 +294,13 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10849,
+      "rows": 10864,
       "note": "Fetched from live public API."
     },
     {
       "source": "datos_gob_ar",
       "status": "live",
-      "rows": 501,
+      "rows": 503,
       "note": "Fetched from live public API."
     },
     {
@@ -311,9 +311,9 @@
     },
     {
       "source": "world_bank",
-      "status": "fallback",
+      "status": "live",
       "rows": 32,
-      "note": "Loaded previous snapshot after fetch error: HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
+      "note": "Fetched from live public API."
     },
     {
       "source": "fatf_snapshot",
