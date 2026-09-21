@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-09-14T17:52:01+00:00",
+  "run_timestamp": "2026-09-21T17:58:18+00:00",
   "targets": [
     "datos_inflation_mom",
     "bcra_official_fx"
@@ -116,8 +116,8 @@
         "n_test_points": 24
       },
       "sarimax": {
-        "mae": 0.761248656128389,
-        "rmse": 0.9478801944691341,
+        "mae": 0.7612486561316093,
+        "rmse": 0.9478801944952617,
         "n_test_points": 24
       }
     },
@@ -133,8 +133,8 @@
         "n_test_points": 24
       },
       "sarimax": {
-        "mae": 30.58117308181602,
-        "rmse": 46.7517112165733,
+        "mae": 30.58117303089269,
+        "rmse": 46.75171117469718,
         "n_test_points": 24
       }
     }
@@ -170,8 +170,8 @@
       "display_name": "Official USD/ARS",
       "name": "sarimax",
       "label": "SARIMAX",
-      "mae": 30.58117308181602,
-      "rmse": 46.7517112165733,
+      "mae": 30.58117303089269,
+      "rmse": 46.75171117469718,
       "used_exog": [
         "datos_inflation_mom_lag1",
         "bcra_badlar_lag1",
@@ -180,15 +180,15 @@
       "forecast": [
         {
           "date": "2026-09-30",
-          "value": 1532.6950667954072
+          "value": 1532.6950667815893
         },
         {
           "date": "2026-10-31",
-          "value": 1532.7841265043146
+          "value": 1532.7841264880492
         },
         {
           "date": "2026-11-30",
-          "value": 1532.7908194871754
+          "value": 1532.7908194706204
         }
       ]
     }
@@ -196,16 +196,16 @@
   "financial_crime": {
     "sanctions": {
       "ofac": {
-        "entries": 19388,
-        "programs": 73,
-        "published_on": "09/10/2026",
+        "entries": 19393,
+        "programs": 72,
+        "published_on": "09/18/2026",
         "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
       },
       "un": {
         "individuals": 736,
         "entities": 275,
         "total": 1011,
-        "generated_at": "2026-09-12T23:00:05.988Z",
+        "generated_at": "2026-09-19T23:00:03.787Z",
         "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml"
       }
     },
@@ -294,7 +294,7 @@
     {
       "source": "bcra",
       "status": "live",
-      "rows": 10864,
+      "rows": 10879,
       "note": "Fetched from live public API."
     },
     {
