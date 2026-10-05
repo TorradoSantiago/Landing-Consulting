@@ -1,35 +1,35 @@
 # Argentina Market Monitor
 
-Run timestamp: 2026-09-28 19:22:19
+Run timestamp: 2026-10-05 20:25:39
 
 ## What changed this week
 
 - The pipeline refreshed public data and updated the monthly analytical layer.
-- Live sources: 5. Fallback sources: 0. Skipped sources: 1.
+- Live sources: 4. Fallback sources: 1. Skipped sources: 1.
 - The two v1 forecast targets remain monthly inflation and official USD/ARS.
 - Financial-crime coverage refreshed around sanctions screening, FATF monitoring, and governance benchmarks.
 
 ## Latest readings
 
 - Monthly inflation: 1.66 on 2026-08-31.
-- Official USD/ARS: 1,531.51 on 2026-08-31.
+- Official USD/ARS: 1,539.87 on 2026-09-30.
 - Selected model for inflation: Naive baseline (MAE 0.43).
-- Selected model for official USD/ARS: SARIMAX (MAE 30.58).
+- Selected model for official USD/ARS: SARIMAX (MAE 30.62).
 
 ## Model outlook
 
 - Inflation forecast path: 2026-09-30: 1.66, 2026-10-31: 1.66, 2026-11-30: 1.66.
-- Official USD/ARS forecast path: 2026-09-30: 1,532.70, 2026-10-31: 1,532.78, 2026-11-30: 1,532.79.
+- Official USD/ARS forecast path: 2026-10-31: 1,540.66, 2026-11-30: 1,540.72, 2026-12-31: 1,540.73.
 
 ## Risks to the base case
 
-- Official FX monthly change last printed 1.35, which may affect short-term inflation momentum.
-- BADLAR stands at 22.72, keeping domestic rates as a key local conditioning variable.
+- Official FX monthly change last printed 0.55, which may affect short-term inflation momentum.
+- BADLAR stands at 22.47, keeping domestic rates as a key local conditioning variable.
 
 ## Global financial crime signals
 
-- OFAC SDN coverage: 19391 entries across 72 programs (published 09/23/2026).
-- UN consolidated sanctions list: 1011 total entries (generated 2026-09-28T07:26:55.703Z).
+- OFAC SDN coverage: 19363 entries across 72 programs (published 10/05/2026).
+- UN consolidated sanctions list: 1011 total entries (generated 2026-10-03T23:00:03.428Z).
 - FATF monitored jurisdictions snapshot: 22 grey-list jurisdictions and 3 high-risk jurisdictions in the verified 2026-02-13 snapshot.
 
 ## How this supports client work
