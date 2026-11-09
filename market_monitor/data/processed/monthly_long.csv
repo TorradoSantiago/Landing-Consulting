@@ -1428,4 +1428,4 @@ date,series_id,source,value,frequency,unit
 2026-09-30,bcra_reserves,BCRA,46092.0,M,USD mn
 2026-10-31,bcra_badlar,BCRA,22.625,M,Percent nominal annual rate
 2026-10-31,bcra_official_fx,BCRA,1562.04,M,ARS per USD
-2026-10-31,bcra_reserves,BCRA,50164.0,M,USD mn
+2026-10-31,bcra_reserves,BCRA,48565.0,M,USD mn
